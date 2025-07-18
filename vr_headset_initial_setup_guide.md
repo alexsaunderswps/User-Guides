@@ -35,7 +35,7 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
    - Open web browser and go to `meta.com`
 
 2. **Access login**
-   - Click **account icon** *(person silhouette)* in upper right
+   - Click the **Account icon** *(person silhouette)* in upper right
    - Select **"Sign up or log into a Meta account"**
    - Choose **"Continue with email"**
 <div style="page-break-after: always;"></div>
@@ -46,9 +46,10 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
    - Click **"Next"**
    - Choose **"Create new account"**
    - Enter your the requested details as needed for account creation
+   - *When adding a birthday - WildXR is recommended for ages 13+ - enter a date that statisfies this requirement*
    - Choose a password for your account *(WPS staff will not have access to your password)*
    - Secure your account details (email and password) for future use
-   - Click **"Next**
+   - Click **"Next"**
 
 4. **Manage login persistence (optional)**
    - Choose whether to save login credentials on this computer
@@ -68,12 +69,13 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
 
 7. **Access account dashboard**
    - You'll return to `meta.com` main page
-   - Click **account icon** again to access account features *(icon is now a circle with a letter or Logo)*
+   - Click the **Account icon** again to access account features *(Icon is now a circle with a letter or Logo)*
    - Select **"Accounts Center"** for main dashboard
 
 ### Two-Factor Authentication
 
 - *Now is a good time to set up two-factor authorization as it will be needed later*
+- *If you account was provisioned by WPS staff this step may have been completed*
 
 8. **Navigate to security settings**
    - In **Accounts Center**, click **"Password and security"**
@@ -111,6 +113,9 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
 
 ### 2FA via SMS or WhatsApp
 
+- *Only one phone number is allows for 2FA via SMS or WhatsApp*
+- *This will restrict the ability to troubleshoot certain issues should they arise*
+
 13. **Add Phone Number**
     - Change Country code if needed *(defaults to United States)*
     - Enter Phone Number
@@ -122,7 +127,7 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
 
 14. **Open the Meta Horizon phone application**
     - Choose **Continue with email**
-    - Enter the email used to create the Organization's Meta account
+    - Enter the email used to create the Organization's Meta account *(May be provided by WPS)*
     - Click **"Next"**
     - Choose **"Enter password instead"** *(easier than email code)*
     - Enter your Meta account password *(may be provided by WPS)*
@@ -142,8 +147,8 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
   
 ### Setup Meta Horizon account
 
-*The Meta Horizon account is used excusively for Meta's VR space*
-*Some options will be visible to other Meta Horizon users*
+- *The Meta Horizon account is used excusively for Meta's VR space*
+- *Some options will be visible to other Meta Horizon users*
 
 17. **Choose a Meta Horizon username**
     - *This username will be visible to other Meta Horizon users*
@@ -169,22 +174,29 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
     - Leave your headset plugged in while updates are downloaded
     - *Your headset may indicate that you can continue setup in the Meta Horizon phone app*
     - ⚠️ **WPS does not recommend you do so and suggests waiting until the headset displays your pairing code**
+<div style="page-break-after: always;"></div>
 
-20. **Pair headset to Meta Horizon phone app**
-    - Your headset will display a five digit code
+### Pair headset to Meta Horizon phone app
+
+20. **Navigate to Devices in Horizon app**
     - Open your Meta Horizon phone app
     - The Meta Horizon app will show the account avatar and a hamburger menu *(three horizontal bars)* on the right side.
     - Open the hamburger menu
     - Under **Device Management** click **Devices**
+
+21. **Pair headset with Horizon app**
     - Find the **Pair New Headet** option and click it
     - Select the correct model of Meta headset
     - *You may be prompted to create an avatar - this step is now required by Meta*
     - *This avatar is visible to other Meta Horizon users*
     - Create an avatar and click **"Continue"**
+    - Your headset should be displaying a five digit code
     - Enter the five digit code when prompted
     - Click **"Continue"** when the paring successful screen is shown
 
-21. **Accept disclaimers in Meta Horizon app**
+### **Accept conditions from Meta**
+
+22. **Accept disclaimers in Meta Horizon app**
     - Click **"Continue"** on the safety guidelines
     - Click **"Don't Share"** or **"Share"** on the share additional data request
     - Click **"Not now"** on the Enable hand and body tracking request
@@ -192,7 +204,9 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
     - Click **"Skip"** on the Add a payment method
     - Click **"Close"** on the You're all set! screen
 
-22. **Finish Headset introduction**
+### **Finish headset setup**
+
+23. **Finish Headset introduction**
     - Put on the VR headset for a brief introduction to your headset from Meta
     - Follow on-screen prompts
     - Participate in tutorials as desired *(Skipping tutorials does not affect headset setup)*
@@ -205,6 +219,7 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
 - Follow the **Developer Mode Setup** guide
 - Developer mode is needed to apply some recommended settings
 - Developer mode is needed to remove the required safety boundary
+<div style="page-break-after: always;"></div>
 
 **Apply Recommended Headset Settings**
 - Follow the **Recommended Headset Settings** guide
@@ -212,48 +227,53 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
 **Remove Unneeded Software**
 - Follow the **Library Management** guide
 
-### 2FA via SMS or WhatsApp
-   ⚠️ **2FA via SMS or WhatsApp is only available to one phone number**
-
-12.  **Add Phone Number**
-       - Change Country code if needed (defaults to United States)
-       - Enter Phone Number
-       - Click "Next"
-       - Input the 6-digit code sent to the device
-       - Click "Done" 
-
-### Account Management Options
-
-13. **Profile management**
-       - Access "Profiles" in left sidebar
-       - Edit name, username, profile picture, or avatar
-       - Changes affect VR headset display
-
-14. **Password changes**
-       - In "Password and security", select "Change password"
-       - ⚠️ **Always coordinate password changes with WPS staff**
-
 ## Troubleshooting
 
-**Cannot access account:**
-- Verify Gmail address is correct for your VR setup
+**Cannot access Meta account:**
+- Verify Email address is correct for your VR setup *(If provided by WPS)*
 - Contact WPS for password assistance
-- Ensure you're using work account, not personal
 
-**2FA codes not working:**
-- Codes expire after 30 seconds
-- Check time synchronization on phone
-- Request new code from WPS if needed
+**Confirmation code from Meta absent:**
+- Confirmation codes can be delayed by slow or intermittent internet connections
+- Check the **Spam** folder in your email browser
+- Esnure you are looking in the correct email account *(account may have been provided by WPS)*
+
+**2FA devices already exist for Meta account**
+- If your Meta account was created by WPS staff it will be prepopulated with 2 - 3 2FA devices
+- One of these devices should correspond to the email account provisioned by WPS
+- Other 2FA devices will be used by WPS Staff to assist in troubleshooting if issues arise
 
 **"Add" button greyed out for 2FA:**
 - Account may have maximum devices linked
 - Contact WPS to remove unused devices
 - Some account types have device limits
 
-**Cannot see profile/settings:**
-- Ensure you're logged into correct account
-- Try logging out and back in
-- Clear browser cache if persistent
+**Cannot find Meta Horizon application:**
+- The Meta Horizon application will be avaiable for download in the Apple App store of Google Play store
+- If you are using a phone supplied by WPS the app should be present - search for Horizon
+- The Meta Horizon app may not be placed on the first page of your phone
+- Use the phone search function to find Meta Horizon and move it to an obvious location
+
+**Cannot log into the Meta Horizon app**
+- Ensure you are using the same account that was used in the Meta Account Creation steps
+- Ensure you have selected "Enter Password instead" if you are attempting to enter a password
+- Double check your password, it will be the Meta Account, not email account password for Horizon login
+
+**2FA fails for the Meta Horizon app**
+- Ensure you are using the correct 2FA account for authorization
+- If you are using SMS or WhatsApp for authorization only one phone number is associated with the account
+- 2FA codes are valid for 30 seconds on average, wait until a new code is generated and attempt to log in
+
+**Meta won't allow my desired username**
+- Meta restricts the format of usernames to enforce unquiness.
+- Edit the username to include unlines or numbers
+- Remember that this username may become visible to other Meta Horizon users
+
+**Headset doesn't recognize hand controllers**
+- On the initial boot of a headset firmware updates may be applied to hand controllers that render them temporarily non-functional
+- Wait 2 - 3 minutes before trying to use hand controllers again
+- Insert fresh batteries into the hand controllers
+- Very rarely there may be other issues with hand controllers - Schedule a help session with WPS Staff for additional guidance
 <div style="page-break-after: always;"></div>
 
 ## Important Security Notes
