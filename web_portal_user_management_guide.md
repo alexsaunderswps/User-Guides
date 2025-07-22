@@ -27,7 +27,6 @@ This guide introduces the management of organization users via the WildXR Web Po
    - Enter your Username in the appropriate field
    - Enter your Password in the appropriate field
    - Click **"Log In"**
-<div style="page-break-after: always;"></div>
 
 3. **Navigate to the Users management page**
    - In the top navigation bar, click **"Admin"**
@@ -36,6 +35,7 @@ This guide introduces the management of organization users via the WildXR Web Po
    - *If you are a System Admin you will see all users across all organizations*
    - To **"Add"** a new user continue to Step 4
    - To **"Edit"** an existing user continue to Step 6
+<div style="page-break-after: always;"></div>
 
 ### Add a New User
 
@@ -74,6 +74,7 @@ This guide introduces the management of organization users via the WildXR Web Po
 7. **Delete an exisiting user**
    - Contact WPS Staff to delete an exisiting user from your organization
    - *If a user must be blocked prior to deletion, follow the steps to **Edit a User** and **Update Password** to prevent account access*
+<div style="page-break-after: always;"></div>
 
 ## Troubleshooting
 
@@ -83,7 +84,7 @@ This guide introduces the management of organization users via the WildXR Web Po
 - If there is another user in your organization, have them update password and check username
 - Contact WPS if Log In continues to fail
 
-**New user is unable to log in to Wildxr.org**
+**New user is unable to log in to Wildxr.org:**
 - New users need to have an initial password set by an exisiting user via the **"Update Password"** - see Step 5
 - Double check the credentials provided to the new user
 - Ensure that the new user appears on the User page for your organization
@@ -99,11 +100,10 @@ This guide introduces the management of organization users via the WildXR Web Po
 **Unable to change user role:**
 - Organization Admin users cannot change role assignment for users
 
-**Unable to create a new user**
+**Unable to create a new user:**
 - Ensure that the username has not been used in your organization
 - Ensure that the email address has not been used in your organization
 - Conect WPS if user creation continues to fail
-
 <div style="page-break-after: always;"></div>
 
 ## Important Notes
