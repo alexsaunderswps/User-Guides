@@ -65,12 +65,12 @@ This guide introduces the management of devices (headsets or computers) running 
    - *For example (WPS - Q022VC7 - location)* 
    - If you are a **Organization Admin** the device will automatically be added to your organization
    - If you are a **System Admin** select the correct organization from the **"Organization"** dropdown menu
+<div style="page-break-after: always;"></div>
 
 8. **Enter an installation (Optional)**
    - If you have an **Installation** already created for the device select the **Installation** from the dropdown menu
    - If you do not have a **Installation** ready for this device, leave **Installation** blank and the default **Installation** will be applied
    - *If apply an **Installation** with **Demo Mode** enabled, remember that this removes the ability to manually download videos via the WildXR application*
-<div style="page-break-after: always;"></div>
 
 9. **Save the Device Details**
    - Verify that all **Device Details** are correct
@@ -101,11 +101,17 @@ This guide introduces the management of devices (headsets or computers) running 
 - Ensure you are entering the correct credentials to log into Wildxr.org *(May have been supplied by WPS Staff)*
 - If someone within your organization created your account; check that they assigned a password to your account *(passwords are not created automatically)*
 - Double-check the URL you have entered into your Web Browser *(WPS recommends using Chrome)*
+<div style="page-break-after: always;"></div>
 
 **Unable to generate a WildXR number:**
 - Ensure that the WildXR application has been successfully installed on the device
 - If you are attempting to launch WildXR on a computer you will need to connect a VR headset to successfully navigate the WildXR app
 - Verify that you can see the **gear icon** used to access the **"Settings Menu"** 
+
+**Unable to find WildXR number on the Wildxr.org website:**
+- Ensure you have correctly typed the WildXR number into the Device Lookup field on the Wildxr.org website
+- If you are currently on the **Devices** page of the Wildxr.org website, navigate away and then back before attempting the Device Lookup
+- Refresh your browser window *(WPS recommends using Chrome)*
 
 **WildXR number is already generated for a device:**
 - Double check that the device has not already been registered on the WildXR.org website
@@ -114,11 +120,17 @@ This guide introduces the management of devices (headsets or computers) running 
   - Open a folder and, under **View** options click **"Show"** and check **"Hidden Items"**
   - On Windows navigate to ```This PC -> C -> Users -> [Your User Name] -> App Data -> Local Low```
   - Delete the **Wildlife Protection Solutions** folder
-- Reinstall the **WildXR** application
+  - Reinstall the **WildXR** application
 
-**Unable to find WildXR number on the Wildxr.org website:**
-- 
+**Applied changes to Device not visible in Device**
+- Ensure that your device is connected to the internet
+- If you have assigned a new **Installation** the device must stop the current session of WildXR and relaunch the WildXR app prior to changes taking effect
+- Double check that the Wildxr Number is the one assigned to the headset you are using *(Check the settings menu to confirm the Wildxr number)*
 
+**Unable to edit Device Organization**
+- If you are logged into the Wildxr.org website as an **Organization Admin** will not be able to change the device's assigned organization
+- Log in as a **System Admin** to enable organization assignment or contact WPS Staff
+<div style="page-break-after: always;"></div>
 
 ## Important Notes
 
