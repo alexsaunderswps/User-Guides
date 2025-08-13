@@ -36,6 +36,7 @@ This guide details recommended settings for Quest 2, Quest 3, and Quest 3s, to m
 2. **Open the Quick Settings Menu**
    - Click the **button that displays time, WiFi strength, and battery level** on the left Menu Bar
    - *A new floating window should appear displaying Quick Menu Settings*
+<div style="page-break-after: always;"></div>
 
 3. **Open the Settings Menu**
    - Click **"Settings"** in the top right of the Quick Settings Menu display
@@ -91,6 +92,11 @@ This guide details recommended settings for Quest 2, Quest 3, and Quest 3s, to m
    - Toggle **off** `Physical Space Features`
    - Toggle **off** `Link Auto-Connect`
 
+### Next Steps
+
+10. **Create App PIN and lock apps**
+    - Follow the **Library Management** guide
+
 ## Understanding Recommended Headset Settings
 
 **Why These Settings:**
@@ -121,7 +127,7 @@ MTP Notifications allow the headset to be seen as a drive when connected to a co
 **Developer section not visible under Advanced Settings:**
 - Review the Guide for enabling Developer Settings on your headset
 - Ensure your Meta account has developer privileges enabled by WPS
-- Verify that developer mode is enabled in both the Oculus phone app and headset settings
+- Verify that developer mode is enabled in both the Meta Horizon phone app and headset settings
 
 **Settings changes not persisting:**
 - Ensure you complete each section fully before moving to the next
