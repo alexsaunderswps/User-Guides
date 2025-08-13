@@ -46,7 +46,7 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
    - Click **"Next"**
    - Choose **"Create new account"**
    - Enter your the requested details as needed for account creation
-   - *When adding a birthday - WildXR is recommended for ages 13+ - enter a date that statisfies this requirement*
+   - *When adding a birthday - WildXR is recommended for ages 13+ - enter a date that satisfies this requirement*
    - Choose a password for your account *(WPS staff will not have access to your password)*
    - Secure your account details (email and password) for future use
    - Click **"Next"**
@@ -113,7 +113,7 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
 
 ### 2FA via SMS or WhatsApp
 
-- *Only one phone number is allows for 2FA via SMS or WhatsApp*
+- *Only one phone number is allowed for 2FA via SMS or WhatsApp*
 - *This will restrict the ability to troubleshoot certain issues should they arise*
 
 13. **Add Phone Number**
@@ -200,8 +200,8 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
     - Open the hamburger menu
     - Under **Device Management** click **Devices**
 
-22. **Pair headset with Horizon app**
-    - Find the **Pair New Headet** option and click it
+22. **Pair headset with Meta Horizon app**
+    - Find the **Pair New Headset** option and click it
     - Select the correct model of Meta headset
     - *You may be prompted to create an avatar - this step is now required by Meta*
     - *This avatar is visible to other Meta Horizon users*
@@ -252,7 +252,7 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
 **Confirmation code from Meta absent:**
 - Confirmation codes can be delayed by slow or intermittent internet connections
 - Check the **Spam** folder in your email browser
-- Esnure you are looking in the correct email account *(account may have been provided by WPS)*
+- Ensure you are looking in the correct email account *(account may have been provided by WPS)*
 
 **2FA devices already exist for Meta account**
 - If your Meta account was created by WPS staff it will be prepopulated with 2 - 3 2FA devices
@@ -266,7 +266,7 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
 <div style="page-break-after: always;"></div>
 
 **Cannot find Meta Horizon application:**
-- The Meta Horizon application will be avaiable for download in the Apple App store of Google Play store
+- The Meta Horizon application is available for download in the Apple App store or Google Play store
 - If you are using a phone supplied by WPS the app should be present - search for Horizon
 - The Meta Horizon app may not be placed on the first page of your phone
 - Use the phone search function to find Meta Horizon and move it to an obvious location
@@ -278,11 +278,11 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
 
 **2FA fails for the Meta Horizon app**
 - Ensure you are using the correct 2FA account for authorization
-- If you are using SMS or WhatsApp for authorization only one phone number is associated with the account
+- If you are using SMS/WhatsApp for authorization only one phone number is associated with the account
 - 2FA codes are valid for 30 seconds on average, wait until a new code is generated and attempt to log in
 
 **Meta won't allow my desired username**
-- Meta restricts the format of usernames to enforce unquiness.
+- Meta restricts the format of usernames to enforce uniqueness.
 - Edit the username to include unlines or numbers
 - Remember that this username may become visible to other Meta Horizon users
 
@@ -322,6 +322,6 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
 
 ⚠️ **Avatar Creation**: Meta requires the creation of a virtual avatar. This avatar is visible in some locations throughout the VR "metaverse" depending on privacy settings.
 
-⚠️ **Difficulty with 2FA**: When Meta asks for a 2FA method there may be multiple options presented. Only one phone number can be used for SMS/WhatsApp alerta for authentication. Ensure you are selecting the correct account for 2FA. 2FA codes generally last for 30 seconds, if a code is about to expire, wait for a new one to be generated.
+⚠️ **Difficulty with 2FA**: When Meta asks for a 2FA method there may be multiple options presented. Only one phone number can be used for SMS/WhatsApp alerts for authentication. Ensure you are selecting the correct account for 2FA. 2FA codes generally last for 30 seconds, if a code is about to expire, wait for a new one to be generated.
 
 ⚠️ **Internet networks**: If your headset and phone are not connected to the same WiFi network it may not be possible to pair your headset with the app.
