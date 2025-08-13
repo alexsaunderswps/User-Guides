@@ -21,6 +21,8 @@ This guide establishes the Meta Quest Developer Hub (MQDH) on your computer, whi
 5. Verify full functionality with connected headset management
 
 ## Detailed Steps
+*Only the Windows operating system will be covered in the following steps.*
+*An Apple iOS version of MQDH is available following the link below*
 
 ### Downloading and Installing MQDH
 
@@ -28,13 +30,13 @@ This guide establishes the Meta Quest Developer Hub (MQDH) on your computer, whi
    - Open web browser and go to Meta's developer site
    - **Windows**: Visit https://developers.meta.com/horizon/downloads/package/oculus-developer-hub-win/
    - **Mac**: Visit https://developers.meta.com/horizon/downloads/package/oculus-developer-hub-mac/
+<div style="page-break-after: always;"></div>
 
 2. **Download MQDH package**
    - Click "Download" button in upper right corner
    - Accept license terms when prompted
    - Choose download location and click "Save"
    - File downloads as "Meta-Quest-Developer-Hub.zip"
-<div style="page-break-after: always;"></div>
 
 3. **Extract and install MQDH**
    - Navigate to downloaded zip file location
@@ -68,6 +70,7 @@ This guide establishes the Meta Quest Developer Hub (MQDH) on your computer, whi
    - Select "Enter password instead" *(easier than email code)*
    - Enter your Meta account password *(may be provided by WPS)*
    - Click "Log in" to authenticate
+<div style="page-break-after: always;"></div>
 
 8. **Handle 2FA verification**
    - System presents 2FA method dropdown
@@ -75,7 +78,6 @@ This guide establishes the Meta Quest Developer Hub (MQDH) on your computer, whi
    - Click "Next" to proceed
    - Enter 6-digit authentication code when prompted
    - Click "Next" to complete 2FA verification
-<div style="page-break-after: always;"></div>
 
 9. **Manage login persistence (optional)**
    - Choose whether to save login credentials on this computer
@@ -109,13 +111,13 @@ This guide establishes the Meta Quest Developer Hub (MQDH) on your computer, whi
     - Connect USB cable between headset and computer running MQDH
     - Ensure cable connection is secure at both ends
     - Headset should remain powered throughout the connection process
+<div style="page-break-after: always;"></div>
 
 14. **Check for automatic device recognition**
     - In MQDH, click the headset icon in the left sidebar
     - Look for your device listed as "Active" in the Devices section
     - If device appears as Active, proceed directly to step 18 for USB debugging
     - If device is not shown or shows as inactive, continue with device setup
-<div style="page-break-after: always;"></div>
 
 15. **Initiate new device setup (if needed)**
     - Click dropdown menu in upper right corner of MQDH
