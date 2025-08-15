@@ -1,4 +1,4 @@
-# WildXr Web Portal Installation Management Guide
+# WildXr Web Portal Map Marker Management Guide
 
 ## Purpose & Context
 This guide introduces the management of devices (headsets or computers) running the WildXR VR application via the WildXR Web Portal (Wildxr.org)
