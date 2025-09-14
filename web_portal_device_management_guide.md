@@ -34,7 +34,7 @@ This guide introduces the management of devices (headsets or computers) running 
 3. **Navigate to the Devices management page**
    - In the top navigation bar, click **"Admin"**
    - In the dropdown menu that appears click **"Devices"**
-   - *If you are an Organization Admin you will only see devices assocaited with your organization*
+   - *If you are an Organization Admin you will only see devices associated with your organization*
    - *If you are a System Admin you will see all devices across all organizations*
    - To **"Add"** a new device continue to Step 4
    - To **"Edit"** an exisiting device, continue to Step 10

@@ -1,25 +1,39 @@
-# WildXr Web Portal Video Creation Guide
+# WildXr Web Portal Video Creation/Editing Guide
 
 ## Purpose & Context
-This guide introduces the management of devices (headsets or computers) running the WildXR VR application via the WildXR Web Portal (Wildxr.org)
+This guide introduces the process of creating or editing a video on the WildXR Web Portal (Wildxr.org)
 
 ## Prerequisites
 - Windows or Mac computer with internet access
 - An internet browser (WPS recommends Chrome)
 - A WildXR account with credentials *(may have been created by WPS staff)*
-- A **"Device"** - either a VR headset (Quest 2, Quest 3, or Quest 3s) or Computer - with the WildXR application installed
+- A video file (.mp4 or .mov)
+- A thumbnail image (.png format only)
+- *If this video contains a new species, a new species entry must be created prior to adding/editing a video*
+- *If this video will be found in custom Map Markers, WPS recommends creating those Map Markers prior to adding/editing a video*
 
 ## Quick Overview (for experienced users)
 1. Navigate to the Wildxr.org website
 2. Log In with your Username and Password *(may be provided by WPS staff)*
-3. Navigate to the Admin -> Devices page
-4. Edit an exisitng or Add a new Device
-5. *If adding a new device - you will need to launch the WildXR application to generate a device id*
-6. Verify the device settings
+3. Navigate to the Videos page
+4. Begin the Add Video workflow by clicking the **"Add"** button in the upper right
+5. Begin the Edit Video workflow by finding and click on the video entry you wish to Edit - *You may only edit videos created by your organization*
+6. Enter the Video details on the **"Add Video"** or **"Video Details"** page as appropriate - *Fields with an asterix are required*
+8. Click **"Next"** and assign the video to the appropriate Map Markers - *See **"Map Marker Guide"** for a deeper explination of map markers*
+9. Click **"Next"** and review the information of the **"Review & Save"** page
+10. Click **"Save"** to save the new or edited video
+11. An **"Upload Video"** page will now be shown for new videos - *If you are editing a video, skip to step 17 below*
+12. Click **"Choose File"** to open a file picker, select the video file you wish to upload
+13. Click **"Upload"** to begin the upload process - *Remain on the **"Upload Video"** until the upload completes
+14. When the video upload has completed, the **"Upload"** button will switch to **"Encode Video"**
+15. Click the **"Encode"** button to begin video encoding - *The encoding process can take upto 45 minutes depending on size and encoding traffic*
+16. The video window will close and you'll be returned to the Videos page will the encoding process continues
+17. *Clicking **"Save"** when editing a video will return you to the Videos page - if you need to replace an existing video those steps are detailed below in ??*
+<div style="page-break-after: always;"></div>
 
 ## Detailed Steps
 
-### Access Device Management page on Wildxr.org
+### Access the Videos page on Wildxr.org
 
 1. **Navigate to WildXR web portal**
    - Open web browser and go to WildXR web portal
@@ -29,71 +43,120 @@ This guide introduces the management of devices (headsets or computers) running 
    - Enter your Username in the appropriate field
    - Enter your Password in the appropriate field
    - Click **"Log In"**
+
+3. **Videos page**
+   - After log in you will be on the Videos page
+   - To add a new video click the **"Add"** button in the upper right
+   - Continue the **Add Video** process starting at step #4 below
+   - To edit a video, click the **"Search"** button
+   - Locate the video you wish to edit in the returned videos
+   - Click on the video descrition or video title to being the **Edit Video** process - *Clicking on the Video image will open the video thumbnail*
+   - Continue the **"Edit Video"** process starting at step #?? below 
+
+### Add a New Video
+
+4. **Name, thumbnail, and Overview entries**
+   - In the **"Name"** field, enter the video name - *This name represents the video title in all WildXR user interfaces*
+   - Click the **"Choose a PNG file"** link to open a file picker and select a thumbnail image - *This image represents the video in all WildXR user interfaces*
+   - *A PNG file is required, JPEG/JPG files will not be accepted*
+   - *Images should be roughly 1726 x 1085 pixels in size* 
+   - In the **"Overview"** field enter a video description - *This will be displayed as the video overview in all WildXR user interfaces*
+
+5. **Youtube URL entries**
+   - The **"Youtube URL"** helps video sorting algorithms within the WildXR application
+   - The **"Youtube URL"** field is not required and can be safely skipped
+   - If you enter a **"Youtube URL"**, only the last 11 characters of the URL should be added
+   - *For example, for a Youtube video found at **https://www.youtube.com/watch?v=mtvJSQLadfg** only enter the **mtvJSQLadfg** value*
 <div style="page-break-after: always;"></div>
 
-3. **Navigate to the Devices management page**
-   - In the top navigation bar, click **"Admin"**
-   - In the dropdown menu that appears click **"Devices"**
-   - *If you are an Organization Admin you will only see devices assocaited with your organization*
-   - *If you are a System Admin you will see all devices across all organizations*
-   - To **"Add"** a new device continue to Step 4
-   - To **"Edit"** an exisiting device, continue to Step 10
+6. **Start Time and End Time entries**
+   - The **"Start Time"** entry can be left as is for most videos
+   - The **"End Time"** entry will display the video length and is shown on video thumbnail images in WildXR user interfaces
+   - *Although not required, an accurate **"End Time"** improves user experience when using the WildXR application*
 
-### Add a New Device
+7. **Organization and Country entries**
+   - If you are logged in as an **Organization Administrator** your organization value will be pre-populated in the **Organization** field
+   - If you are logged in as a **System Administrator** select the correct organization from the drop-down menu
+   - Select the correct **Country** from the drop down-menu - *This represents where the video was filmed.* 
+   - *If multiple countries are included, select **Various***
 
-4. **Generate a WildXR number**
-   - Launch the WildXR application on your device
-   - There should be a **gear icon** visible to the right of the **Menu Tray** this is the **Settings Menu**
-   - Open the **"Settings Menu"** by holding the gaze reticle *white dotnut shaped selector* over the **gear icon**
-   - Select the **Generate** button in the bottom right of the **""Settings Menu"**
-   - Write down the 10 character WildXR Number
-   - Click the **"Acccept"** button and quit the WildXR application
+8. **Video Format and Video Resolution entries**
+   - **"Video Format"** influences the way the WildXR application displays the video to users
+   - Select the correct **"Video Format"** from the drop-down menu
+   - Most applications will use either **"2D Standard Format"** or **"Standard 360"**
+   - *Only use other **"Video Format"** options if you are sure they are appropriate for your video*
+   - *If you have questions about format choices please contact WPS Staff for further information*
+   - Select the correct **"Video Resolution"** from the drop-down menu
+   - If you are unsure of the **"Video Resolution"**, choose **4k**
+   - The **"Video Resolution"** selection will not influence the playback of your video within the WildXR application*
 
-5. **Lookup device on Wildxr.org**
-   - Click the **"Device Lookup"** button in the upper right of the **Devices** page
-   - Enter the 10 character WildXR Number that was displayed on the device in Step 4
-   - Click **"Apply"**
+9. **Species entries**
+   - **"Species"** selections determine how the video is filtered within the WildXR application
+   - **"Species"** selections also show in WildXR user interfaces
+   - You may select multiple **"Species"** values from the drop-down menu, you may also select **Various** to represent multiple species
+   - If a **"Species"** value was added in error, click the **x** to the right of the species lozenge
 
-### Enter Device Details and Installation
-
-6. **Confirm WildXR number**
-   -In the **"Device Details"** screen, confirm that the WildXR Number matches the number from Step 4
-
-7. **Enter device name and select organization**
-   - Enter a descriptive name in the **"Name"** field
-   - *WPS recommends including the last 7 characters of the device serial number as well as an abbreviation of your organization's name in the device name*
-   - *For example (WPS - Q022VC7 - location)* 
-   - If you are a **Organization Admin** the device will automatically be added to your organization
-   - If you are a **System Admin** select the correct organization from the **"Organization"** dropdown menu
+10. **Tag entries**
+    - **"Tags"** influence where and when a video is shown within the WildXR application
+    - **Carcasses** and entries beginning with **Graphic ...** are used for videos with Adult content and can be hidden from users
+    - **Complilation** and **Short Films** tags are used for longer-form videos and influence video filtering within WildXR
 <div style="page-break-after: always;"></div>
 
-8. **Enter an installation (Optional)**
-   - If you have an **Installation** already created for the device select the **Installation** from the dropdown menu
-   - If you do not have a **Installation** ready for this device, leave **Installation** blank and the default **Installation** will be applied
-   - *If apply an **Installation** with **Demo Mode** enabled, remember that this removes the ability to manually download videos via the WildXR application*
+11. **Finish video details entry**
+    - When you have entered all information on your new video click the **"Next"** button
 
-9. **Save the Device Details**
-   - Verify that all **Device Details** are correct
-   - Click the **"Save"** button
+### Add the video to map markers
+*For a detailed explination **Map Markers** please reference the **Map Marker Management Guide**
 
-### Edit an Exisiting Device
+12. **Core Map Markers**
+    - **Map Markers** represent groups of videos that share a common theme - *Most commonly this grouping is geographic*
+    - **Core Map Markers** are map markers created by WPS Staff and cover the geographic groupings of WPS created videos
+    - ***Core Map Markers** are displayed under the first tab on the **Map Markers** page*
+    - Organizations can add videos to **Core Map Markers** allowing customized markers that include WPS and private videos
+    - If your new video fits into **Core Map Markers** and you plan to use these markers in your Video Catalogue, check the boxes next to the appropriate Map Markers
+    - **Map Markers** will appear on the exploration globe if users are able to select videos from a catalogue
+    - *You will select displayed markers during **"Video Catalogue Creation"***
+    - *Although **Map Markers** are not necessary if you plan to play one video on a loop, it is best practice to assign a video to at least one marker*
 
-10. **Open an exisiting device**
-    - Scroll through the devices displayed or navigate to additional pages via the buttons in the lower right
-    - *Alternatively you can search for the Device name using the **Search** field in the upper left*
-    - Click anywhere on the device row when you have identified the device you wish to edit
+13. **Custom Map Markers**
+    - **Custom Map Markers** are unique to your organizations and are not available to other organizations
+    - **Custom Map Markers** can be used to group videos based on whatever criteria you wish
+    - *For example, you might create **Custom Map Markers** around ecological niches, environmental concerns, or evolutionary traits*
+    - ***Custom Map Markers** must be created before they can be assigned to a video*
+    - *You can return to edit a video and add new marker assignments if your **Custom Map Markers** have not been created yet*
+    - If your new video fits into **Custom Map Markers** and you plan to use these markers in your Video Catalogue, check the boxes next to the appropriate Map Markers
+    - **Custom Map Markers** will appear on the exploration globe if users are able to select videos from a catalogue 
+    - *You will select displayed markers during **"Video Catalogue Creation"***
+    - *Although **Map Markers** are not necessary if you plan to play one video on a loop, it is best practice to assign a video to at least one marker*
 
-11. **Edit the device details**
-    - Select the fields in need of updating
-    - Verify all changes are correct
-    - *If you are a **System Admin** verify that you are assigning the device to the correct organization*
-    - Click **"Save"** to save the device details update
+14. **Finish map marker selection**
+    - When you have selected all the map markers associated with your new video click the **"Next"** button
+<div style="page-break-after: always;"></div>
 
-### Apply Installation changes to a device
+### Review video details
 
-12. **Restart the WildXR App**
-    - Changes to a device's assigned **Installation** will not take affect until the WildXR app is restarted on the device
-    - *Devices will need to be connected to the internet to accept an **Installation** assignment*
+15. **Review & Save**
+    - Review the information for your video
+    - If all values are correct click the **"Save"** button
+    - If changes need to be made you back click the **"Back"** button
+    - *You can also click the radio button above the selection that needed correcting at the top of the page (**Add Video** for video details, **Map Markers** for map marker selection)*
+
+### Upload and encode video file
+
+16. **Chose video file and upload**
+    - Once you have saved the new video information you will be shown an **"Upload Video"** page
+    - If your video is not ready for upload you may leave this page and finish by editing your video at a later date
+    -*Follow upload steps found in the **Edit Video** section below, step #??*
+    - Click the **"Choose File"** button to open a file picker window
+    - Navigate to the video file you wish to associate with the information entered in steps 4 through 15 above
+    - Select the video and click the **"Open"** button in the file picker
+    - The file name of your video should now be shown next to the **"Choose File"** button
+    - Click the **"Upload"** button to begin the upload of your video file
+    -*Upload speed will depend on the speed of your internet connection and will be longer for larger video sizes*
+    -*Do not navigate away from this page during video upload*
+
+17. **Video Encoding**
+
 
 ## Troubleshooting
 
