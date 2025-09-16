@@ -15,12 +15,13 @@ This guide establishes the recommended steps to create reinforced USB cables for
 1. Prior to cutting, reinforce rope with tape.
 2. *A rope has two ends, the working (or free) end and the standing (not free) end.*
 3. Cut the free end at 45° angle and melt.
-4. Secure free end to USB cable 5 - 6 inches back from cable tip or junction with tape.
-5. Secure rope along length of USB cable every 24".
-6. Follow steps 1-4 for the standing end of the rope.
-7. Feed the cable/rope pair into the sleeving.
-8. Secure the sleeving 1/2 - 1 inch past rope end with tape.
-9. Cut and secure remaining end of sleeving 1/2 - 1 inch past rope end.
+4. Tape the cut end to protect the exposed rope core.
+5. Secure free end to USB cable 5 - 6 inches back from cable tip or junction with tape.
+6. Secure rope along length of USB cable every 24".
+7. Follow steps 1-5 for the standing end of the rope.
+8. Feed the cable/rope pair into the sleeving.
+9. Secure the sleeving 1/2 - 1 inch past rope end with tape.
+10. Cut and secure remaining end of sleeving 1/2 - 1 inch past rope end.
 
 ## How to apply electrical tape
 1. Electrical tape should be slightly streched during application.
@@ -43,6 +44,7 @@ This guide establishes the recommended steps to create reinforced USB cables for
    - Cut the rope at a 45° angle in the center of the tape reinforcement
    - Use a flame to melt the rope to reduce fraying/slipping of core strands
    - *This melted end will be hot. Wait until end has cooled before proceeding*
+   - Tape the cut end to protect the exposed rope core
 
 3. **Secure working end to USB cable**
    - Measure back 5 - 6 inches from cable tip
@@ -72,6 +74,7 @@ This guide establishes the recommended steps to create reinforced USB cables for
    - Cut the rope at a 45° angle in the center of the tape reinforcement
    - Use a flame to melt the rope to reduce fraying/slipping of core strands
    - *This melted end will be hot. Wait until end has cooled before proceeding*
+   - Tape the cut end to protect the exposed rope core
 <div style="page-break-after: always;"></div>
 
 7. **Secure standing end to cable**
