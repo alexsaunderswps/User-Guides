@@ -30,6 +30,7 @@ This guide establishes the recommended steps to create reinforced USB cables for
 4. When taping a joint, start at least 2" before the joint.
 5. When taping a joint, end between 1 - 1.5 inches beyond joint.
 6. When ending a wrap of tape, double back to end on a tape base and hide the tag end.
+7. When ending a wrap of tape, stop putting tension on the tape for the last 1-1.5".
 <div style="page-break-after: always;"></div>
 
 ## Detailed Steps
