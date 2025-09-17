@@ -1,4 +1,4 @@
-# WildXr Web Portal Video Creation/Editing Guide
+# WildXR Web Portal Video Management Guide
 
 ## Purpose & Context
 This guide introduces the process of creating or editing a video on the WildXR Web Portal (Wildxr.org)
@@ -18,8 +18,8 @@ This guide introduces the process of creating or editing a video on the WildXR W
 3. Navigate to the Videos page
 4. Begin the Add Video workflow by clicking the **"Add"** button in the upper right
 5. Begin the Edit Video workflow by finding and click on the video entry you wish to Edit - *You may only edit videos created by your organization*
-6. Enter the Video details on the **"Add Video"** or **"Video Details"** page as appropriate - *Fields with an asterix are required*
-8. Click **"Next"** and assign the video to the appropriate Map Markers - *See **"Map Marker Guide"** for a deeper explination of map markers*
+6. Enter the Video details on the **"Add Video"** or **"Video Details"** page as appropriate - *Fields with an asterisk are required*
+8. Click **"Next"** and assign the video to the appropriate Map Markers - *See **"Map Marker Guide"** for a deeper explanation of map markers*
 9. Click **"Next"** and review the information of the **"Review & Save"** page
 10. Click **"Save"** to save the new or edited video
 11. An **"Upload Video"** page will now be shown for new videos - *If you are editing a video, skip to step 17 below*
@@ -28,10 +28,12 @@ This guide introduces the process of creating or editing a video on the WildXR W
 14. When the video upload has completed, the **"Upload"** button will switch to **"Encode Video"**
 15. Click the **"Encode"** button to begin video encoding - *The encoding process can take upto 45 minutes depending on size and encoding traffic*
 16. The video window will close and you'll be returned to the Videos page will the encoding process continues
-17. *Clicking **"Save"** when editing a video will return you to the Videos page - if you need to replace an existing video those steps are detailed below in ??*
+17. *Clicking **"Save"** when editing a video will return you to the Videos page - if you need to replace an existing video those steps are detailed below in step #??
 <div style="page-break-after: always;"></div>
 
 ## Detailed Steps
+
+## Add a new video
 
 ### Access the Videos page on Wildxr.org
 
@@ -50,8 +52,8 @@ This guide introduces the process of creating or editing a video on the WildXR W
    - Continue the **Add Video** process starting at step #4 below
    - To edit a video, click the **"Search"** button
    - Locate the video you wish to edit in the returned videos
-   - Click on the video descrition or video title to being the **Edit Video** process - *Clicking on the Video image will open the video thumbnail*
-   - Continue the **"Edit Video"** process starting at step #?? below 
+   - Click on the video description or video title to being the **Edit Video** process - *Clicking on the Video image will open the video thumbnail*
+   - Continue the **"Edit Video"** process starting at step #20 below 
 
 ### Add a New Video
 
@@ -99,14 +101,14 @@ This guide introduces the process of creating or editing a video on the WildXR W
 10. **Tag entries**
     - **"Tags"** influence where and when a video is shown within the WildXR application
     - **Carcasses** and entries beginning with **Graphic ...** are used for videos with Adult content and can be hidden from users
-    - **Complilation** and **Short Films** tags are used for longer-form videos and influence video filtering within WildXR
+    - **Compilation** and **Short Films** tags are used for longer-form videos and influence video filtering within WildXR
 <div style="page-break-after: always;"></div>
 
 11. **Finish video details entry**
     - When you have entered all information on your new video click the **"Next"** button
 
 ### Add the video to map markers
-*For a detailed explination **Map Markers** please reference the **Map Marker Management Guide**
+*For a detailed explanation **Map Markers** please reference the **WildXR Web Portal Map Marker Management Guide**
 
 12. **Core Map Markers**
     - **Map Markers** represent groups of videos that share a common theme - *Most commonly this grouping is geographic*
@@ -146,7 +148,7 @@ This guide introduces the process of creating or editing a video on the WildXR W
 16. **Chose video file and upload**
     - Once you have saved the new video information you will be shown an **"Upload Video"** page
     - If your video is not ready for upload you may leave this page and finish by editing your video at a later date
-    -*Follow upload steps found in the **Edit Video** section below, step #??*
+    -*Follow upload steps found in the **Edit Video** section below, step #20*
     - Click the **"Choose File"** button to open a file picker window
     - Navigate to the video file you wish to associate with the information entered in steps 4 through 15 above
     - Select the video and click the **"Open"** button in the file picker
@@ -155,8 +157,100 @@ This guide introduces the process of creating or editing a video on the WildXR W
     -*Upload speed will depend on the speed of your internet connection and will be longer for larger video sizes*
     -*Do not navigate away from this page during video upload*
 
-17. **Video Encoding**
+17. **Video encoding**
+    - Once the video file upload is complete the **"Upload Video"** button will change to an **"Encode Video"** button
+    - Click the **"Encode Video"** button
+    - You will be returned to the **Videos** page and a small alert will be shown in the upper right stating **"Encoding started successfully"**
+    - *Encoding allows WildXR to adaptively stream videos and takes roughly 30 minutes for a 6 minute video*
+<div style="page-break-after: always;"></div>
 
+### Verify video creation and review playback
+*WPS recommends the following steps to verify video information and to view the video in VR prior to releasing the video to the public*
+*Viewing a video in VR can expose issues with subject focus and object masking that are difficult to detect during editing*
+
+18.  **Verify video creation**
+    - On the **Videos** page, click the **"Search"** button in the upper right
+    - Search for the video just created
+    - In the search results verify that the thumbnail, title, and description appear as expected
+    - Click on the title or description of the video
+    - Verify that the details are as expected and review the **Video File Name** to check the correct video file was uploaded
+    - Click on the **Map Markers** radio button at the top of the **Video Details** page to review the assigned **Map Markers**
+    - Verify that the correct **Core** and **Custom** map markers are selected
+    - Click the **Review & Save** radio button at the top of the **Video Details** page
+    - Review the video details; if they appear correct click on any **Navigation Link** in the header to exit the video editing interface
+
+19.  **Review video playback**
+    - Follow the steps to create a **Video Catalogue** that contains your new video in the **WildXR Web Portal Video Catalogue Management Guide**
+    - Follow the steps to create a **Installation** that uses your **Video Catalogue** in the **WildXR Web Portal Installation Management Guide**
+    - Assign your **Installation** to a **Device** using the **WildXR Web Portal Device Management Guide** and review your video in VR
+
+## Edit an existing video
+*Organization users can only edit videos that their organization owns*
+*If you have concerns about an existing video that your organization does not own, please reach out to WPS Staff for assistance*
+
+### Access the Videos page on Wildxr.org
+
+20. **Navigate to WildXR web portal**
+   - Open web browser and go to WildXR web portal
+   - Visit https://wildxr.org
+
+21. **Log In to WildXR web portal**
+   - Enter your Username in the appropriate field
+   - Enter your Password in the appropriate field
+   - Click **"Log In"**
+
+### Search for the video that needs editing
+
+22. **Locate Video**
+    - After log in you will be on the Videos page
+    - Click on the **"Search"** button in the upper right
+    - Enter the search parameters to locate the video in need of editing
+    - *You can search by more than one field; searches return videos that match any field entry*
+    - Click on the title or description of the video in need of editing from the returned search results
+<div style="page-break-after: always;"></div>
+
+### Edit video details
+
+23. **Edit video name, thumbnail, overview, etc.**
+    - On the **Video Details - Edit Video** page you can edit all video details except **Map Marker** assignment 
+    - Make the changes you wish for the video
+    - *The video file name field is for reference only, if you need to change the video file associated with this video follow the **Overwrite Old Video** below, step #
+    - Once all details have been updated click the **Next** button in the lower right or the **Map Marker** radio button at the top of the **Video Details** page
+    - *If no updates are needed to **Map Markers** click the **Review & Save** radio button at the top of the **Video Details** page
+
+### Edit assigned map markers
+  
+24. **Edit map marker assignment**
+    - Add or remove your video from **Map Markers** by selecting or deselecting the appropriate checkbox
+    - Click on the **"Custom Map Markers"** tab to switch to **Map Markers** unique to your organization
+    - Once all **Map Markers** have been updated, click the **Next** button in the lower right or the **Review & Save** radio button at the top of the **Video Details** page
+
+### Review video updates
+  
+25. **Review and save all video updates**
+    - Review all updates to video details and assigned map markers
+    - If all changes look correct click the **Save** button in the lower right
+    - *If no changes have been entered the **Save** button will be greyed out; click any navigation link in the header to exit the *Video Edit** page
+
+### Replace an existing video with a new video file
+
+26. **Upload a new video**
+    - In any of the three **Video Details** sections you will see an **"Actions"** button in the upper right
+    - Click on the **"Actions"** button to open a drop-down menu
+    - From the drop-down menu select **"Upload Video"**
+    - Follow steps 16 and 17 in **Upload and encode video file** above to replace an existing video with a new video file
+<div style="page-break-after: always;"></div>
+
+### Delete an existing video
+
+27. Remove a video and all video details from the WildXR database
+    - *Video deletion is permanent and WPS staff will be unable to recover a deleted video*
+    - In any of the three **Video Details** sections you will see an **"Actions"** button in the upper right
+    - Click on the **"Actions"** button to open a drop-down menu
+    - From the drop-down menu select **"Delete Video"**
+    - An alert window will show at the top of the page asking if you wish to proceed with video deletion
+    - Select **"OK"** to delete the selected video
+    - Select **"Cancel"** to cancel the video deletion
 
 ## Troubleshooting
 
@@ -164,17 +258,16 @@ This guide introduces the process of creating or editing a video on the WildXR W
 - Ensure you are entering the correct credentials to log into Wildxr.org *(May have been supplied by WPS Staff)*
 - If someone within your organization created your account; check that they assigned a password to your account *(passwords are not created automatically)*
 - Double-check the URL you have entered into your Web Browser *(WPS recommends using Chrome)*
-<div style="page-break-after: always;"></div>
 
-**Unable to generate a WildXR number:**
-- Ensure that the WildXR application has been successfully installed on the device
-- If you are attempting to launch WildXR on a computer you will need to connect a VR headset to successfully navigate the WildXR app
-- Verify that you can see the **gear icon** used to access the **"Settings Menu"** 
+**WildXR web portal not accepting thumbnail:**
+- Ensure that the image file you are attempting to use is saved as a .PNG
+- Image file formats other than .PNG will not be accepted by the WildXR web portal.
+- *Most image editing programs allow users to save images in a variety of formats, including .PNG*
+- Open the image file in an image editor and choose **"Save As"** to save a .PNG version of your image
 
-**Unable to find WildXR number on the Wildxr.org website:**
-- Ensure you have correctly typed the WildXR number into the Device Lookup field on the Wildxr.org website
-- If you are currently on the **Devices** page of the Wildxr.org website, navigate away and then back before attempting the Device Lookup
-- Refresh your browser window *(WPS recommends using Chrome)*
+**No Youtube URL exists for the video:**
+- Videos in the WildXR application do not require a Youtube URL to function.
+- Youtube URL entries
 
 **WildXR number is already generated for a device:**
 - Double check that the device has not already been registered on the WildXR.org website
