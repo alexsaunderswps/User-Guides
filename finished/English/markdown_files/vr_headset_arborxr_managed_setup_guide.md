@@ -1,29 +1,27 @@
-# Quest VR Headset Setup Guide
+# ArborXR Managed Quest VR Headset Setup Guide
 
 ## Purpose & Context
-This guide provides the required steps to setup a Quest VR headset for the first time. 
+This guide provides the required steps to setup an ArborXR managed Quest VR headset for the first time. 
 WPS may have created some needed accounts as part of their internal VR partner program. Check with WPS staff if you are unsure of what accounts your organization needs.
 Account creation by WPS is done to facilitate smooth VR operation and increases our ability to provide technical support. 
-Accounts created without the help of WPS staff cannot be accessed by WPS staff during technical support sessions.
+Accounts created without the help of WPS staff cannot be accessed by WPS staff during technical support sessions and will not successfully enable ArborXR management.
 
-⚠️ **Meta**: Meta hardware and software (including MQDH) are outside WPS control. Meta updates may cause unexpected functionality changes in VR systems. WPS monitors Meta releases to inform users of potential impacts and changes.
+⚠️ **Third Party Software**: Third Party hardware and software (Meta, ArborXR) are outside WPS control. Meta updates may cause unexpected functionality changes in VR systems. WPS monitors Meta and ArborXR releases to inform users of potential impacts and changes.
 
 ## Prerequisites
 - A WiFi internet connection
 - Email account credentials associated with your VR setup *(may be provided by WPS)*
 - Smartphone with 2FA app capability
-- Smartphone with Meta Horizon application installed
 - Initial coordination with WPS staff for first-time login
 - VR headsets
 
 ## Quick Overview (for experienced users)
-1. Meta account is created for Organization *(may be provided by WPS)*
-2. User logs into Meta Horizon phone app
-3. Developer mode is enable for headset
-4. Recommended settings are applied to headset
-5. WildXR and Auto Launch *(if desired)* are installed on headset
-6. Headset is registered with WildXR Website for remote provisioning
-7. Videos are downloaded or side-loaded to improve WildXR performance 
+1. Meta, Meta-for-Work, and ArborXR accounts are created for Organization *(may be provided by WPS)*
+2. User registers headset with Meta-for-Work, assigning it a third-party MDM (Mobile Device Management)
+3. Recommended settings are applied to headset
+4. WildXR and Auto Launch *(if desired)* are installed on headset
+5. Headset is registered with WildXR Website for remote provisioning
+6. Videos are downloaded or side-loaded to improve WildXR performance 
 
 ## Detailed Steps
 
