@@ -27,130 +27,170 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
 
 ### Meta Account Creation
 
-- *If WPS staff created the Meta Account used to register headsets this step may be complete*
+- *Currently, all accounts using ArborXR and Meta-for-Work are created by WPS Staff*
+- *These accounts are created by WPS Staff to provide IT support for Meta VR Headsets*
+- *It is beyond the scope of this guide to intruct users in the creation of ArborXR and Meta-for-Work accounts for their organization*
 
-1. **Navigate to Meta**
-   - Open web browser and go to `meta.com`
+### Logging in to Meta-for-Work
 
-2. **Access login**
-   - Click the **Account icon** *(person silhouette)* in upper right
-   - Select **"Sign up or log into a Meta account"**
-   - Choose **"Continue with email"**
+1. **Navigate to the Meta-for-Work (Horizon Managed) webpage**
+   - Open web browser and go to `https://work.meta.com/login/landing/`
 <div style="page-break-after: always;"></div>
 
-3. **Enter credentials**
-   - Click **Continue with Email**
-   - Enter Email address associated with your VR setup
+2. **Enter credentials**
+   - Enter the Email address provided by WPS for your Meta-for-Work account
    - Click **"Next"**
-   - Choose **"Create new account"**
-   - Enter your the requested details as needed for account creation
-   - *When adding a birthday - WildXR is recommended for ages 13+ - enter a date that satisfies this requirement*
-   - Choose a password for your account *(WPS staff will not have access to your password)*
-   - Secure your account details (email and password) for future use
-   - Click **"Next"**
+   - Enter the Password provided by WPS for your Meta-for-Work account
+   - Click **"Continue"**
+   - *You may be required to Authnticate via a 2FA application*
+   - *Open Google Authenticator on your phone (you may have been provided with a Blu phone for this purpose)*
+   - *Google Authenitcator is associated with your Gmail account, this account is provided by WPS Staff*
+   - You can choose to **Trust this device** based on security requirements at your organization
 
-4. **Manage login persistence (optional)**
-   - Choose whether to save login credentials on this computer
-   - *Saving credentials only stores email and password information*
-   - *Consider security implications of saved credentials on shared computers*
+### Navigate to the Devices screen
 
-5. **Verify account details** 
-   - Review the account details as entered
-   - *Uncheck the receive marketing emails box*
-   - Click **"Create account"**
+3. **Overview Screen**
+   - After logging in you will be on the **Overview Screen**
+   - On the left panel, click the **"Devices"** icon (shaped like a mask)
+   - *Switch to your new VR headset for the next steps*
 
-6. **Confirm account creation**
-   - Open the email account associated with your Meta account
-   - Copy the confirmation code from the recent Meta email
-   - Enter the confirmation code in the appropriate box.
-   - Click **"Next"**
+### Headset setup
 
-7. **Access account dashboard**
-   - You'll return to `meta.com` main page
-   - Click the **Account icon** again to access account features *(Icon is now a circle with a letter or Logo)*
-   - Select **"Accounts Center"** for main dashboard
+4. **Power on headset**
+    - Remove the packing material from the headset
+    - Remove battery savers from hand controllers
+    - **Quest 2**: Press **power button** on right side
+    - **Quest 3 & Quest 3s**: Press **power button** on left side
+    - Put on the VR headset
 
-### Two-Factor Authentication
-
-- *Now is a good time to set up two-factor authorization as it will be needed later*
-- *If you account was provisioned by WPS staff this step may have been completed*
-
-8. **Navigate to security settings**
-   - In **Accounts Center**, click **"Password and security"**
-   - Select **"Two-factor authentication"**
-   - Choose your profile
-   - Select **"Authentication app"** and continue to step 9 *(recommended)*
-   - Select **"SMS or WhatsApp"** and continue to step 13
+5. **Initial introduction and connect to WiFi**
+    - Follow the on-screen prompts in the VR Headset
+    - *Occasionally hand controllers will install an update that renders them inoperable for a brief period*
+    - Connect your headset to your WiFi internet connection
+    - *WPS recommends entering the WiFi details on your headset*
+    - *If your WiFi network is hidden goto Step #6*
+    - Your headset may apply firmware updates
+    - Leave your headset plugged in while updates are downloaded
+    - *Your headset may indicate that you can continue setup in the Meta Horizon phone app*
+    - ⚠️ **Allow the headset to install all pending updates (*it may restart*) before proceeding** ⚠️
+    - ⚠️ **DO NOT continue setup in the Meta Horizon app as this will not allow paring with Meta-for-Work and ArborXR** ⚠️
 <div style="page-break-after: always;"></div>
 
-### 2FA via Authentication App
+6. **Adding a hidden network to WiFi**
+    - *You may need assistance from your company IT department if you have a robust WiFi security program*
+    - In the WiFi window scroll down to **"+ New Network >"**
+    - Click to add a new network
+    - Click **"Advanced"**
+    - Under **"Hidden Network"** change displayed value to **"Yes"**
+    - Generally the default values for the rest of the Advanced menu will be sufficient
+    - *If you continue to have issues connecting to a hidden WiFi network you may need to contact your company IT department*
+    - Click **"Confirm"**
+    - If your WiFi network has a password, it most likely uses **WPA/WPA2-Personal** as the **"Security"** setting
+    - Enter the remaining details of your WiFi network
+    - Click **"Connect"** to finish WiFi setup and connect to the network
 
-9. **Install authenticator app (Recommended)**
-   - An authenticator application allows management by multiple people
-   - Download Google Authenticator (recommended) or Authy
-   - Available on both iOS and Android
-   - Multiple staff can use same authenticator for shared account
-   - SMS or WhatApp authentication is available to only one phone number
+### Pair headset to Meta-for-Work
 
-10. **Add new device**
-    - Click **"Add"** button
-    - *QR code and setup key will appear*
-    - *Switch to your phone for next steps*
+- *After all updates have been applied you will see a **Pair your headset with the Meta Horizon app to Continue** screen*
+- *At the bottom of this screen you will see a **Connect to your organization** button*
 
-11. **Configure authenticator app**
-    - Open authenticator app on phone
-    - Add new account *(+ icon)*
-    - Choose **"Scan QR code"** or **"Enter setup key"**
-    - Scan QR code from Meta website
+7. **Begin headset connection**
+   - Click the **Connect to your organization** button to continue
+   - Click **"Continue"** on the **Connect your headset to work or school** screen
+   - Click **"Continue"** on the **You'll need your computer for the next step** screen
+   - *Switch to your computer for the next steps*
 
-12. **Complete setup**
-    - Enter descriptive name for this device *(eg WPSVR GAuth or Alex's GAuth)*
-    - Input 6-digit code from authenticator app
-    - Click **"Done"**
-    - *Device now appears in 2FA devices list*
+### Enroll headset on Meta-for-Work website
 
-### 2FA via SMS or WhatsApp
+8. **Enroll device on Meta-for-Work website**
+   - Return to the **Devices** page of the **Meta-for-Work** website
+   - Click the **"+ Enroll devices"** drop-down menu
+   - Select the **"In Admin Center"** option
 
-- *Only one phone number is allowed for 2FA via SMS or WhatsApp*
-- *This will restrict the ability to troubleshoot certain issues should they arise*
-
-13. **Add Phone Number**
-    - Change Country code if needed *(defaults to United States)*
-    - Enter Phone Number
-    - Click **"Next"**
-    - Input the 6-digit code sent to the device
-    - Click **"Done"**
-
-### Meta Horizon app provisioning
-
-14. **Open the Meta Horizon phone application**
-    - Choose **Continue with email**
-    - Enter the email used to create the Organization's Meta account *(May be provided by WPS)*
-    - Click **"Next"**
-    - Choose **"Enter password instead"** *(easier than email code)*
-    - Enter your Meta account password *(may be provided by WPS)*
+9. **Select device configuration**
+   - An **Enroll devices** pop-up window will appear
+   - Click the **"Select device preset, third-party enrollment or group"** drop-down menu
+   - Click the **"Device groups"** drop-down menu
+   - You should see an option related to your **Organization** with a sub-text **ArborXR-Third-party**
+   - Click the option listing your **Organization**
+   - *If there is more than one option, or if the correct option is not clear, please contact WPS Staff*
 <div style="page-break-after: always;"></div>
 
-15. **Verify account via 2FA (*may be required)***
-    - Select 2FA method from dropdown
-    - Click **"Next"**
-    - Open authenticator application or look for SMS/WhatsApp message
-    - Enter 6-digit code
-    - Click **"Next"**
+10. **Enter device temporary code**
+    - There should be an 8-character code shown in your VR headset.
+    - Enter this 8-character code in the appropriate field on the **Enroll devices** pop-up
+    - If you have entered the code correctly a third step should now be visible on the **Enroll devices** pop-up
 
-16. **Manage login persistence (optional)**
-    - Choose whether to save login credentials on this computer
-    - *Saving credentials only stores email and password information*
-    - *Consider security implications of saved credentials on shared computers*
-  
-### Setup Meta Horizon account
+11. **Select device account**
+    - Ensure that **Complete device setup with your own managed Meta Account** is selected.
+    - Click the **"Enroll device"** button
+    - *There is a time limit on 8-character code validation*
+    - *If you are told **This code has expired** click the **"Back"** button twice to return to the **"You'll need a computer for the next step"** screen and then click **"Continue"** to regenerate a new code*
 
-- *The Meta Horizon account is used excusively for Meta's VR space*
-- *Some options will be visible to other Meta Horizon users*
+12. **Return to Manage devices screen**
+    - Click the **"Manage devices"** button to return to the Meta-for-Work device management page.
+    - If you have more headsets to enroll, click the **"Enroll another headset"** button
+    - *Your headset will not be visible in the **Managed Devices** section of the Meta-for-Work webpage until configuarion is complete*
+    - *Switch to your VR headset for the next steps*
 
-17. **Choose a Meta Horizon username**
-    - *This username will be visible to other Meta Horizon users*
-    - Enter an accepted username *(a green checkmark will indicate username is valid)*
+### Headset configuration
+
+13. **Finish initial headset configuration**
+    - *You will need to be wearing the headset to complete the initial configuration*
+    - On the **Connect to device management** screen click the **"Continue"** button
+    - On the **Configure your headset** screen click the **"Continue"** button
+    - On the **Headset configured** screen click the **"Continue"** button
+    - On the **Configuring** screen click the **"Continue"** button
+    - A few more screens may show during installation, leave the headset on during this process or progress may halt.
+    - *Refresh the Meta-for-Work **Devices** web-page - your device should now be visible*
+
+### **Accept conditions from Meta**
+
+14. **Accept disclaimers in VR headset**
+    - Click **"Continue"** on the safety guidelines
+    - Click **"Continue"** on the privacy declarations
+    - Click **"Don't Share"** or **"Share"** on the share additional data request
+    - Click **"Not now"** on the Enable hand and body tracking request
+    - Click **"Skip"** on setting up accessability settings
+    - *We recommend not having controllers available to the public during WildXR use which negates all accessability options*
+    - Click the **"Welcome"** button to see tutorial options
+    - Participate in tutorials as desired *(Skipping tutorials does not affect headset setup)*
+<div style="page-break-after: always;"></div>
+
+### **Connect VR headset to ArborXR group**
+
+*Your Meta VR headset is read for management through the ArborXR website*
+*Your headset now has the base installation for use, but needs to be assigned a group in ArborXR before other needed software is loaded*
+
+### **Log in to ArborXR web portal**
+
+15. **Navigate to the ArborXR webpage**
+    - Open web browser and go to `https://api.xrdm.app/login`
+
+16. **Navigate to Devices page**
+    - Click on the **"Devices & Groups"** tab in the left column
+    - *This interface lists all the **Devices** currently managed by WPS through ArborXR*
+    - *Before you make any changes, verify that the device you are about to edit belongs to your organization*
+    - *Check the device serial number on the ArborXR website matches the device name on the Meta-for-Work webiste*
+
+### Claim your device
+
+17. **Move your device to your organization group**
+    - *Before you make any changes, verify that the device you are about to edit belongs to your organization*
+    - *Check the device serial number on the ArborXR website matches the device name on the Meta-for-Work webiste*
+    - Select the checkbox next to your device serial number
+    - Click on the **"Actions"** drop-down menu
+    - Select the **"Assign to Group"** option from the menu
+    - Click the **"Select group..."** field and select you organization group
+    - *There should be only one option for group selection*
+    - *If there is more than one option, or the correct option is not clear, please contact WPS Staff for assisstance*
+    - Click the **"Assign to Group"** button
+
+### Finish device configuration
+
+18. **Allow ArborXR configuration to finish**
+    - Once assigned to a group additional configuration parameters will be added to the headset
+    - *Your headset may reboot during this ArborXR configuration, that is normal*
     - Click **"Continue"**
     - You will be taken to the Meta Horizon dashboard
 
