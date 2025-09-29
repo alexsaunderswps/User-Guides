@@ -266,22 +266,41 @@ This guide introduces the process of creating or editing a video on the WildXR W
 - Open the image file in an image editor and choose **"Save As"** to save a .PNG version of your image
 
 **No Youtube URL exists for the video:**
-- Videos in the WildXR application do not require a Youtube URL to function.
-- Youtube URL entries
+- Videos in the WildXR application do not require a **Youtube URL** to function.
+- **Youtube URL** entries assist with sorting videos by popularity and viewing frequency
 
-**WildXR number is already generated for a device:**
-- Double check that the device has not already been registered on the WildXR.org website
-- If you are re-installing WildXR on a computer, you will need to remove the **Wildlife Protection Solutions** folder from your hard drive
-  - *Ensure that **Hidden Items** are visible in your **File Explorer***
-  - Open a folder and, under **View** options click **"Show"** and check **"Hidden Items"**
-  - On Windows navigate to ```This PC -> C -> Users -> [Your User Name] -> App Data -> Local Low```
-  - Delete the **Wildlife Protection Solutions** folder
-  - Reinstall the **WildXR** application
+**Error when entering the Youtube URL:**
+- Only the last 11 characters (characters after the equal (=) sign) of the **Youtube URL** should entered
 
-**Applied changes to Device not visible in Device**
-- Ensure that your device is connected to the internet
-- If you have assigned a new **Installation** the device must stop the current session of WildXR and relaunch the WildXR app prior to changes taking effect
-- Double check that the Wildxr Number is the one assigned to the headset you are using *(Check the settings menu to confirm the Wildxr number)*
+**Unable to select organization assignment for video:**
+- The **Organization** field is auto-populated to match your organization if you are logged in as an **Organization Admin** 
+- Only **System Admin** users can choose **Organization** assignment for videos from a list.
+- If you believe you need to assign a video to an **Organization** other than your own, please contact WPS staff.
+
+**Wrong organization is auto-selected during video creation:**
+- Ensure you are logged into the WildXR web portal using the correct account
+- Contact WPS staff if the auto-selected organization does not match your account organization
+
+**Unable to find correct country for video details:**
+  - Begin typing the name of the country you are trying to select, the **Countries** field will auto-suggest valid selections
+  - If the **Country** is not present in the drop-down menu, contact WPS staff with a request to update the current **Country** database.
+
+**Unsure of the correct video format to select:**
+- For most traditional videos **2D Standard Format** is the correct option
+- For videos filmed with 360° cameras, **Standard 360** is the correct option
+- **Stereographic** videos are filmed with specialized cameras, typically using dual lenses to capture depth, these are less common than 2D and 360° videos
+- **Standard 180**, also known as SBS (Side-by-Side) videos offer a 180° view to the view, these are less common than 2D and 360° videos
+- Video format selection will affect the playback of your video in the WildXR application, but can be changed after review if results are not as expected
+- Video format selection does not affect how a video is uploaded or encoded for playback
+
+**Unsure of the correct video resolution to select**
+- **Video Resolution** is currently used only for catagorization of videos, it will not affect the playback quality of the video
+- Select **4k** if you are uncertain of the correct **Video Resolution** designation
+
+**Correct video resolution is not offered in drop-down menu**
+- **Video Resolution** is currently only used for catagorization and will not affect the playback of your video
+- Select the nearest value to your video's resolution
+- If you believe more resolution options should be available, please contact WPS staff
 
 **Unable to edit Device Organization**
 - If you are logged into the Wildxr.org website as an **Organization Admin** will not be able to change the device's assigned organization
