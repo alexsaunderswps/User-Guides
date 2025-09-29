@@ -201,11 +201,13 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
     - Under **Device Management** click **Devices**
 
 22. **Pair headset with Meta Horizon app**
-    - Find the **Pair New Headset** option and click it
+    - Find the **Add Device** or **Pair New Headset** option and click it
     - Select the correct model of Meta headset
     - *You may be prompted to create an avatar - this step is now required by Meta*
     - *This avatar is visible to other Meta Horizon users*
     - Create an avatar and click **"Continue"**
+    - Select the correct WiFi connection state of your device
+    - *If you connected to WiFi in Step 19, select **Device is already connected to WiFi*** 
     - Your headset should be displaying a five digit code
     - Enter the five digit code when prompted
     - Click **"Continue"** when the paring successful screen is shown
