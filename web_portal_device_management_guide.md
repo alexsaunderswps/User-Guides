@@ -3,6 +3,8 @@
 ## Purpose & Context
 This guide introduces the management of devices (headsets or computers) running the WildXR VR application via the WildXR Web Portal (Wildxr.org)
 
+⚠️ **Video Download Time**: Whenever a new instance or update of WildXR is required all associated videos must be downloaded to provide a smooth playback experience. Depending on the video library size and internet speeds, this can take multiple hours. Please consider this when scheduling an update or planning for new WildXR installations.
+
 ## Prerequisites
 - Windows or Mac computer with internet access
 - An internet browser (WPS recommends Chrome)
@@ -57,7 +59,7 @@ This guide introduces the management of devices (headsets or computers) running 
 ### Enter Device Details and Installation
 
 6. **Confirm WildXR number**
-   -In the **"Device Details"** screen, confirm that the WildXR Number matches the number from Step 4
+   - In the **"Device Details"** screen, confirm that the WildXR Number matches the number from Step 4
 
 7. **Enter device name and select organization**
    - Enter a descriptive name in the **"Name"** field
@@ -70,7 +72,7 @@ This guide introduces the management of devices (headsets or computers) running 
 8. **Enter an installation (Optional)**
    - If you have an **Installation** already created for the device select the **Installation** from the dropdown menu
    - If you do not have a **Installation** ready for this device, leave **Installation** blank and the default **Installation** will be applied
-   - *If apply an **Installation** with **Demo Mode** enabled, remember that this removes the ability to manually download videos via the WildXR application*
+   - *If you apply an **Installation** with **Demo Mode** enabled, remember that this removes the ability to manually download videos via the WildXR application*
 
 9. **Save the Device Details**
    - Verify that all **Device Details** are correct
@@ -110,6 +112,7 @@ This guide introduces the management of devices (headsets or computers) running 
 
 **Unable to find WildXR number on the Wildxr.org website:**
 - Ensure you have correctly typed the WildXR number into the Device Lookup field on the Wildxr.org website
+- Make sure your device is connected to the internet
 - If you are currently on the **Devices** page of the Wildxr.org website, navigate away and then back before attempting the Device Lookup
 - Refresh your browser window *(WPS recommends using Chrome)*
 
@@ -122,33 +125,26 @@ This guide introduces the management of devices (headsets or computers) running 
   - Delete the **Wildlife Protection Solutions** folder
   - Reinstall the **WildXR** application
 
-**Applied changes to Device not visible in Device**
+**Applied changes to Device not visible in Device:**
 - Ensure that your device is connected to the internet
 - If you have assigned a new **Installation** the device must stop the current session of WildXR and relaunch the WildXR app prior to changes taking effect
 - Double check that the Wildxr Number is the one assigned to the headset you are using *(Check the settings menu to confirm the Wildxr number)*
 
-**Unable to edit Device Organization**
+**Unable to edit Device Organization:**
 - If you are logged into the Wildxr.org website as an **Organization Admin** will not be able to change the device's assigned organization
 - Log in as a **System Admin** to enable organization assignment or contact WPS Staff
+
+**Video playback issues:**
+- Whenever a new instance or update of WildXR is required all associated videos must be downloaded to provide a smooth playback experience.
+- Ensure your **Installation** has automatically downloaded all needed videos, or that you have manually downloaded all videos. 
+- Depending on the video library size and internet speeds, this can take multiple hours. 
+- Please consider this when scheduling an update or planning for new WildXR installations.
 <div style="page-break-after: always;"></div>
 
 ## Important Notes
 
-⚠️ **Developer Privileges Required**: Your Meta account must have developer access granted by WPS before MQDH will function properly for custom app installation.
+⚠️ **Devices**: Devices are not automatically added to your organization and will not show in the **Devices** page without first being added via **Device Lookup** (Step #5). WPS Staff cannot find, or register, your device without the **WildXR Number**.
 
-⚠️ **Account Consistency**: The Meta account used in MQDH must exactly match the account associated with your VR headsets. Mixed accounts will prevent proper device recognition.
+⚠️ **Internet Connection**: Devices must be connected to the internet while registering and whenever updates to a device **Installation** is made (see the **Web Poral Installation Management Guide**).
 
-⚠️ **Security Coordination**: Never modify developer settings or install unauthorized applications without WPS approval. This can compromise headset security and void support agreements.
-
-⚠️ **System Requirements**: MQDH requires modern computer specifications and may not work properly on older or resource-limited systems.
-
-## Verification Steps
-
-Verify that your MQDH application is capable of recognizing, connecting to, and managing VR headsets without additional configuration steps.
-
-**Complete functionality verification:**
-- MQDH launches without errors and displays account information correctly
-- At least one headset appears as "Active" in the devices list
-- USB debugging authorization has been granted and confirmed
-- Device management icons are accessible and responsive in the left sidebar
-- You can access the headset's file system and application management features
+⚠️ **Video downloads**: Any new or updated device **Installation** will require the download of video files for uninterrupted playback. Make sure to account for the time it may take to download videos associated with the **Installation**.
