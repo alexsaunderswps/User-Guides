@@ -11,7 +11,7 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
 ## Prerequisites
 - A WiFi internet connection
 - Email account credentials associated with your VR setup *(may be provided by WPS)*
-- Smartphone with 2FA app capability
+- Smartphone with 2FA app capability *(WPS recommends Google Authenticator)*
 - Initial coordination with WPS staff for first-time login
 - VR headsets
 
@@ -83,7 +83,7 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
     - Click **"Advanced"**
     - Under **"Hidden Network"** change displayed value to **"Yes"**
     - Generally the default values for the rest of the Advanced menu will be sufficient
-    - *If you continue to have issues connecting to a hidden WiFi network you may need to contact your company IT department*
+    - *If you continue to have issues connecting to a hidden WiFi network you may need to contact your company's IT department*
     - Click **"Confirm"**
     - If your WiFi network has a password, it most likely uses **WPA/WPA2-Personal** as the **"Security"** setting
     - Enter the remaining details of your WiFi network
@@ -92,12 +92,14 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
 ### Pair headset to Meta-for-Work
 
 - *After all updates have been applied you will see a **Pair your headset with the Meta Horizon app to Continue** screen*
+
 - *At the bottom of this screen you will see a **Connect to your organization** button*
 
 7. **Begin headset connection**
    - Click the **Connect to your organization** button to continue
-   - Click **"Continue"** on the **Connect your headset to work or school** screen
+   - Click **"Continue"** on the **Connect your headset to your work or school** screen
    - Click **"Continue"** on the **You'll need your computer for the next step** screen
+   - Your device should now show a website address and 8-character code
    - *Switch to your computer for the next steps*
 
 ### Enroll headset on Meta-for-Work website
@@ -137,12 +139,16 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
 
 13. **Finish initial headset configuration**
     - *You will need to be wearing the headset to complete the initial configuration*
+    - *You will see various linking and connecting screens while the device is linked to your Meta-for-Work account*
     - On the **Connect to device management** screen click the **"Continue"** button
+    - *A **Connecting to management** screen will show*
     - On the **Configure your headset** screen click the **"Continue"** button
+    - *A **Configuring your headset** screen will show*
     - On the **Headset configured** screen click the **"Continue"** button
     - On the **Configuring** screen click the **"Continue"** button
     - A few more screens may show during installation, leave the headset on during this process or progress may halt.
     - *Refresh the Meta-for-Work **Devices** web-page - your device should now be visible*
+<div style="page-break-after: always;"></div>
 
 ### **Accept conditions from Meta**
 
@@ -155,12 +161,18 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
     - *We recommend not having controllers available to the public during WildXR use which negates all accessability options*
     - Click the **"Welcome"** button to see tutorial options
     - Participate in tutorials as desired *(Skipping tutorials does not affect headset setup)*
-<div style="page-break-after: always;"></div>
+
+### **Additional headset settings**
+
+- *Additional headset settings need to be applied before your headset is ready for use - See Step #19*
+
+- *WPS recommends completing the ArborXR connection steps below first, as some setting may be unavailable prior to doing so*
 
 ### **Connect VR headset to ArborXR group**
 
-*Your Meta VR headset is read for management through the ArborXR website*
-*Your headset now has the base installation for use, but needs to be assigned a group in ArborXR before other needed software is loaded*
+- *Your Meta VR headset is read for management through the ArborXR website*
+
+- *Your headset now has the base installation for use, but needs to be assigned a group in ArborXR before other needed software is loaded*
 
 ### **Log in to ArborXR web portal**
 
@@ -172,8 +184,9 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
     - *This interface lists all the **Devices** currently managed by WPS through ArborXR*
     - *Before you make any changes, verify that the device you are about to edit belongs to your organization*
     - *Check the device serial number on the ArborXR website matches the device name on the Meta-for-Work webiste*
+<div style="page-break-after: always;"></div>
 
-### Claim your device
+### **Claim your device**
 
 17. **Move your device to your organization group**
     - *Before you make any changes, verify that the device you are about to edit belongs to your organization*
@@ -191,97 +204,44 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
 18. **Allow ArborXR configuration to finish**
     - Once assigned to a group additional configuration parameters will be added to the headset
     - *Your headset may reboot during this ArborXR configuration, that is normal*
-    - Click **"Continue"**
-    - You will be taken to the Meta Horizon dashboard
+    - *You should see notifications that **Social** and **Horizon Store** features have been disabled for your headset*
 
-### Headset setup
+### Additional Headset set-up steps
 
-18. **Power on headset**
-    - Remove the packing material from the headset
-    - Remove battery savers from hand controllers
-    - **Quest 2**: Press **power button** on right side
-    - **Quest 3 & Quest 3s**: Press **power button** on left side
-    - Put on the VR headset
+19. **Decline to install additional apps**
+    - *A screen prompting you to install additional applications may appear in your VR headset*
+    - *ArborXR should automatically install the **WildXR** and **WildXRAutoPing** applications*
+    - *Other applications are not needed for the proper functioning of **WildXR** and do not need to be installed*
 
-19. **Initial introduction and connect to WiFi**
-    - Follow the on-screen prompts in the VR Headset
-    - *Occasionally hand controllers will install an update that renders them inoperable for a brief period*
-    - Connect your headset to your WiFi internet connection
-    - *WPS recommends entering the WiFi details on your headset*
-    - *If your WiFi network is hidden goto Step #20*
-    - Your headset may apply firmware updates
-    - Leave your headset plugged in while updates are downloaded
-    - *Your headset may indicate that you can continue setup in the Meta Horizon phone app*
-    - ⚠️ **WPS does not recommend you do so and suggests waiting until the headset displays your pairing code**
+20. **Recommended settings for VR headsets**
+    - Follow the **Recommended Headset Settings** guide
+    - *Occasionally with managed headsets the **Passthrough** view will not be disabled as expected while editing **Developer Settings***
+    - *If you have toggled off **Physical Space Features** but can still see the external environment through the headset do the following:*
+        1. Toggle on **Physical Space Features**
+        2. Open the **Quick Settings Menu** - click the button displaying time, WiFi strength, and battery level
+        3. Click the **Passthrough** button so that passthrough shows **Off** and the external environment becomes hidden
+        4. Return to the **Developer Settings** and toggle off **Physical Space Features**
+    - *Not all of the **Recommended Settings** will be available in managed headsets - this is normal and expected*
 <div style="page-break-after: always;"></div>
 
-### Add a hidden WiFi network
+21. **Remove unneeded software**
+    - Follow the **Library Management** guide
+    - *In managed headsets the primary library curation will be the **Hiding** and **Locking** of unneeded applications*
+    - *Not all of the **Library Management** options will be available in managed headsets - this is normal and expected*
 
-20. **Adding a hidden network to WiFi**
-    - *You may need assistance from your company IT department if you have a robust WiFi security program*
-    - In the WiFi window scroll down to **"+ New Network >"**
-    - Click to add a new network
-    - Click **"Advanced"**
-    - Under **"Hidden Network"** change displayed value to **"Yes"**
-    - Generally the default values for the rest of the Advanced menu will be sufficient
-    - *If you continue to have issues connecting to a hidden WiFi network you may need to contact your company IT department*
-    - Click **"Confirm"**
-    - If your WiFi network has a password, it most likely uses **WPA/WPA2-Personal** as the **"Security"** setting
-    - Enter the remaining details of your WiFi network
-    - Click **"Connect"** to finish WiFi setup and connect to the network
+22. **Launch WildXR once**
+    - After all other steps have been completed, launch the WildXR application.
+    - *The **WildXR** application can be found by clicking the **Library** button (a 3x3 dot icon) in the menu bar*
+    - *Occasionally no application will show in the **All** section of the **Library** - click the **For Work** tab if this is the case*
+    - A permissions screen may appear - Click the **"Allow"** button
+    - Follow the **Web Portal Device Management Guide** to register your device and allow content management
 
-### Pair headset to Meta Horizon phone app
-
-21. **Navigate to Devices in Horizon app**
-    - Open your Meta Horizon phone app
-    - The Meta Horizon app will show the account avatar and a hamburger menu *(three horizontal bars)* on the right side.
-    - Open the hamburger menu
-    - Under **Device Management** click **Devices**
-
-22. **Pair headset with Meta Horizon app**
-    - Find the **Add Device** or **Pair New Headset** option and click it
-    - Select the correct model of Meta headset
-    - *You may be prompted to create an avatar - this step is now required by Meta*
-    - *This avatar is visible to other Meta Horizon users*
-    - Create an avatar and click **"Continue"**
-    - Select the correct WiFi connection state of your device
-    - *If you connected to WiFi in Step 19, select **Device is already connected to WiFi*** 
-    - Your headset should be displaying a five digit code
-    - Enter the five digit code when prompted
-    - Click **"Continue"** when the paring successful screen is shown
-
-### **Accept conditions from Meta**
-
-23. **Accept disclaimers in Meta Horizon app**
-    - Click **"Continue"** on the safety guidelines
-    - Click **"Don't Share"** or **"Share"** on the share additional data request
-    - Click **"Not now"** on the Enable hand and body tracking request
-    - Click **"Skip"** on the Start 3-month trial offer *(This screen may or may not be present)*
-    - Click **"Skip"** on the Add a payment method
-    - Click **"Close"** on the **You're all set!** screen
-<div style="page-break-after: always;"></div>
-
-### **Finish headset setup**
-
-24. **Finish Headset introduction**
-    - Put on the VR headset for a brief introduction to your headset from Meta
-    - Follow on-screen prompts
-    - Participate in tutorials as desired *(Skipping tutorials does not affect headset setup)*
-    - *You must keep the headset on during the introduction*
-    - After the introduction you will be shown the Horizon dashboard
-
-## Next Steps
-
-**Enable Developer Mode**
-- Follow the **Developer Mode Setup** guide
-- Developer mode is needed to apply some recommended settings
-- Developer mode is needed to remove the required safety boundary
-
-**Apply Recommended Headset Settings**
-- Follow the **Recommended Headset Settings** guide
-
-**Remove Unneeded Software**
-- Follow the **Library Management** guide
+23. **Launch WildXRAutoPing once**
+    - After all other steps have been completed, launch the WildXRAutoPing application.
+    - *The **WildXRAutoPing** application can be found by clicking the **Library** button (a 3x3 dot icon) in the menu bar*
+    - *Occasionally no application will show in the **All** section of the **Library** - click the **For Work** tab if this is the case*
+    - *WildXR should launch, and should now launch each time the headset is powered on*
+    - Reboot your headset to ensure that autolaunch is working
 
 ## Troubleshooting
 
