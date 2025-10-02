@@ -256,7 +256,7 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
 - Check the **Spam** folder in your email browser
 - Ensure you are looking in the correct email account *(account may have been provided by WPS)*
 
-**2FA devices already exist for Meta account**
+**2FA devices already exist for Meta account:**
 - If your Meta account was created by WPS staff it will be prepopulated with 2 - 3 2FA devices
 - One of these devices should correspond to the email account provisioned by WPS
 - Other 2FA devices will be used by WPS Staff to assist in troubleshooting if issues arise
@@ -273,28 +273,28 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
 - The Meta Horizon app may not be placed on the first page of your phone
 - Use the phone search function to find Meta Horizon and move it to an obvious location
 
-**Cannot log into the Meta Horizon app**
+**Cannot log into the Meta Horizon app:**
 - Ensure you are using the same account that was used in the Meta Account Creation steps
 - Ensure you have selected "Enter Password instead" if you are attempting to enter a password
 - Double check your password, it will be the Meta Account, not email account password for Horizon login
 
-**2FA fails for the Meta Horizon app**
+**2FA fails for the Meta Horizon app:**
 - Ensure you are using the correct 2FA account for authorization
 - If you are using SMS/WhatsApp for authorization only one phone number is associated with the account
 - 2FA codes are valid for 30 seconds on average, wait until a new code is generated and attempt to log in
 
-**Meta won't allow my desired username**
-- Meta restricts the format of usernames to enforce uniqueness.
+**Meta won't allow my desired username:**
+- Meta restricts the format of usernames to enforce uniqueness
 - Edit the username to include unlines or numbers
 - Remember that this username may become visible to other Meta Horizon users
 
-**Headset doesn't recognize hand controllers**
+**Headset doesn't recognize hand controllers:**
 - On the initial boot of a headset firmware updates may be applied to hand controllers that render them temporarily non-functional
 - Wait 2 - 3 minutes before trying to use hand controllers again
 - Insert fresh batteries into the hand controllers
 - Very rarely there may be other issues with hand controllers - Schedule a help session with WPS Staff for additional guidance
 
-**Headset unable to connect to WiFi**
+**Headset unable to connect to WiFi:**
 - Ensure your IT department allows unrecognized devices to connect to your company's WiFi channel
 - Register the VR device with your IT department if needed
 - Ensure you have the correct WiFi network and password entered into the appropriate fields
