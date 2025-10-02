@@ -8,6 +8,8 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
 
 ⚠️ **Third Party Software**: Third Party hardware and software (Meta, ArborXR) are outside WPS control. Meta updates may cause unexpected functionality changes in VR systems. WPS monitors Meta and ArborXR releases to inform users of potential impacts and changes.
 
+⚠️ **Video Download Time**: Whenever a new instance or update of WildXR is required all associated videos must be downloaded to provide a smooth playback experience. Depending on the video library size and internet speed, this can take multiple hours. Please consider this when scheduling an update or planning for new WildXR installations.
+
 ## Prerequisites
 - A WiFi internet connection
 - Email account credentials associated with your VR setup *(may be provided by WPS)*
@@ -35,7 +37,6 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
 
 1. **Navigate to the Meta-for-Work (Horizon Managed) webpage**
    - Open web browser and go to `https://work.meta.com/login/landing/`
-<div style="page-break-after: always;"></div>
 
 2. **Enter credentials**
    - Enter the Email address provided by WPS for your Meta-for-Work account
@@ -170,6 +171,12 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
 
 ### **Connect VR headset to ArborXR group**
 
+- *The assignment of your headset to an ArborXR must currently be done by WPS staff*
+
+- *In order to prevent other organizations from seeing your devices, access in ArborXR is limited to devices already in your organizational group*
+
+- *Contact WPS Staff to move your device to the correct group before proceeding with Step #18 below*
+
 - *Your Meta VR headset is read for management through the ArborXR website*
 
 - *Your headset now has the base installation for use, but needs to be assigned a group in ArborXR before other needed software is loaded*
@@ -235,6 +242,7 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
     - *Occasionally no application will show in the **All** section of the **Library** - click the **For Work** tab if this is the case*
     - A permissions screen may appear - Click the **"Allow"** button
     - Follow the **Web Portal Device Management Guide** to register your device and allow content management
+    ⚠️ **New Installations of WildXR need time to download the appropriate videos. This could take multiple hours depending on the size of the video library.** ⚠️
 
 23. **Launch WildXRAutoPing once**
     - After all other steps have been completed, launch the WildXRAutoPing application.
@@ -245,83 +253,115 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
 
 ## Troubleshooting
 
-**Cannot access Meta account:**
+**Cannot access Meta-for-Work account:**
 - Verify Email address is correct for your VR setup *(If provided by WPS)*
 - Contact WPS for password assistance
+- Ensure you are accessing the **Meta-for-Work** account (https://work.meta.com) and not the personal Meta account (https://www.meta.com) that you may have used in the past
 
-**Confirmation code from Meta absent:**
+**Confirmation code from Meta-for-Work absent:**
 - Confirmation codes can be delayed by slow or intermittent internet connections
 - Check the **Spam** folder in your email browser
 - Ensure you are looking in the correct email account *(account may have been provided by WPS)*
-
-**2FA devices already exist for Meta account**
-- If your Meta account was created by WPS staff it will be prepopulated with 2 - 3 2FA devices
-- One of these devices should correspond to the email account provisioned by WPS
-- Other 2FA devices will be used by WPS Staff to assist in troubleshooting if issues arise
-
-**"Add" button greyed out for 2FA:**
-- Account may have maximum devices linked
-- Contact WPS to remove unused devices
-- Some account types have device limits
 <div style="page-break-after: always;"></div>
 
-**Cannot find Meta Horizon application:**
-- The Meta Horizon application is available for download in the Apple App store or Google Play store
-- If you are using a phone supplied by WPS the app should be present - search for Horizon
-- The Meta Horizon app may not be placed on the first page of your phone
-- Use the phone search function to find Meta Horizon and move it to an obvious location
+**Meta-for-Work account asking for 2-Factor Authorization (2FA):**
+- WPS staff will prepopulate a **Google Authenticator** account for Meta-for-Work
+- If you were given a Blu phone during deployment, access the Google Authenticator application and look for the Meta-for-Work 2FA code
+- If you were not given a Blu phone during deployment, you may be required to download the Google Authenticator application on your work phone
+- Use the Gmail account associated with your WPS VR deployment to log into Google Authenticator
 
-**Cannot log into the Meta Horizon app**
-- Ensure you are using the same account that was used in the Meta Account Creation steps
-- Ensure you have selected "Enter Password instead" if you are attempting to enter a password
-- Double check your password, it will be the Meta Account, not email account password for Horizon login
-
-**2FA fails for the Meta Horizon app**
-- Ensure you are using the correct 2FA account for authorization
-- If you are using SMS/WhatsApp for authorization only one phone number is associated with the account
-- 2FA codes are valid for 30 seconds on average, wait until a new code is generated and attempt to log in
-
-**Meta won't allow my desired username**
-- Meta restricts the format of usernames to enforce uniqueness.
-- Edit the username to include unlines or numbers
-- Remember that this username may become visible to other Meta Horizon users
+**No devices shown on Devices screen in Meta-for-Work:**
+- Ensure you have logged into the correct **Meta-for-Work** account (one provided by WPS)
+- Devices will not show on the Meta-for-Work screen until you have a least one device registered.
+- Ensure you are on the **Devices** page and not the **Overview** page
 
 **Headset doesn't recognize hand controllers**
-- On the initial boot of a headset firmware updates may be applied to hand controllers that render them temporarily non-functional
+- On the initial boot of a headset, firmware updates may be applied to hand controllers that render them temporarily non-functional
 - Wait 2 - 3 minutes before trying to use hand controllers again
 - Insert fresh batteries into the hand controllers
 - Very rarely there may be other issues with hand controllers - Schedule a help session with WPS Staff for additional guidance
 
-**Headset unable to connect to WiFi**
+**VR headset not connecting to WiFi:**
+- Occasionally a device may have trouble connecting to a WiFi network
 - Ensure your IT department allows unrecognized devices to connect to your company's WiFi channel
 - Register the VR device with your IT department if needed
-- Ensure you have the correct WiFi network and password entered into the appropriate fields
-- If your WiFi network is hidden, go to Step #20 - *You may need assistance from your IT department with hidden networks*
+- Ensure that you have selected the correct WiFi network if there are many to choose from
+- Double check that you have entered the network password correctly
+- If you are attempting to connect to a hidden WiFi network you may need assistance from your IT department (hidden networks may have settings not covered by this guide)
+- If possible, attempt to connect to a different network or phone hotspot
 
-**Unable to find Devices menu in the Horizon App**
-- Ensure you are on the main page of the Meta Horizon app - *You should see your user avatar and name*
-- Close the Horizon App and reopen the application to load the main page
-- Identify the hamburger menu on the right-side of the application - icon is three stacked horizontal bars
-- Open the hamburger menu and scroll down to see the **"Device management"** section
-- Check if there are outstanding updates for the Meta Horizon app or your phone operating system
+**Updates are slow to apply:**
+- Internet connection speed will dictate how quickly headset updates are applied
+- It is difficult to switch networks once updates have begun downloading
+
+**Cannot find the Meta Horizon app:**
+- For Meta-for-Work and ArborXR managed headsets you should not use the Meta Horizon application
+- The Meta Horizon app is for personal VR account management only
+- If you have questions about which service you should be using please contact WPS staff
 <div style="page-break-after: always;"></div>
 
-**Forced to create an Avatar**
-- Meta now forces users to create an Avatar for their user
-- If you have disabled or blocked most social media this avatar will be minimally visible to other users
-- If you want to check your privacy settings, open the hamburger menu and scroll down to **"Privacy and security"** to open the **"Privacy settings"** section
+**Five character code is shown, not eight character:**
+- A 5 character code is associated with personal VR account management
+- Make sure you have selected the **Connect to your organization** button for headset connection 
 
-**5-digit pairing code not accepted**
-- It may take a while for headset pairing to complete depending on internet connectivity
-- Ensure your phone and headset are on the same WiFi network
-- Double-check the code displayed in the headset and as entered into the Meta Horizon app
+**Unable to Enroll headset on Meta-for-Work site:**
+- Make sure you are on the **Meta-for-Work** account (https://work.meta.com) and not the personal Meta account (https://www.meta.com) that you may have used in the past
+- Ensure you are on the **Managed devices** tab of the **Devices** page, not the **Overview** page of Meta-for-Work
+- Check you have selected **In Admin Center** from the enrollment options under the **+ Enroll devices** drop down menu
+
+**Unable to select device preset in Enroll devices menu:**
+- Click the **Device groups** option under the **Select how the device will be configured** step
+- If you do not see your organization name, contact WPS Staff for assistance with Device registration
+
+**Unable to Log into ArborXR account:**
+- Verify Email address is correct for your VR setup *(If provided by WPS)*
+- Contact WPS for password assistance
+
+**I cannot add a device to my ArborXR account:**
+- In order to prevent access to devices outside of your organization all devices must be first assigned to your organization by WPS staff
+- Please reach out to WPS staff to have your headset moved to the appropriate group within ArborXR
+
+**Other applications can been installed on my headset:**
+- Meta automatically installs some applications on all headsets by default
+- Follow the **Library Management** guide to hide or remove these applications if possible
+- Locking applications with a PIN number can prevent unauthorized access by users
+
+**WildXR and WildXRAutoPing are not installed:**
+- Depending on settings applied to your headsets, application installations may be windowed by day and time
+- Contact WPS staff for help if installations are needed sooner or if you are unsure when installations are scheduled
+
+**Unable to toggle off Passthrough:**
+- Passthrough allows you to see the external environment while wearing the VR headset
+- If you have already toggled off **Physical Space Features** in the **Developer Settings** you will be unable to turn off passthrough
+- Return to **Developer Settings** and toggle **Physical Space Features** on, then adjust passthrough settings as detailed in Step #20
+<div style="page-break-after: always;"></div>
+
+**Unable to find or change some settings:**
+- Both Meta-for-Work and ArborXR configurations remove the ability to change some settings on VR headsets
+- It is unlikely that the unavailable settings are impactful to headset use
+- If you have concerns, or the headset is not behaving as expected, please contact WPS staff
+
+**Unable to remove or hide some applications:**
+- Meta prevents the removal or hiding of some automatically installed applications
+- It is beyond the ability of WPS to influence the installation of these applications
+- Creating a PIN and locking applications will help with access control
+
+**The WildXR application is not playing the expected content:**
+- WildXR instances depend on connection with the WildXR.org website to play specific content
+- Ensure that you have created a **WildXR Number** through the application and registered your device according to the **Web Portal Device Management Guide**
+- If you have not been trained on the **WildXR.org** web site, or are unsure of next steps to assign an **Installation** to your headset, please contact WPS staff for assistance
+
+**The WildXR application is not launching automatically on headset startup:**
+- Make sure that the **WildXRAutoPing** application has been installed on your device
+- Launch the **WildXRAutoPing** app once by clicking on it
+- If you continue to have issues with WildXR not launching on headset startup, please contact WPS staff
 
 ## Important Notes
 
-⚠️ **Meta Horizon app**: Meta requires the use of the phone application **Meta Horizon** to setup Quest headsets.
+⚠️ **Meta-for-Work**: **Meta-for-Work** is different than the **Meta Horizon** application used to setup Quest headsets. If you are unsure as to which platform you should be using for headset management please contact WPS staff.
 
-⚠️ **Avatar Creation**: Meta requires the creation of a virtual avatar. This avatar is visible in some locations throughout the VR "metaverse" depending on privacy settings.
+⚠️ **Avatar Creation**: Meta may require the creation of a virtual avatar. This avatar is visible in some locations throughout the VR "metaverse" depending on privacy settings.
 
-⚠️ **Difficulty with 2FA**: When Meta asks for a 2FA method there may be multiple options presented. Only one phone number can be used for SMS/WhatsApp alerts for authentication. Ensure you are selecting the correct account for 2FA. 2FA codes generally last for 30 seconds, if a code is about to expire, wait for a new one to be generated.
+⚠️ **Application Installation**: While a headset is configuring it may take some time for all applications to be installed. Depending on internet connection speeds and device settings, application installation may occur after normal business hours. If there is continued issues with the installation of **WildXR** or **WildXRAutoPing** please contact WPS staff.
 
-⚠️ **Internet networks**: If your headset and phone are not connected to the same WiFi network it may not be possible to pair your headset with the app.
+⚠️ **WildXR Content**: Most WildXR content is managed through the WildXR.org website. If you have not received training on the WildXR.org website please contact WPS staff for assistance provisioning your headset. In most cases provisioning new headsets will require the download of video files for the best playback experience. 
