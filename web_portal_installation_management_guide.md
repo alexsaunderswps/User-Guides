@@ -1,7 +1,9 @@
 # WildXr Web Portal Installation Management Guide
 
 ## Purpose & Context
-This guide introduces the management of devices (headsets or computers) running the WildXR VR application via the WildXR Web Portal (Wildxr.org)
+This guide introduces the management of installations (the experience presented to headset users) running the WildXR VR application via the WildXR Web Portal (Wildxr.org)
+
+⚠️ **Video Download Time**: Whenever a new instance or update of WildXR is required all associated videos must be downloaded to provide a smooth playback experience. Depending on the video library size and internet speeds, this can take multiple hours. Please consider this when scheduling an update or planning for new WildXR installations.
 
 ## Prerequisites
 - Windows or Mac computer with internet access
@@ -12,14 +14,14 @@ This guide introduces the management of devices (headsets or computers) running 
 ## Quick Overview (for experienced users)
 1. Navigate to the Wildxr.org website
 2. Log In with your Username and Password *(may be provided by WPS staff)*
-3. Navigate to the Admin -> Devices page
-4. Edit an exisitng or Add a new Device
-5. *If adding a new device - you will need to launch the WildXR application to generate a device id*
-6. Verify the device settings
+3. Navigate to the Admin -> Installations page
+4. Edit an exisitng or Add a new Installation
+5. Verify the Installation settings
+6. Plan for video file downloads as necessary for Installation use
 
 ## Detailed Steps
 
-### Access Device Management page on Wildxr.org
+### Access Installation management page on Wildxr.org
 
 1. **Navigate to WildXR web portal**
    - Open web browser and go to WildXR web portal
@@ -31,40 +33,64 @@ This guide introduces the management of devices (headsets or computers) running 
    - Click **"Log In"**
 <div style="page-break-after: always;"></div>
 
-3. **Navigate to the Devices management page**
+3. **Navigate to the Installation management page**
    - In the top navigation bar, click **"Admin"**
-   - In the dropdown menu that appears click **"Devices"**
-   - *If you are an Organization Admin you will only see devices assocaited with your organization*
-   - *If you are a System Admin you will see all devices across all organizations*
-   - To **"Add"** a new device continue to Step 4
-   - To **"Edit"** an exisiting device, continue to Step 10
+   - In the dropdown menu that appears click **"Installations"**
+   - *If you are an Organization Admin you will only see installations assocaited with your organization*
+   - *If you are a System Admin you will see all installations across all organizations*
+   - To **"Add"** a new installation continue to Step 4
+   - To **"Edit"** an exisiting installation, continue to Step 10
 
-### Add a New Device
+### Add a New Installation
 
-4. **Generate a WildXR number**
-   - Launch the WildXR application on your device
-   - There should be a **gear icon** visible to the right of the **Menu Tray** this is the **Settings Menu**
-   - Open the **"Settings Menu"** by holding the gaze reticle *white dotnut shaped selector* over the **gear icon**
-   - Select the **Generate** button in the bottom right of the **""Settings Menu"**
-   - Write down the 10 character WildXR Number
-   - Click the **"Acccept"** button and quit the WildXR application
+4. **Begin new installation creation**
+   - On the **Installations** page, click **"Add"** in the top right
 
-5. **Lookup device on Wildxr.org**
-   - Click the **"Device Lookup"** button in the upper right of the **Devices** page
-   - Enter the 10 character WildXR Number that was displayed on the device in Step 4
-   - Click **"Apply"**
+5. **Name, Organization, Tips**
+   - In the **"Name"** field, enter the installation name - *This name is not exposed to the user and is solely for organizational purposes*
+   - *WPS recommends a naming structure that identifies your organization, lists the location/function of the installation (if appropriate), and internal organizational information*
+   - *For example **BP - Conservation Hallway - Download Only** shows that the installation is for the **Butterfly Pavilion**, to be used in their **Conservation Hallway**, and is specifically for **Downloading** the videos needed for the installation* 
+   - Choose the **"Organization"** with which this installation is associated
+   - *Only **System Admins** can choose an organization, **Organization Admins** will have this field pre-populated with their specific organization
+   - Enter tips into the **"Tips"** field. 
+   - Each tip should be separated onto separate lines as shown by the pre-populated tips.
+   - *Tips are shown to users while videos load - if you are only playing a single video on a loop tips are unneccessary*
 
-### Enter Device Details and Installation
+### Tutorial modes
 
-6. **Confirm WildXR number**
-   -In the **"Device Details"** screen, confirm that the WildXR Number matches the number from Step 4
+6. **Select the appropriate Tutorial mode**
+   - There are four options for **Tutorials** in the WildXR application:
+      1. **None** - used when no tutorials are desired or if playing a single video on a loop
+      2. **Text** - A text window pop-up displays when a new user is detected in the headset. It briefly describes how to navigate the WildXR application and is closed by the user selecting a **"Close"** button
+      3. **Video** - A brief video with narration is played to show a new user how to navigate the WildXR application.
+      4. **Dynamic** - If a user does not interact with the WildXR interface for a period of time the **Video** tutorial is played. The tutorial stops as soon as the user interacts with any WildXR elements.
+   - **Tutorials** should not be used when playing a single video on a loop otherwise they may interfer with video playback - please select **None** in this situation
 
-7. **Enter device name and select organization**
-   - Enter a descriptive name in the **"Name"** field
-   - *WPS recommends including the last 7 characters of the device serial number as well as an abbreviation of your organization's name in the device name*
-   - *For example (WPS - Q022VC7 - location)* 
-   - If you are a **Organization Admin** the device will automatically be added to your organization
-   - If you are a **System Admin** select the correct organization from the **"Organization"** dropdown menu
+### Timer settings
+
+- *Timer settings are only available to **System Admins** as they can influence how the WildXR application interacts with users*
+
+- *If you think your installation would benefit from a specific timer setting, please contact WPS staff for assistance*
+
+7. **App Timer Length, Idle Timer Length, Idle Timer Delay**
+   - **App Timer Length Seconds** controlls how long a new user can use the WildXR application before a grey wash overlays the interface. 
+   - *This setting is considered a **Beta** feature and may not behave reliably in all situations*
+   - **Idle Timer Length Seconds** acts as a backup to the headset **Presence Sensor** as presence detection can be unreliable with various Meta firmware versions
+   - **Idle Timer Length** is the amount of time after which a lack of movement within the headset triggers a **Presence Sensor** event within the WildXR application
+   - *This setting was primarily used to trigger **Spectator Camera** events on connected systems, but may also be helpful in gathering **Analytic** data*
+   - **Idle Timer Delay Seconds** is the delay between the time a headset detects new motion to the time at which it resets the headset view
+   - **Idle Timer Delay** reduces the chance that a headset will show a non-standard view when mounted (put on by a user) after having been stored on a hook
+   - *This delay is difficult to predict without some experience and should be custom set for each **Installation** if **Idle Timer Length** is being used*
+
+### Globe Starting position 
+
+8. **Globe Start Latitude and Longitude**
+   - Determines where on the globe a gaze reticle will be positioned for new users
+   - Not used when a single video is played on loop
+   - If multiple **Map Markers** are used in a **Video Catalogue**, WPS recommends positioning the gaze reticle close to at least one marker
+   - *WPS recommends using Google maps to find a position that works best for your installation*
+   - *WPS recommends not positioning your **Globe Start Lat. and Long.** too close to a **Map Marker**, as the associated gallery may open before the user realizes they can navigate the globe* 
+   - Lat. and Long. co-ordinates can include decimal digits, but cannot be 0 and 0
 <div style="page-break-after: always;"></div>
 
 8. **Enter an installation (Optional)**
