@@ -21,7 +21,7 @@ This guide introduces the management of devices (headsets or computers) running 
 
 ## Detailed Steps
 
-### Access Device Management page on Wildxr.org
+### Access Device management page on Wildxr.org
 
 1. **Navigate to WildXR web portal**
    - Open web browser and go to WildXR web portal
