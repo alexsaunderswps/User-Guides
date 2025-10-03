@@ -148,14 +148,16 @@ This guide introduces the process of creating or editing a video on the WildXR W
 16. **Chose video file and upload**
     - Once you have saved the new video information you will be shown an **"Upload Video"** page
     - If your video is not ready for upload you may leave this page and finish by editing your video at a later date
-    -*Follow upload steps found in the **Edit Video** section below, step #20*
+    - *Follow upload steps found in the **Edit Video** section below, step #20*
     - Click the **"Choose File"** button to open a file picker window
     - Navigate to the video file you wish to associate with the information entered in steps 4 through 15 above
     - Select the video and click the **"Open"** button in the file picker
+    - *Videos must be in either **.mp4** or **.mov** format for uploading to the WildXR system*
     - The file name of your video should now be shown next to the **"Choose File"** button
     - Click the **"Upload"** button to begin the upload of your video file
-    -*Upload speed will depend on the speed of your internet connection and will be longer for larger video sizes*
-    -*Do not navigate away from this page during video upload*
+    - *Upload speed will depend on the speed of your internet connection and will be longer for larger video sizes*
+    - ⚠️ *Do not navigate away from this page during video upload* ⚠️
+    - ⚠️ *Navigating away from this page during video upload will stop the upload process* ⚠️
 
 17. **Video encoding**
     - Once the video file upload is complete the **"Upload Video"** button will change to an **"Encode Video"** button
@@ -169,20 +171,20 @@ This guide introduces the process of creating or editing a video on the WildXR W
 - *Viewing a video in VR can expose issues with subject focus and object masking that are difficult to detect during editing*
 
 18.  **Verify video creation**
-    - On the **Videos** page, click the **"Search"** button in the upper right
-    - Search for the video just created
-    - In the search results verify that the thumbnail, title, and description appear as expected
-    - Click on the title or description of the video
-    - Verify that the details are as expected and review the **Video File Name** to check the correct video file was uploaded
-    - Click on the **Map Markers** radio button at the top of the **Video Details** page to review the assigned **Map Markers**
-    - Verify that the correct **Core** and **Custom** map markers are selected
-    - Click the **Review & Save** radio button at the top of the **Video Details** page
-    - Review the video details; if they appear correct click on any **Navigation Link** in the header to exit the video editing interface
+     - On the **Videos** page, click the **"Search"** button in the upper right
+     - Search for the video just created
+     - In the search results verify that the thumbnail, title, and description appear as expected
+     - Click on the title or description of the video
+     - Verify that the details are as expected and review the **Video File Name** to check the correct video file was uploaded
+     - Click on the **Map Markers** radio button at the top of the **Video Details** page to review the assigned **Map Markers**
+     - Verify that the correct **Core** and **Custom** map markers are selected
+     - Click the **Review & Save** radio button at the top of the **Video Details** page
+     - Review the video details; if they appear correct click on any **Navigation Link** in the header to exit the video editing interface
 
 19.  **Review video playback**
-    - Follow the steps to create a **Video Catalogue** that contains your new video in the **WildXR Web Portal Video Catalogue Management Guide**
-    - Follow the steps to create a **Installation** that uses your **Video Catalogue** in the **WildXR Web Portal Installation Management Guide**
-    - Assign your **Installation** to a **Device** using the **WildXR Web Portal Device Management Guide** and review your video in VR
+     - Follow the steps to create a **Video Catalogue** that contains your new video in the **WildXR Web Portal Video Catalogue Management Guide**
+     - Follow the steps to create a **Installation** that uses your **Video Catalogue** in the **WildXR Web Portal Installation Management Guide**
+     - Assign your **Installation** to a **Device** using the **WildXR Web Portal Device Management Guide** and review your video in VR
 
 ## Edit an existing video
 - *Organization users can only edit videos that their organization owns*
@@ -191,13 +193,14 @@ This guide introduces the process of creating or editing a video on the WildXR W
 ### Access the Videos page on Wildxr.org
 
 20. **Navigate to WildXR web portal**
-   - Open web browser and go to WildXR web portal
-   - Visit https://wildxr.org
+    - Open web browser and go to WildXR web portal
+    - Visit https://wildxr.org
 
 21. **Log In to WildXR web portal**
-   - Enter your Username in the appropriate field
-   - Enter your Password in the appropriate field
-   - Click **"Log In"**
+    - Enter your Username in the appropriate field
+    - Enter your Password in the appropriate field
+    - Click **"Log In"**
+<div style="page-break-after: always;"></div>
 
 ### Search for the video that needs editing
 
@@ -207,16 +210,15 @@ This guide introduces the process of creating or editing a video on the WildXR W
     - Enter the search parameters to locate the video in need of editing
     - *You can search by more than one field; searches return videos that match any field entry*
     - Click on the title or description of the video in need of editing from the returned search results
-<div style="page-break-after: always;"></div>
 
 ### Edit video details
 
 23. **Edit video name, thumbnail, overview, etc.**
     - On the **Video Details - Edit Video** page you can edit all video details except **Map Marker** assignment 
     - Make the changes you wish for the video
-    - *The video file name field is for reference only, if you need to change the video file associated with this video follow the **Overwrite Old Video** below, step #
+    - *The video file name field is for reference only, if you need to change the video file associated with this video follow the **Upload new video** below, Step #26*
     - Once all details have been updated click the **Next** button in the lower right or the **Map Marker** radio button at the top of the **Video Details** page
-    - *If no updates are needed to **Map Markers** click the **Review & Save** radio button at the top of the **Video Details** page
+    - *If no updates are needed to **Map Markers** click the **Review & Save** radio button at the top of the **Video Details** page*
 
 ### Edit assigned map markers
   
@@ -230,7 +232,7 @@ This guide introduces the process of creating or editing a video on the WildXR W
 25. **Review and save all video updates**
     - Review all updates to video details and assigned map markers
     - If all changes look correct click the **Save** button in the lower right
-    - *If no changes have been entered the **Save** button will be greyed out; click any navigation link in the header to exit the *Video Edit** page
+    - *If no changes have been entered the **Save** button will be greyed out; click any navigation link in the header to exit the **Video Edit** page*
 
 ### Replace an existing video with a new video file
 
@@ -239,6 +241,7 @@ This guide introduces the process of creating or editing a video on the WildXR W
     - Click on the **"Actions"** button to open a drop-down menu
     - From the drop-down menu select **"Upload Video"**
     - Follow steps 16 and 17 in **Upload and encode video file** above to replace an existing video with a new video file
+    - *Videos must be in either **.mp4** or **.mov** format for uploading to the WildXR system*
 <div style="page-break-after: always;"></div>
 
 ### Delete an existing video
@@ -280,6 +283,7 @@ This guide introduces the process of creating or editing a video on the WildXR W
 **Wrong organization is auto-selected during video creation:**
 - Ensure you are logged into the WildXR web portal using the correct account
 - Contact WPS staff if the auto-selected organization does not match your account organization
+<div style="page-break-after: always;"></div>
 
 **Unable to find correct country for video details:**
   - Begin typing the name of the country you are trying to select, the **Countries** field will auto-suggest valid selections
@@ -293,21 +297,67 @@ This guide introduces the process of creating or editing a video on the WildXR W
 - Video format selection will affect the playback of your video in the WildXR application, but can be changed after review if results are not as expected
 - Video format selection does not affect how a video is uploaded or encoded for playback
 
-**Unsure of the correct video resolution to select**
+**Unsure of the correct video resolution to select:**
 - **Video Resolution** is currently used only for categorization of videos, it will not affect the playback quality of the video
 - Select **4k** if you are uncertain of the correct **Video Resolution** designation
 
-**Correct video resolution is not offered in drop-down menu**
+**Correct video resolution is not offered in drop-down menu:**
 - **Video Resolution** is currently only used for categorization and will not affect the playback of your video
 - Select the nearest value to your video's resolution
 - If you believe more resolution options should be available, please contact WPS staff
 
-### Edit from here down
+**Species unavailable in drop-down menu:**
+- If your video contains a species not currently represented within the WildXR application video library a new species entry will need to be created
+- To prevent duplicate species, species creation is currently restricted to WPS staff
+- Please contact WPS staff so that an appropriate species entry can be created
+- You may use the **Various** species placeholder to allow video creation to continue in the meantime
 
-**Unable to edit Device Organization**
-- If you are logged into the Wildxr.org website as an **Organization Admin** will not be able to change the device's assigned organization
-- Log in as a **System Admin** to enable organization assignment or contact WPS Staff
+**Core Map Marker does not exist:**
+- **Core Map Markers** are map markers created by WPS and provided to all **Organizations** using the WildXR application
+- If WPS does not currently have video content for a location no map marker will be available
+- Create a **Custom Map Marker** for you organization's private use
+- **Video Catalogues** can use a combination of **Core Map Markers** and **Custom Map Markers** 
 <div style="page-break-after: always;"></div>
+
+**Icon not available for Custom Map Marker:**
+- The icons available for **Custom Map Markers** were selected to cover a wide range of uses
+- These icons must meet certain requirements to display properly in the WildXR application in a VR setting
+
+**Video is not ready for upload:**
+- To upload a video at a later time follow the **Edit an existing video** workflow starting at Step #20
+
+**Video not accepted for upload:**
+- Videos must be in either **.mp4** or **.mov** format for uploading to the WildXR system
+- Ensure your video is one of these two formats prior to uploading to the WildXR portal
+- You must have a strong internet connection to successfully upload a video
+
+**Error when uploading video:**
+- Ensure you are attempting to upload the proper format video file (either **.mp4** or **.mov**)
+- Make sure you are connected to the internet and that your connection is strong and stable
+- If you have repeated issues with video upload reach out to WPS staff for assistance
+
+**Closed video upload screen before upload completed**
+- Navigating away from the video upload screen before a video upload has completed stops the upload process
+- Follow the **Edit an existing video** workflow starting at Step #20 (specifically Step #26) try video upload again
+
+**Closed video encoding screen before encoding completed**
+- Video encoding continues in the background once a video has been successfully uploaded and the **Encode Video** button has been pressed
+- Encoding time depends on video file size and could take 60 minutes or longer for long videos
+
+**Video not available in WildXR application**
+- There are multiple reasons why an existing video is not showing in the WildXR application
+- Videos created by an **Organization** other that **WildXR** are only visible to that **Organization**
+- Ensure that you are logged in as the correct **Organization** and that the **Device** and **Installation** are also associated with the correct organization
+- Make sure that **Video Upload** and **Video Encoding** have completed before checking an **Installation** for your video
+- Ensure that the video has been added to a **Video Catalogue** - see the **Web Portal Video Catalogue Creation Guide**
+- Ensure that the **Video Catalogue** is being used in an **Installation** - see the **Web Portal Installation Management Guide**
+- Make sure that the **Installation** has been assigned to a registered **Device** - see the **Web Portal Device Management Guide**
+- Make sure that, if the video contains adult subject matter (has the **Tags** - "Carcass", "Graphic..." assigned to it), the **Show Graphic Sex** or **Show Graphic Death** checkboxes have been selected
+- While it is possible to use videos that have not been assigned to a **Map Marker** in a **Video Catalogue**, this can result in a video being difficult to find
+- Check in the **All Clips** gallery of your **Installation**
+- If your video is still not visible please contact WPS staff for further assistance
+
+**Video playback
 
 ## Important Notes
 

@@ -125,14 +125,18 @@ This guide introduces the management of devices (headsets or computers) running 
   - Delete the **Wildlife Protection Solutions** folder
   - Reinstall the **WildXR** application
 
+**Unable to edit Device Organization:**
+- If you are logged into the Wildxr.org website as an **Organization Admin** will not be able to change the device's assigned organization
+- Log in as a **System Admin** to enable organization assignment or contact WPS Staff
+
+**Wrong organization is auto-selected during video creation:**
+- Ensure you are logged into the WildXR web portal using the correct account
+- Contact WPS staff if the auto-selected organization does not match your account organization
+
 **Applied changes to Device not visible in Device:**
 - Ensure that your device is connected to the internet
 - If you have assigned a new **Installation** the device must stop the current session of WildXR and relaunch the WildXR app prior to changes taking effect
 - Double check that the Wildxr Number is the one assigned to the headset you are using *(Check the settings menu to confirm the Wildxr number)*
-
-**Unable to edit Device Organization:**
-- If you are logged into the Wildxr.org website as an **Organization Admin** will not be able to change the device's assigned organization
-- Log in as a **System Admin** to enable organization assignment or contact WPS Staff
 
 **Video playback issues:**
 - Whenever a new instance or update of WildXR is required all associated videos must be downloaded to provide a smooth playback experience.

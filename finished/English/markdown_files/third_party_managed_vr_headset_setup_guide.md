@@ -1,7 +1,7 @@
-# ArborXR Managed Quest VR Headset Setup Guide
+# Third Party Managed Quest VR Headset Setup Guide
 
 ## Purpose & Context
-This guide provides the required steps to setup an ArborXR managed Quest VR headset for the first time. 
+This guide provides the required steps to setup an Third Party Managed Quest VR headset for the first time. 
 WPS may have created some needed accounts as part of their internal VR partner program. Check with WPS staff if you are unsure of what accounts your organization needs.
 Account creation by WPS is done to facilitate smooth VR operation and increases our ability to provide technical support. 
 Accounts created without the help of WPS staff cannot be accessed by WPS staff during technical support sessions and will not successfully enable ArborXR management.
