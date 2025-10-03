@@ -26,7 +26,7 @@ This guide introduces the process of creating or editing a video on the WildXR W
 12. Click **"Choose File"** to open a file picker, select the video file you wish to upload
 13. Click **"Upload"** to begin the upload process - *Remain on the **"Upload Video"** until the upload completes
 14. When the video upload has completed, the **"Upload"** button will switch to **"Encode Video"**
-15. Click the **"Encode"** button to begin video encoding - *The encoding process can take upto 45 minutes depending on size and encoding traffic*
+15. Click the **"Encode"** button to begin video encoding - *The encoding process can take up to 45 minutes depending on size and encoding traffic*
 16. The video window will close and you'll be returned to the Videos page will the encoding process continues
 17. *Clicking **"Save"** when editing a video will return you to the Videos page - if you need to replace an existing video those steps are detailed below in step #??
 <div style="page-break-after: always;"></div>
@@ -108,7 +108,7 @@ This guide introduces the process of creating or editing a video on the WildXR W
     - When you have entered all information on your new video click the **"Next"** button
 
 ### Add the video to map markers
-*For a detailed explanation **Map Markers** please reference the **WildXR Web Portal Map Marker Management Guide**
+- *For a detailed explanation **Map Markers** please reference the **WildXR Web Portal Map Marker Management Guide***
 
 12. **Core Map Markers**
     - **Map Markers** represent groups of videos that share a common theme - *Most commonly this grouping is geographic*
@@ -165,8 +165,8 @@ This guide introduces the process of creating or editing a video on the WildXR W
 <div style="page-break-after: always;"></div>
 
 ### Verify video creation and review playback
-*WPS recommends the following steps to verify video information and to view the video in VR prior to releasing the video to the public*
-*Viewing a video in VR can expose issues with subject focus and object masking that are difficult to detect during editing*
+- *WPS recommends the following steps to verify video information and to view the video in VR prior to releasing the video to the public*
+- *Viewing a video in VR can expose issues with subject focus and object masking that are difficult to detect during editing*
 
 18.  **Verify video creation**
     - On the **Videos** page, click the **"Search"** button in the upper right
@@ -185,8 +185,8 @@ This guide introduces the process of creating or editing a video on the WildXR W
     - Assign your **Installation** to a **Device** using the **WildXR Web Portal Device Management Guide** and review your video in VR
 
 ## Edit an existing video
-*Organization users can only edit videos that their organization owns*
-*If you have concerns about an existing video that your organization does not own, please reach out to WPS Staff for assistance*
+- *Organization users can only edit videos that their organization owns*
+- *If you have concerns about an existing video that your organization does not own, please reach out to WPS Staff for assistance*
 
 ### Access the Videos page on Wildxr.org
 
@@ -294,13 +294,15 @@ This guide introduces the process of creating or editing a video on the WildXR W
 - Video format selection does not affect how a video is uploaded or encoded for playback
 
 **Unsure of the correct video resolution to select**
-- **Video Resolution** is currently used only for catagorization of videos, it will not affect the playback quality of the video
+- **Video Resolution** is currently used only for categorization of videos, it will not affect the playback quality of the video
 - Select **4k** if you are uncertain of the correct **Video Resolution** designation
 
 **Correct video resolution is not offered in drop-down menu**
-- **Video Resolution** is currently only used for catagorization and will not affect the playback of your video
+- **Video Resolution** is currently only used for categorization and will not affect the playback of your video
 - Select the nearest value to your video's resolution
 - If you believe more resolution options should be available, please contact WPS staff
+
+### Edit from here down
 
 **Unable to edit Device Organization**
 - If you are logged into the Wildxr.org website as an **Organization Admin** will not be able to change the device's assigned organization

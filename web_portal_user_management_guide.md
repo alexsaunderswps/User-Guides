@@ -71,8 +71,8 @@ This guide introduces the management of organization users via the WildXR Web Po
 
 ### Delete a User
 
-7. **Delete an exisiting user**
-   - Contact WPS Staff to delete an exisiting user from your organization
+7. **Delete an existing user**
+   - Contact WPS Staff to delete an existing user from your organization
    - *If a user must be blocked prior to deletion, follow the steps to **Edit a User** and **Update Password** to prevent account access*
 <div style="page-break-after: always;"></div>
 
@@ -85,7 +85,7 @@ This guide introduces the management of organization users via the WildXR Web Po
 - Contact WPS if Log In continues to fail
 
 **New user is unable to log in to Wildxr.org:**
-- New users need to have an initial password set by an exisiting user via the **"Update Password"** - see Step 5
+- New users need to have an initial password set by an existing user via the **"Update Password"** - see Step 5
 - Double check the credentials provided to the new user
 - Ensure that the new user appears on the User page for your organization
 
@@ -103,7 +103,7 @@ This guide introduces the management of organization users via the WildXR Web Po
 **Unable to create a new user:**
 - Ensure that the username has not been used in your organization
 - Ensure that the email address has not been used in your organization
-- Conect WPS if user creation continues to fail
+- Connect WPS if user creation continues to fail
 <div style="page-break-after: always;"></div>
 
 ## Important Notes

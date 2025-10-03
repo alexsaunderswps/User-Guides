@@ -1,4 +1,4 @@
-# WildXr Web Portal Video Collection Creation Guide
+# WildXr Web Portal Video Catalogue Creation Guide
 
 ## Purpose & Context
 This guide introduces the management of devices (headsets or computers) running the WildXR VR application via the WildXR Web Portal (Wildxr.org)

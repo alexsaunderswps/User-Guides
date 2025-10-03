@@ -31,7 +31,7 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
 
 - *Currently, all accounts using ArborXR and Meta-for-Work are created by WPS Staff*
 - *These accounts are created by WPS Staff to provide IT support for Meta VR Headsets*
-- *It is beyond the scope of this guide to intruct users in the creation of ArborXR and Meta-for-Work accounts for their organization*
+- *It is beyond the scope of this guide to instruct users in the creation of ArborXR and Meta-for-Work accounts for their organization*
 
 ### Logging in to Meta-for-Work
 
@@ -43,9 +43,9 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
    - Click **"Next"**
    - Enter the Password provided by WPS for your Meta-for-Work account
    - Click **"Continue"**
-   - *You may be required to Authnticate via a 2FA application*
+   - *You may be required to Authenticate via a 2FA application*
    - *Open Google Authenticator on your phone (you may have been provided with a Blu phone for this purpose)*
-   - *Google Authenitcator is associated with your Gmail account, this account is provided by WPS Staff*
+   - *Google Authenticator is associated with your Gmail account, this account is provided by WPS Staff*
    - You can choose to **Trust this device** based on security requirements at your organization
 
 ### Navigate to the Devices screen
@@ -133,7 +133,7 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
 12. **Return to Manage devices screen**
     - Click the **"Manage devices"** button to return to the Meta-for-Work device management page.
     - If you have more headsets to enroll, click the **"Enroll another headset"** button
-    - *Your headset will not be visible in the **Managed Devices** section of the Meta-for-Work webpage until configuarion is complete*
+    - *Your headset will not be visible in the **Managed Devices** section of the Meta-for-Work webpage until configuration is complete*
     - *Switch to your VR headset for the next steps*
 
 ### Headset configuration
@@ -190,20 +190,20 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
     - Click on the **"Devices & Groups"** tab in the left column
     - *This interface lists all the **Devices** currently managed by WPS through ArborXR*
     - *Before you make any changes, verify that the device you are about to edit belongs to your organization*
-    - *Check the device serial number on the ArborXR website matches the device name on the Meta-for-Work webiste*
+    - *Check the device serial number on the ArborXR website matches the device name on the Meta-for-Work website*
 <div style="page-break-after: always;"></div>
 
 ### **Claim your device**
 
 17. **Move your device to your organization group**
     - *Before you make any changes, verify that the device you are about to edit belongs to your organization*
-    - *Check the device serial number on the ArborXR website matches the device name on the Meta-for-Work webiste*
+    - *Check the device serial number on the ArborXR website matches the device name on the Meta-for-Work website*
     - Select the checkbox next to your device serial number
     - Click on the **"Actions"** drop-down menu
     - Select the **"Assign to Group"** option from the menu
     - Click the **"Select group..."** field and select you organization group
     - *There should be only one option for group selection*
-    - *If there is more than one option, or the correct option is not clear, please contact WPS Staff for assisstance*
+    - *If there is more than one option, or the correct option is not clear, please contact WPS Staff for assistance*
     - Click the **"Assign to Group"** button
 
 ### Finish device configuration

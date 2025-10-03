@@ -15,7 +15,7 @@ This guide introduces the management of devices (headsets or computers) running 
 1. Navigate to the Wildxr.org website
 2. Log In with your Username and Password *(may be provided by WPS staff)*
 3. Navigate to the Admin -> Devices page
-4. Edit an exisitng or Add a new Device
+4. Edit an existing or Add a new Device
 5. *If adding a new device - you will need to launch the WildXR application to generate a device id*
 6. Verify the device settings
 
@@ -39,17 +39,17 @@ This guide introduces the management of devices (headsets or computers) running 
    - *If you are an Organization Admin you will only see devices associated with your organization*
    - *If you are a System Admin you will see all devices across all organizations*
    - To **"Add"** a new device continue to Step 4
-   - To **"Edit"** an exisiting device, continue to Step 10
+   - To **"Edit"** an existing device, continue to Step 10
 
 ### Add a New Device
 
 4. **Generate a WildXR number**
    - Launch the WildXR application on your device
    - There should be a **gear icon** visible to the right of the **Menu Tray** this is the **Settings Menu**
-   - Open the **"Settings Menu"** by holding the gaze reticle *white dotnut shaped selector* over the **gear icon**
+   - Open the **"Settings Menu"** by holding the gaze reticle *white donut shaped selector* over the **gear icon**
    - Select the **Generate** button in the bottom right of the **""Settings Menu"**
    - Write down the 10 character WildXR Number
-   - Click the **"Acccept"** button and quit the WildXR application
+   - Click the **"Accept"** button and quit the WildXR application
 
 5. **Lookup device on Wildxr.org**
    - Click the **"Device Lookup"** button in the upper right of the **Devices** page
@@ -78,9 +78,9 @@ This guide introduces the management of devices (headsets or computers) running 
    - Verify that all **Device Details** are correct
    - Click the **"Save"** button
 
-### Edit an Exisiting Device
+### Edit an Existing Device
 
-10. **Open an exisiting device**
+10. **Open an existing device**
     - Scroll through the devices displayed or navigate to additional pages via the buttons in the lower right
     - *Alternatively you can search for the Device name using the **Search** field in the upper left*
     - Click anywhere on the device row when you have identified the device you wish to edit
@@ -145,6 +145,6 @@ This guide introduces the management of devices (headsets or computers) running 
 
 ⚠️ **Devices**: Devices are not automatically added to your organization and will not show in the **Devices** page without first being added via **Device Lookup** (Step #5). WPS Staff cannot find, or register, your device without the **WildXR Number**.
 
-⚠️ **Internet Connection**: Devices must be connected to the internet while registering and whenever updates to a device **Installation** is made (see the **Web Poral Installation Management Guide**).
+⚠️ **Internet Connection**: Devices must be connected to the internet while registering and whenever updates to a device **Installation** is made (see the **Web Portal Installation Management Guide**).
 
 ⚠️ **Video downloads**: Any new or updated device **Installation** will require the download of video files for uninterrupted playback. Make sure to account for the time it may take to download videos associated with the **Installation**.
