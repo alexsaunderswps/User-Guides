@@ -45,15 +45,15 @@ This guide introduces the management of devices (headsets or computers) running 
 
 4. **Generate a WildXR number**
    - Launch the WildXR application on your device
-   - There should be a **gear icon** visible to the right of the **Menu Tray**, this is the **Settings Menu**
-   - Open the **"Settings Menu"** by holding the gaze reticle *white donut shaped selector* over the **gear icon**
-   - Select the **Generate** button in the bottom right of the **""Settings Menu"**
-   - Write down the 10 character **WildXR Number**
+   - There should be a **gear icon** visible to the right of the **Menu Tray**; this is the **Settings Menu**
+   - Open the **"Settings Menu"** by holding the gaze reticle *white donut-shaped selector* over the **gear icon**
+   - Select the **Generate** button in the bottom right of the **"Settings Menu"**
+   - Write down the 10-character **WildXR Number**
    - Click the **"Accept"** button and quit the WildXR application
 
 5. **Lookup device on Wildxr.org**
    - Click the **"Device Lookup"** button in the upper right of the **Devices** page
-   - Enter the 10 character WildXR Number that was displayed on the device in Step 4
+   - Enter the 10-character WildXR Number that was displayed on the device in Step 4
    - Click **"Apply"**
 
 ### Enter Device Details and Installation
@@ -65,13 +65,13 @@ This guide introduces the management of devices (headsets or computers) running 
    - Enter a descriptive name in the **"Name"** field
    - *WPS recommends including the last 7 characters of the device serial number as well as an abbreviation of your organization's name in the device name*
    - *For example (WPS - Q022VC7 - location)* 
-   - If you are a **Organization Admin** the device will automatically be added to your organization
+   - If you are an **Organization Admin** the device will automatically be added to your organization
    - If you are a **System Admin** select the correct organization from the **"Organization"** dropdown menu
 <div style="page-break-after: always;"></div>
 
 8. **Enter an installation (Optional)**
    - If you have an **Installation** already created for the device select the **Installation** from the dropdown menu
-   - If you do not have a **Installation** ready for this device, leave **Installation** blank and the default **Installation** will be applied
+   - If you do not have an **Installation** ready for this device, leave **Installation** blank and the default **Installation** will be applied
    - *If you apply an **Installation** with **Demo Mode** enabled, remember that this removes the ability to manually download videos via the WildXR application*
 
 9. **Save the Device Details**
@@ -82,7 +82,7 @@ This guide introduces the management of devices (headsets or computers) running 
 
 10. **Open an existing device**
     - Scroll through the devices displayed or navigate to additional pages via the buttons in the lower right
-    - *Alternatively you can search for the Device name using the **Search** field in the upper left*
+    - *Alternatively, you can search for the Device name using the **Search** field in the upper left*
     - Click anywhere on the device row when you have identified the device you wish to edit
 
 11. **Edit the device details**
@@ -94,14 +94,14 @@ This guide introduces the management of devices (headsets or computers) running 
 ### Apply Installation changes to a device
 
 12. **Restart the WildXR App**
-    - Changes to a device's assigned **Installation** will not take affect until the WildXR app is restarted on the device
+    - Changes to a device's assigned **Installation** will not take effect until the WildXR app is restarted on the device
     - *Devices will need to be connected to the internet to accept an **Installation** assignment*
 
 ## Troubleshooting
 
 **Unable to log onto the Wildxr.org website:**
 - Ensure you are entering the correct credentials to log into Wildxr.org *(May have been supplied by WPS Staff)*
-- If someone within your organization created your account; check that they assigned a password to your account *(passwords are not created automatically)*
+- If someone within your organization created your account, check that they assigned a password to your account *(passwords are not created automatically)*
 - Double-check the URL you have entered into your Web Browser *(WPS recommends using Chrome)*
 <div style="page-break-after: always;"></div>
 
@@ -117,8 +117,8 @@ This guide introduces the management of devices (headsets or computers) running 
 - Refresh your browser window *(WPS recommends using Chrome)*
 
 **WildXR number is already generated for a device:**
-- Double check that the device has not already been registered on the WildXR.org website
-- If you are re-installing WildXR on a computer, you will need to remove the **Wildlife Protection Solutions** folder from your hard drive
+- Double-check that the device has not already been registered on the WildXR.org website
+- If you are reinstalling WildXR on a computer, you will need to remove the **Wildlife Protection Solutions** folder from your hard drive:
   - *Ensure that **Hidden Items** are visible in your **File Explorer***
   - Open a folder and, under **View** options click **"Show"** and check **"Hidden Items"**
   - On Windows navigate to ```This PC -> C -> Users -> [Your User Name] -> App Data -> Local Low```
@@ -136,7 +136,7 @@ This guide introduces the management of devices (headsets or computers) running 
 **Applied changes to Device not visible in Device:**
 - Ensure that your device is connected to the internet
 - If you have assigned a new **Installation** the device must stop the current session of WildXR and relaunch the WildXR app prior to changes taking effect
-- Double check that the WildXR Number is the one assigned to the headset you are using *(Check the settings menu to confirm the Wildxr number)*
+- Double check that the WildXR Number is the one assigned to the headset you are using *(Check the settings menu to confirm the WildXR number)*
 <div style="page-break-after: always;"></div>
 
 **Video playback issues:**
@@ -147,8 +147,8 @@ This guide introduces the management of devices (headsets or computers) running 
 
 ## Important Notes
 
-⚠️ **Devices**: Devices are not automatically added to your organization and will not show in the **Devices** page without first being added via **Device Lookup** (Step #5). WPS Staff cannot find, or register, your device without the **WildXR Number**.
+⚠️ **Devices**: Devices are not automatically added to your organization and will not show in the **Devices** page without first being added via **Device Lookup** (Step #5). WPS Staff cannot find or register your device without the **WildXR Number**.
 
-⚠️ **Internet Connection**: Devices must be connected to the internet while registering and whenever updates to a device **Installation** is made (see the **Web Portal Installation Management Guide**).
+⚠️ **Internet Connection**: Devices must be connected to the internet while registering and whenever updates to a device **Installation** are made (see the **Web Portal Installation Management Guide**).
 
 ⚠️ **Video downloads**: Any new or updated device **Installation** will require the download of video files for uninterrupted playback. Make sure to account for the time it may take to download videos associated with the **Installation**.

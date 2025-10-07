@@ -1,4 +1,4 @@
-# WildXr Web Portal Installation Management Guide
+# WildXR Web Portal Installation Management Guide
 
 ## Purpose & Context
 This guide introduces the management of installations (the experience presented to headset users) running the WildXR VR application via the WildXR Web Portal (Wildxr.org).
@@ -28,12 +28,12 @@ This guide introduces the management of installations (the experience presented 
 1. **Navigate to WildXR web portal**
    - Open web browser and go to WildXR web portal
    - Visit https://wildxr.org
+<div style="page-break-after: always;"></div>
 
 2. **Log In to WildXR web portal**
    - Enter your Username in the appropriate field
    - Enter your Password in the appropriate field
    - Click **"Log In"**
-<div style="page-break-after: always;"></div>
 
 3. **Navigate to the Installation management page**
    - In the top navigation bar, click **"Admin"**
@@ -57,6 +57,7 @@ This guide introduces the management of installations (the experience presented 
    - Enter tips into the **"Tips"** field. 
    - Each tip should be separated onto separate lines as shown by the pre-populated tips.
    - *Tips are shown to users while videos load - if you are only playing a single video on a loop tips are unnecessary*
+<div style="page-break-after: always;"></div>
 
 ### Tutorial modes
 
@@ -67,7 +68,6 @@ This guide introduces the management of installations (the experience presented 
       3. **Video** - A brief video with narration is played to show a new user how to navigate the WildXR application.
       4. **Dynamic** - If a user does not interact with the WildXR interface for a period of time the **Video** tutorial is played. The tutorial stops as soon as the user interacts with any WildXR elements.
    - **Tutorials** should not be used when playing a single video on a loop otherwise they may interfere with video playback - please select **None** in this situation
-<div style="page-break-after: always;"></div>
 
 ### Timer settings
 
@@ -84,6 +84,7 @@ This guide introduces the management of installations (the experience presented 
    - **Idle Timer Delay Seconds** is the delay between the time a headset detects new motion to the time at which it resets the headset view
    - **Idle Timer Delay** reduces the chance that a headset will show a non-standard view when mounted (put on by a user) after having been stored on a hook
    - *This delay is difficult to predict without some experience and should be custom set for each **Installation** if **Idle Timer Length** is being used*
+<div style="page-break-after: always;"></div>
 
 ### Globe Starting position 
 
@@ -98,7 +99,7 @@ This guide introduces the management of installations (the experience presented 
 ### Video Catalogue settings
 
 9. **Select Video Catalogue**
-   - A **Video Catalogue** is a collection of videos that can be used for various **Installations**
+   - A **Video Catalogue** is a collection of videos that can be used for multiple **Installations**
    - Use the **"Web Portal Video Catalogue Creation Guide"** to create or edit a **Video Catalogue** and for more information about using catalogues for specific purposes
    - If you are logged in as an **Organization Admin**, only catalogues associated with your **Organization** or those created by **WildXR** staff are available
    - **System Admin** have access to all catalogues
@@ -234,52 +235,104 @@ This guide introduces the management of installations (the experience presented 
 - If someone within your organization created your account; check that they assigned a password to your account *(passwords are not created automatically)*
 - Double-check the URL you have entered into your Web Browser *(WPS recommends using Chrome)*
 
-**Unable to generate a WildXR number:**
-- Ensure that the WildXR application has been successfully installed on the device
-- If you are attempting to launch WildXR on a computer you will need to connect a VR headset to successfully navigate the WildXR app
-- Verify that you can see the **gear icon** used to access the **"Settings Menu"** 
+**Unable to edit an existing Installation:**
+- **Organizations** are only allow to edit **Installations** that were created by their **Organization**
+- **Organizations** can see **Installations** that were created by WPS Staff under the **WildXR** organization, but do not have permission to edit their contents
 
-**Unable to find WildXR number on the Wildxr.org website:**
-- Ensure you have correctly typed the WildXR number into the Device Lookup field on the Wildxr.org website
-- If you are currently on the **Devices** page of the Wildxr.org website, navigate away and then back before attempting the Device Lookup
-- Refresh your browser window *(WPS recommends using Chrome)*
+**Unable to change the Organization field during Installation creation or editing:**
+- If you are logged in to the wildxr.org website as an **Organization Admin** you will not be able to edit the **Organization** field of an **Installation**
+- If you feel the **Installation** in question should belong to a different **Organization** please contact WPS staff for assistance
 
-**WildXR number is already generated for a device:**
-- Double check that the device has not already been registered on the WildXR.org website
-- If you are re-installing WildXR on a computer, you will need to remove the **Wildlife Protection Solutions** folder from your hard drive
-  - *Ensure that **Hidden Items** are visible in your **File Explorer***
-  - Open a folder and, under **View** options click **"Show"** and check **"Hidden Items"**
-  - On Windows navigate to ```This PC -> C -> Users -> [Your User Name] -> App Data -> Local Low```
-  - Delete the **Wildlife Protection Solutions** folder
-  - Reinstall the **WildXR** application
+**Organization field shows different Organization than expected / does not match my Organization:**
+- Please double-check that you are logged into the correct account
+- If you are a **System Admin** users, you will have access to all **Organizations** and can choose the correct value for the **Organization** field
+- If you require further assistance please contact WPS staff
 
-**Applied changes to Device not visible in Device**
-- Ensure that your device is connected to the internet
-- If you have assigned a new **Installation** the device must stop the current session of WildXR and relaunch the WildXR app prior to changes taking effect
-- Double check that the Wildxr Number is the one assigned to the headset you are using *(Check the settings menu to confirm the Wildxr number)*
+**Tips do not display:**
+- **Tips** are only shown to users during loading screens, both for the WildXR application and for videos within the WildXR application
+- Most deployments launch WildXR automatically before opening hours and the initial loading screen tips will not be seen
+- If your deployment includes videos on a loop, no loading screen will be shown and therefore **Tips** will not be displayed
+- Most deployments have downloaded videos, not streaming videos, to increase playback quality, this results in a very brief loading screen before video playback and **Tips** may not be visible
 
-**Unable to edit Device Organization**
-- If you are logged into the Wildxr.org website as an **Organization Admin** will not be able to change the device's assigned organization
-- Log in as a **System Admin** to enable organization assignment or contact WPS Staff
+**Tips display, but not as expected:**
+- **Tips** display in a carousel, one-by-one, for a set period of time
+- Each **Tip** should be one a single line, longer **Tips** should have no line-breaks, return/enter characters, between them
+- Depending on the time a loading screen is shown, **Tips** might not be visible, or only the first **Tip** may display
+
+**Tutorial not displayed:**
+- Depending on the type of **Tutorial** selected, the interface may not show immediately on launch
+- **Dynamic tutorials** will only show if there is not headset movement or interaction with UI elements by the user
+- **Text** and **Video tutorials** may not show if a headset is passed from user to user, as opposed to the headset being put down and picked up
+- If **Tutorials** continue to behave in an unexpected manor, please contact WPS Staff.
+
+**Tutorial displaying and should not be:**
+- Ensure that the **Select Tutorial Mode** field is correctly set to **None** and save the **Installation**
+- If the **"Save"** button is light green not changes have been applied and you can return to the **Installations** screen
+
+**Timer settings:**
+- Only **System Admin** users can access the **Timer settings** of an **Installation**
+- By default, all **Timer settings** are set to 0.0 seconds, this works in most deployment situations
+- If you would like to discuss adding **Timer settings** to your installation, please contact WPS staff
+- ⚠️*Headset **Timer settings** interact with certain headset features that are controlled by **Meta** and the effects can change unexpectedly based on firmware updates*
+
+**Globe Starting position has no effect:**
+- **Globe Starting position** is only used in deployments when users choose their own videos from a **Globe Scene**
+- If you are playing a video on a loop **Globe Starting position** is not used
+- Ensure that you have entered a valid starting position - a positive or negative decimal number (for example: 100.1212, -27.23)
+- The WildXR application does not allow starting positions at the poles of the **Globe Scene**
+
+**Globe Starting position starts application in Thumbnail Gallery:**
+- If a **Globe Starting position** is too close to a **Map Marker** on the globe, the gaze reticle may immediately open the **Map Marker gallery** upon launch
+- Place the **Globe Starting position** away from all Map Markers by 15° of both latitude and longitude
+
+**Globe Starting position values produce an error:**
+- 0, 0 is not considered a valid starting position in WildXR - use a small decimal value instead (for example 0.12, -0.12)
+
+**Unsure of Video Catalogue selection:**
+- **Installations** do not need to be assigned a **Video Catalogue** upon creation
+- The base WildXR **Installation** is applied to all **Devices** that do not have an assigned **Installation** 
+- The base **Installation** contains all WildXR produced videos and all **Core Map Markers**
+- **Video Catalogue** creation can occur after **Installation** creation if the goal is only to control some aspects of the user experience
+
+**Video Catalogue missing:**
+- **Organization Admins** only have access to **Video Catalogues** created by their **Organization** or owned by WildXR
+- If you have created an **Video Catalogue** but cannot locate it, check the **Video Catalogue** page
+- Ensure you are logged into the wildxr.org website with the correct credentials to view the missing catalogue
+
+**Adult content showing in Installation:**
+- Ensure that the **"Show Graphic ..."** boxes are not checked in the **Installation** in question
+- If **Demo Mode** is not checked, users can access the **Admin Panel** and can expose adult content in the WildXR application
+- If you have concerns that a video may not be labeled correctly as **Adult Content** please contact WPS staff
+
+**Desired startup video not available:**
+- **Startup Video** selection is limited to videos contained within the assigned **Video Catalogue**
+- Ensure you are searching for the correct video by title in the **Select Startup Video** field
+- ⚠️ *Videos with **Adult Content** are still able to be selected as a **Startup Video** regardless of whether these videos have been hidden from normal view - always review the video selection prior to deploying to the public* ⚠️
+
+**Startup Video does not loop:**
+- Ensure that the **Startup Video Loop** box is checked in the **Installation** details
+  
+**Startup Video continues to play when new user puts on headset:**
+- Ensure that the **Resume Startup Video on Awake** box is unchecked in the **Installation** details page
+- If the headset was being worn when WildXR first launched, this may affect whether the video starts from the beginning, relaunch WildXR and remove the headset before the loading screens to fix this issue
+- Clean the presence sensor (found between the lenses) as dirt may prevent it registering a new user
+
+**Desired Favorite video not available:**
+- **Favorite** selection is limited to videos contained within the assigned **Video Catalogue**
+- Ensure you are searching for the correct video by title in the **Select Favorites** field
+
+**Fewer videos than expected are present in Installation:**
+- When the **Filter Favorites by Default** box is checked, all galleries will display only **Favorite** videos, unless the user selects the **"All"** button at the top of the gallery
+- If the **Show Graphic ...** boxes are unchecked, you will have hidden all **Adult Content** and only a portion of videos in a **Video Catalogue** will be displayed
+- If a headset is offline when WildXR launches, WildXR will only display downloaded content - check you headset internet connection and relaunch WildXR
+- Video content is determined by **Video Catalogue** contents, which is influenced by the selected **Map Markers** for a **Video Catalogue**
+- Review the **Web Portal Map Marker Management Guide** and the **Video Catalogue Creation Guide** to ensure you have included all the videos desired in a **Video Catalogue**
+
+**Videos not downloading to headset:**
+- Video download speed and success are dependent on a strong, reliable internet connection
 <div style="page-break-after: always;"></div>
 
 ## Important Notes
 
 ⚠️ **Developer Privileges Required**: Your Meta account must have developer access granted by WPS before MQDH will function properly for custom app installation.
 
-⚠️ **Account Consistency**: The Meta account used in MQDH must exactly match the account associated with your VR headsets. Mixed accounts will prevent proper device recognition.
-
-⚠️ **Security Coordination**: Never modify developer settings or install unauthorized applications without WPS approval. This can compromise headset security and void support agreements.
-
-⚠️ **System Requirements**: MQDH requires modern computer specifications and may not work properly on older or resource-limited systems.
-
-## Verification Steps
-
-Verify that your MQDH application is capable of recognizing, connecting to, and managing VR headsets without additional configuration steps.
-
-**Complete functionality verification:**
-- MQDH launches without errors and displays account information correctly
-- At least one headset appears as "Active" in the devices list
-- USB debugging authorization has been granted and confirmed
-- Device management icons are accessible and responsive in the left sidebar
-- You can access the headset's file system and application management features
