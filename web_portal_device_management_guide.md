@@ -45,10 +45,10 @@ This guide introduces the management of devices (headsets or computers) running 
 
 4. **Generate a WildXR number**
    - Launch the WildXR application on your device
-   - There should be a **gear icon** visible to the right of the **Menu Tray** this is the **Settings Menu**
+   - There should be a **gear icon** visible to the right of the **Menu Tray**, this is the **Settings Menu**
    - Open the **"Settings Menu"** by holding the gaze reticle *white donut shaped selector* over the **gear icon**
    - Select the **Generate** button in the bottom right of the **""Settings Menu"**
-   - Write down the 10 character WildXR Number
+   - Write down the 10 character **WildXR Number**
    - Click the **"Accept"** button and quit the WildXR application
 
 5. **Lookup device on Wildxr.org**
@@ -136,14 +136,14 @@ This guide introduces the management of devices (headsets or computers) running 
 **Applied changes to Device not visible in Device:**
 - Ensure that your device is connected to the internet
 - If you have assigned a new **Installation** the device must stop the current session of WildXR and relaunch the WildXR app prior to changes taking effect
-- Double check that the Wildxr Number is the one assigned to the headset you are using *(Check the settings menu to confirm the Wildxr number)*
+- Double check that the WildXR Number is the one assigned to the headset you are using *(Check the settings menu to confirm the Wildxr number)*
+<div style="page-break-after: always;"></div>
 
 **Video playback issues:**
 - Whenever a new instance or update of WildXR is required all associated videos must be downloaded to provide a smooth playback experience.
 - Ensure your **Installation** has automatically downloaded all needed videos, or that you have manually downloaded all videos. 
 - Depending on the video library size and internet speeds, this can take multiple hours. 
 - Please consider this when scheduling an update or planning for new WildXR installations.
-<div style="page-break-after: always;"></div>
 
 ## Important Notes
 

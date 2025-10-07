@@ -24,7 +24,7 @@ This guide establishes the recommended steps to create reinforced USB cables for
 10. Cut and secure remaining end of sleeving 1/2 - 1 inch past rope end.
 
 ## How to apply electrical tape
-1. Electrical tape should be slightly streched during application.
+1. Electrical tape should be slightly stretched during application.
 2. *This stretching helps the tape to bind to a surface or itself.*
 3. Each wrap should overlap the previous wrap by 1/2 the tape width.
 4. When taping a joint, start at least 2" before the joint.
@@ -114,7 +114,7 @@ This guide establishes the recommended steps to create reinforced USB cables for
 12. **Secure remaining rope/cable/sleeve end**
     - Slide your hand down the rope/cable/sleeve to remove any bunching
     - *You should have 1/2 - 1 inch of sleeve material extending past the rope/cable connection*
-    - *This end will be hidden from the public; if the sleeve does not extend past the rope/cable connection you should adjust future measurements but continue to use this reinforced cable*
+    - *This end will be hidden from the public; if the sleeve does not extend past the rope/cable connection, you should adjust future measurements but continue to use this reinforced cable*
     - Hold the sleeving end against the rope/cable, 1/2 - 1 inch past the rope/cable joint, so that the sleeving will attach directly to the USB cable only.
     - Secure this sleeve end to the USB cable and continue wrapping to a point 2 inches past the rope/cable joint.
     - *See the **"How to apply electrical tape"** section*
@@ -129,21 +129,21 @@ This guide establishes the recommended steps to create reinforced USB cables for
 
 **Tape not adhering to surface:**
 - Ensure surfaces are clean and dry
-- With porous or flexible surfaces it is important to strech and hold the tape during application
-- Increasing the wrap overlap, from 1/2 to 3/4 can help tape adhesion
-- Anchor tape to a non-porous or non-flexible surface and then move onto porous or flexible surfaces from this anchor 
+- With porous or flexible surfaces, it is important to stretch and hold the tape during application
+- Increasing the wrap overlap, from 1/2 to 3/4, can help tape adhesion
+- Anchor tape to a non-porous or non-flexible surface, and then move onto porous or flexible surfaces from this anchor 
 
 **Rope sheath or core fraying:**
-- Use a sharp scissor or knife to cut multi-stand rope
+- Use a sharp scissor or knife to cut multi-strand rope
 - Apply a covering of electrical tape to hold together rope sheath at cut site
 - Melt cut surfaces with a torch or lighter to prevent fraying and slipping of core strands
 
-**Difference in diameter between rope and USB cause taping issues:**
+**Difference in diameter between rope and USB causes taping issues:**
 - Cut rope at a 45° angle to provide a ramp for taping
 - Increase tape wrap overlap to transition from thick to thin diameters
 
 **Bunching or sagging between rope and USB cable during assembly:**
-- Before securing rope to USB cable with tape remove sagging or bunching
+- Before securing rope to USB cable with tape, remove sagging or bunching
 - Hold rope/cable together with one hand and run rope/cable through other hand to ensure tight fit 
 - Remove tape and re-align rope and USB cable to remove bunches or sagging areas
 <div style="page-break-after: always;"></div>
@@ -156,7 +156,7 @@ This guide establishes the recommended steps to create reinforced USB cables for
 
 **Sleeving fraying**
 - Use a sharp scissors or knife to cut braided sleeving
-- It is not recommened to apply electrical tape to hold braided sleeving together, as tape can cause sleeving to bunch and fray.
+- It is not recommend to apply electrical tape to hold braided sleeving together, as tape can cause sleeving to bunch and fray.
 
 **Sleeving tearing on USB plugs**
 - Carefully slide sleeving over USB plugs
@@ -180,8 +180,9 @@ This guide establishes the recommended steps to create reinforced USB cables for
 
 ⚠️ **End reinforcement 5 - 6" from ends and joints**: Cable ends must remain flexible to reduce stress and provide tight connections. Do not reinforce to cable ends.
 
-⚠️ **Avoid over taping**: End tape wraps 1.5 - 2" on either side of joints. Excess tape is not a replacement for correctly applied tape wraps and can create residue.
+⚠️ **Avoid over-taping**: End tape wraps 1.5 - 2" on either side of joints. Excess tape is not a replacement for correctly applied tape wraps and can create residue.
 
 ⚠️ **Avoid loose tape wraps and ends**: Loose tape wraps and ends allow the tape to be removed or fall off, exposing rope/cable/sleeving joints.
 
-⚠️ **Do not use heat shrink**: WPS has stopped the use of heat shrink in reinforced cable production. Heat shrink makes reinforced cables too stiff, increasing the occurance of disconnects and stress on plugs. Additional, heat applied incorrectly can cause sleeve melting and USB cable damage that is hard to detect.
+⚠️ **Do not use heat shrink**: WPS has stopped the use of heat shrink in reinforced cable production. Heat shrink makes reinforced cables too stiff, increasing the occurrence of disconnects and stress on plugs. Additionally, heat applied incorrectly can cause sleeve melting and damage to the USB cable, which is often difficult to detect.
+

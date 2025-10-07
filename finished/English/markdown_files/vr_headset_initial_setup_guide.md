@@ -6,7 +6,7 @@ WPS may have created some needed accounts as part of their internal VR partner p
 Account creation by WPS is done to facilitate smooth VR operation and increases our ability to provide technical support. 
 Accounts created without the help of WPS staff cannot be accessed by WPS staff during technical support sessions.
 
-⚠️ **Meta**: Meta hardware and software (including MQDH) are outside WPS control. Meta updates may cause unexpected functionality changes in VR systems. WPS monitors Meta releases to inform users of potential impacts and changes.
+⚠️ **Third Party Software**: Third Party hardware and software (Meta, ArborXR) are outside WPS control. Meta updates may cause unexpected functionality changes in VR systems. WPS monitors Meta and ArborXR releases to inform users of potential impacts and changes.
 
 ## Prerequisites
 - A WiFi internet connection
@@ -33,12 +33,12 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
 
 1. **Navigate to Meta**
    - Open web browser and go to `meta.com`
+<div style="page-break-after: always;"></div>
 
 2. **Access login**
    - Click the **Account icon** *(person silhouette)* in upper right
    - Select **"Sign up or log into a Meta account"**
    - Choose **"Continue with email"**
-<div style="page-break-after: always;"></div>
 
 3. **Enter credentials**
    - Click **Continue with Email**
@@ -71,6 +71,7 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
    - You'll return to `meta.com` main page
    - Click the **Account icon** again to access account features *(Icon is now a circle with a letter or Logo)*
    - Select **"Accounts Center"** for main dashboard
+<div style="page-break-after: always;"></div>
 
 ### Two-Factor Authentication
 
@@ -83,7 +84,6 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
    - Choose your profile
    - Select **"Authentication app"** and continue to step 9 *(recommended)*
    - Select **"SMS or WhatsApp"** and continue to step 13
-<div style="page-break-after: always;"></div>
 
 ### 2FA via Authentication App
 
@@ -110,6 +110,7 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
     - Input 6-digit code from authenticator app
     - Click **"Done"**
     - *Device now appears in 2FA devices list*
+<div style="page-break-after: always;"></div>
 
 ### 2FA via SMS or WhatsApp
 
@@ -131,7 +132,6 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
     - Click **"Next"**
     - Choose **"Enter password instead"** *(easier than email code)*
     - Enter your Meta account password *(may be provided by WPS)*
-<div style="page-break-after: always;"></div>
 
 15. **Verify account via 2FA (*may be required)***
     - Select 2FA method from dropdown
@@ -147,7 +147,7 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
   
 ### Setup Meta Horizon account
 
-- *The Meta Horizon account is used excusively for Meta's VR space*
+- *The Meta Horizon account is used exclusively for Meta's VR space*
 - *Some options will be visible to other Meta Horizon users*
 
 17. **Choose a Meta Horizon username**
@@ -155,6 +155,7 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
     - Enter an accepted username *(a green checkmark will indicate username is valid)*
     - Click **"Continue"**
     - You will be taken to the Meta Horizon dashboard
+<div style="page-break-after: always;"></div>
 
 ### Headset setup
 
@@ -175,7 +176,6 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
     - Leave your headset plugged in while updates are downloaded
     - *Your headset may indicate that you can continue setup in the Meta Horizon phone app*
     - ⚠️ **WPS does not recommend you do so and suggests waiting until the headset displays your pairing code**
-<div style="page-break-after: always;"></div>
 
 ### Add a hidden WiFi network
 
@@ -191,6 +191,7 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
     - If your WiFi network has a password, it most likely uses **WPA/WPA2-Personal** as the **"Security"** setting
     - Enter the remaining details of your WiFi network
     - Click **"Connect"** to finish WiFi setup and connect to the network
+<div style="page-break-after: always;"></div>
 
 ### Pair headset to Meta Horizon phone app
 
@@ -221,7 +222,6 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
     - Click **"Skip"** on the Start 3-month trial offer *(This screen may or may not be present)*
     - Click **"Skip"** on the Add a payment method
     - Click **"Close"** on the **You're all set!** screen
-<div style="page-break-after: always;"></div>
 
 ### **Finish headset setup**
 
@@ -231,6 +231,7 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
     - Participate in tutorials as desired *(Skipping tutorials does not affect headset setup)*
     - *You must keep the headset on during the introduction*
     - After the introduction you will be shown the Horizon dashboard
+<div style="page-break-after: always;"></div>
 
 ## Next Steps
 
@@ -285,7 +286,7 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
 
 **Meta won't allow my desired username:**
 - Meta restricts the format of usernames to enforce uniqueness
-- Edit the username to include unlines or numbers
+- Edit the username to include underlines or numbers
 - Remember that this username may become visible to other Meta Horizon users
 
 **Headset doesn't recognize hand controllers:**
@@ -299,6 +300,7 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
 - Register the VR device with your IT department if needed
 - Ensure you have the correct WiFi network and password entered into the appropriate fields
 - If your WiFi network is hidden, go to Step #20 - *You may need assistance from your IT department with hidden networks*
+<div style="page-break-after: always;"></div>
 
 **Unable to find Devices menu in the Horizon App**
 - Ensure you are on the main page of the Meta Horizon app - *You should see your user avatar and name*
@@ -306,7 +308,6 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
 - Identify the hamburger menu on the right-side of the application - icon is three stacked horizontal bars
 - Open the hamburger menu and scroll down to see the **"Device management"** section
 - Check if there are outstanding updates for the Meta Horizon app or your phone operating system
-<div style="page-break-after: always;"></div>
 
 **Forced to create an Avatar**
 - Meta now forces users to create an Avatar for their user

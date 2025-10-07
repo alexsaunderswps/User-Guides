@@ -1,7 +1,7 @@
 # Third Party Managed Quest VR Headset Setup Guide
 
 ## Purpose & Context
-This guide provides the required steps to setup an Third Party Managed Quest VR headset for the first time. 
+This guide provides the required steps to set up a Third Party Managed Quest VR headset for the first time. 
 WPS may have created some needed accounts as part of their internal VR partner program. Check with WPS staff if you are unsure of what accounts your organization needs.
 Account creation by WPS is done to facilitate smooth VR operation and increases our ability to provide technical support. 
 Accounts created without the help of WPS staff cannot be accessed by WPS staff during technical support sessions and will not successfully enable ArborXR management.
@@ -43,7 +43,7 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
    - Click **"Next"**
    - Enter the Password provided by WPS for your Meta-for-Work account
    - Click **"Continue"**
-   - *You may be required to Authenticate via a 2FA application*
+   - *You may be required to authenticate via a 2FA application*
    - *Open Google Authenticator on your phone (you may have been provided with a Blu phone for this purpose)*
    - *Google Authenticator is associated with your Gmail account, this account is provided by WPS Staff*
    - You can choose to **Trust this device** based on security requirements at your organization
@@ -51,7 +51,7 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
 ### Navigate to the Devices screen
 
 3. **Overview Screen**
-   - After logging in you will be on the **Overview Screen**
+   - After logging in, you will be on the **Overview Screen**
    - On the left panel, click the **"Devices"** icon (shaped like a mask)
    - *Switch to your new VR headset for the next steps*
 
@@ -66,7 +66,7 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
 
 5. **Initial introduction and connect to WiFi**
     - Follow the on-screen prompts in the VR Headset
-    - *Occasionally hand controllers will install an update that renders them inoperable for a brief period*
+    - *Occasionally, hand controllers will install an update that renders them inoperable for a brief period*
     - Connect your headset to your WiFi internet connection
     - *WPS recommends entering the WiFi details on your headset*
     - *If your WiFi network is hidden goto Step #6*
@@ -74,16 +74,16 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
     - Leave your headset plugged in while updates are downloaded
     - *Your headset may indicate that you can continue setup in the Meta Horizon phone app*
     - ⚠️ **Allow the headset to install all pending updates (*it may restart*) before proceeding** ⚠️
-    - ⚠️ **DO NOT continue setup in the Meta Horizon app as this will not allow paring with Meta-for-Work and ArborXR** ⚠️
+    - ⚠️ **DO NOT continue setup in the Meta Horizon app as this will not allow pairing with Meta-for-Work and ArborXR** ⚠️
 <div style="page-break-after: always;"></div>
 
 6. **Adding a hidden network to WiFi**
-    - *You may need assistance from your company IT department if you have a robust WiFi security program*
-    - In the WiFi window scroll down to **"+ New Network >"**
+    - *You may need assistance from your company's IT department if you have a robust WiFi security program*
+    - In the WiFi window, scroll down to **"+ New Network >"**
     - Click to add a new network
     - Click **"Advanced"**
     - Under **"Hidden Network"** change displayed value to **"Yes"**
-    - Generally the default values for the rest of the Advanced menu will be sufficient
+    - Generally, the default values for the rest of the Advanced menu will be sufficient
     - *If you continue to have issues connecting to a hidden WiFi network you may need to contact your company's IT department*
     - Click **"Confirm"**
     - If your WiFi network has a password, it most likely uses **WPA/WPA2-Personal** as the **"Security"** setting
@@ -92,9 +92,9 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
 
 ### Pair headset to Meta-for-Work
 
-- *After all updates have been applied you will see a **Pair your headset with the Meta Horizon app to Continue** screen*
+- *After all updates have been applied, you will see a **Pair your headset with the Meta Horizon app to Continue** screen*
 
-- *At the bottom of this screen you will see a **Connect to your organization** button*
+- *At the bottom of this screen, you will see a **Connect to your organization** button*
 
 7. **Begin headset connection**
    - Click the **Connect to your organization** button to continue
@@ -141,11 +141,11 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
 13. **Finish initial headset configuration**
     - *You will need to be wearing the headset to complete the initial configuration*
     - *You will see various linking and connecting screens while the device is linked to your Meta-for-Work account*
-    - On the **Connect to device management** screen click the **"Continue"** button
+    - On the **Connect to device management** screen, click the **"Continue"** button
     - *A **Connecting to management** screen will show*
     - On the **Configure your headset** screen click the **"Continue"** button
     - *A **Configuring your headset** screen will show*
-    - On the **Headset configured** screen click the **"Continue"** button
+    - On the **Headset configured** screen, click the **"Continue"** button
     - On the **Configuring** screen click the **"Continue"** button
     - A few more screens may show during installation, leave the headset on during this process or progress may halt.
     - *Refresh the Meta-for-Work **Devices** web-page - your device should now be visible*
@@ -158,8 +158,8 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
     - Click **"Continue"** on the privacy declarations
     - Click **"Don't Share"** or **"Share"** on the share additional data request
     - Click **"Not now"** on the Enable hand and body tracking request
-    - Click **"Skip"** on setting up accessability settings
-    - *We recommend not having controllers available to the public during WildXR use which negates all accessability options*
+    - Click **"Skip"** on setting up accessibility settings
+    - *We recommend not having controllers available to the public during WildXR use which negates all accessibility options*
     - Click the **"Welcome"** button to see tutorial options
     - Participate in tutorials as desired *(Skipping tutorials does not affect headset setup)*
 
@@ -167,17 +167,17 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
 
 - *Additional headset settings need to be applied before your headset is ready for use - See Step #19*
 
-- *WPS recommends completing the ArborXR connection steps below first, as some setting may be unavailable prior to doing so*
+- *WPS recommends completing the ArborXR connection steps below first, as some settings may be unavailable before doing so*
 
 ### **Connect VR headset to ArborXR group**
 
 - *The assignment of your headset to an ArborXR must currently be done by WPS staff*
 
-- *In order to prevent other organizations from seeing your devices, access in ArborXR is limited to devices already in your organizational group*
+- *To prevent other organizations from seeing your devices, access in ArborXR is limited to devices already in your organizational group*
 
 - *Contact WPS Staff to move your device to the correct group before proceeding with Step #18 below*
 
-- *Your Meta VR headset is read for management through the ArborXR website*
+- *Your Meta VR headset is ready for management through the ArborXR website*
 
 - *Your headset now has the base installation for use, but needs to be assigned a group in ArborXR before other needed software is loaded*
 
@@ -234,15 +234,15 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
 21. **Remove unneeded software**
     - Follow the **Library Management** guide
     - *In managed headsets the primary library curation will be the **Hiding** and **Locking** of unneeded applications*
-    - *Not all of the **Library Management** options will be available in managed headsets - this is normal and expected*
+    - *Not all of the **Library Management** options will be available in managed headsets - this is expected*
 
 22. **Launch WildXR once**
     - After all other steps have been completed, launch the WildXR application.
     - *The **WildXR** application can be found by clicking the **Library** button (a 3x3 dot icon) in the menu bar*
-    - *Occasionally no application will show in the **All** section of the **Library** - click the **For Work** tab if this is the case*
+    - *Occasionally, no application will show in the **All** section of the **Library** - click the **For Work** tab if this is the case*
     - A permissions screen may appear - Click the **"Allow"** button
     - Follow the **Web Portal Device Management Guide** to register your device and allow content management
-    ⚠️ **New Installations of WildXR need time to download the appropriate videos. This could take multiple hours depending on the size of the video library.** ⚠️
+    - ⚠️ **New Installations of WildXR need time to download the appropriate videos. This could take multiple hours depending on the size of the video library.** ⚠️
 
 23. **Launch WildXRAutoPing once**
     - After all other steps have been completed, launch the WildXRAutoPing application.
@@ -311,23 +311,23 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
 
 **Unable to select device preset in Enroll devices menu:**
 - Click the **Device groups** option under the **Select how the device will be configured** step
-- If you do not see your organization name, contact WPS Staff for assistance with Device registration
+- If you do not see your organization's name, contact WPS Staff for assistance with Device registration
 
 **Unable to Log into ArborXR account:**
 - Verify Email address is correct for your VR setup *(If provided by WPS)*
 - Contact WPS for password assistance
 
 **I cannot add a device to my ArborXR account:**
-- In order to prevent access to devices outside of your organization all devices must be first assigned to your organization by WPS staff
+- In order to prevent access to devices outside of your organization all devices must first be assigned to your organization by WPS staff
 - Please reach out to WPS staff to have your headset moved to the appropriate group within ArborXR
 
-**Other applications can been installed on my headset:**
+**Other applications can be installed on my headset:**
 - Meta automatically installs some applications on all headsets by default
 - Follow the **Library Management** guide to hide or remove these applications if possible
 - Locking applications with a PIN number can prevent unauthorized access by users
 
 **WildXR and WildXRAutoPing are not installed:**
-- Depending on settings applied to your headsets, application installations may be windowed by day and time
+- Depending on settings applied to your headsets, application installations may be limited by day and time
 - Contact WPS staff for help if installations are needed sooner or if you are unsure when installations are scheduled
 
 **Unable to toggle off Passthrough:**
@@ -349,7 +349,7 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
 **The WildXR application is not playing the expected content:**
 - WildXR instances depend on connection with the WildXR.org website to play specific content
 - Ensure that you have created a **WildXR Number** through the application and registered your device according to the **Web Portal Device Management Guide**
-- If you have not been trained on the **WildXR.org** web site, or are unsure of next steps to assign an **Installation** to your headset, please contact WPS staff for assistance
+- If you have not been trained on the **WildXR.org** website, or are unsure of next steps to assign an **Installation** to your headset, please contact WPS staff for assistance
 
 **The WildXR application is not launching automatically on headset startup:**
 - Make sure that the **WildXRAutoPing** application has been installed on your device
@@ -362,6 +362,6 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
 
 ⚠️ **Avatar Creation**: Meta may require the creation of a virtual avatar. This avatar is visible in some locations throughout the VR "metaverse" depending on privacy settings.
 
-⚠️ **Application Installation**: While a headset is configuring it may take some time for all applications to be installed. Depending on internet connection speeds and device settings, application installation may occur after normal business hours. If there is continued issues with the installation of **WildXR** or **WildXRAutoPing** please contact WPS staff.
+⚠️ **Application Installation**: While a headset is configuring it may take some time for all applications to be installed. Depending on internet connection speeds and device settings, application installation may occur after normal business hours. If there are continued issues with the installation of **WildXR** or **WildXRAutoPing** please contact WPS staff.
 
 ⚠️ **WildXR Content**: Most WildXR content is managed through the WildXR.org website. If you have not received training on the WildXR.org website please contact WPS staff for assistance provisioning your headset. In most cases provisioning new headsets will require the download of video files for the best playback experience. 

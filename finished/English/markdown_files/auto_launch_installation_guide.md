@@ -3,7 +3,7 @@
 ## Purpose & Context
 This guide installs the WPS Auto Launch application that automatically starts WildXR when a headset powers on. Auto Launch eliminates the need for hand controllers in public installations, creates a seamless user experience, and enables remote monitoring of headset uptime. This process transforms a standard VR headset into a kiosk-ready system that requires minimal user interaction to begin the conservation experience.
 
-⚠️ **Meta**: Meta hardware and software (including MQDH) are outside WPS control. Meta updates may cause unexpected functionality changes in VR systems. WPS monitors Meta releases to inform users of potential impacts and changes.
+⚠️ **Third Party Software**: Third Party hardware and software (Meta, ArborXR) are outside WPS control. Meta updates may cause unexpected functionality changes in VR systems. WPS monitors Meta and ArborXR releases to inform users of potential impacts and changes.
 
 ## Prerequisites
 - Meta Quest Developer Hub fully installed and configured with at least one headset connected and USB debugging authorized *(see MQDH Setup Guide)*

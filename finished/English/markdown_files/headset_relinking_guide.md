@@ -3,7 +3,7 @@
 ## Purpose & Context
 This guide addresses the process of reconnecting a VR headset to its associated Meta account when the link has been broken or lost. Account relinking becomes necessary when headsets lose their connection to Meta's authentication servers, which can occur after extended offline periods, system updates, or account security changes.
 
-⚠️ **Meta**: Meta hardware and software (including MQDH) are outside WPS control. Meta updates may cause unexpected functionality changes in VR systems. WPS monitors Meta releases to inform users of potential impacts and changes.
+⚠️ **Third Party Software**: Third Party hardware and software (Meta, ArborXR) are outside WPS control. Meta updates may cause unexpected functionality changes in VR systems. WPS monitors Meta and ArborXR releases to inform users of potential impacts and changes.
 
 ## Prerequisites
 - Stable internet connection for both computer and VR headset
@@ -99,7 +99,7 @@ This guide addresses the process of reconnecting a VR headset to its associated 
 
 ⚠️ **Password Coordination**: Never attempt to change Meta account passwords independently. Always coordinate password modifications with WPS staff to prevent technical support lockouts and ensure that all related systems receive necessary updates.
 
-⚠️ **Account Consistency**: The Meta account used for relinking must exactly match the account originally configured on the headset. Using different accounts, even if they belong to the same organization, will create persistent access issues.
+⚠️ **Account Consistency**: The Meta account used for relinking must match the account originally configured on the headset. Using different accounts, even if they belong to the same organization, will create persistent access issues.
 
 ⚠️ **Security Timing**: 2FA codes are time-sensitive. 2FA codes expire every 30 seconds.
 

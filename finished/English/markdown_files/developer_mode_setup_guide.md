@@ -4,7 +4,7 @@
 This guide provides the required steps to authorize a Meta account and headsets associated with that account with developer credentials. 
 Developer credentials are required to enable certain features that are needed to resolve connection issues, manage device settings, or troubleshoot VR applications.
 
-⚠️ **Meta**: Meta hardware and software (including MQDH) are outside WPS control. Meta updates may cause unexpected functionality changes in VR systems. WPS monitors Meta releases to inform users of potential impacts and changes.
+⚠️ **Third Party Software**: Third Party hardware and software (Meta, ArborXR) are outside WPS control. Meta updates may cause unexpected functionality changes in VR systems. WPS monitors Meta and ArborXR releases to inform users of potential impacts and changes.
 
 ## Prerequisites
 - An internet connection
@@ -47,7 +47,7 @@ Developer credentials are required to enable certain features that are needed to
 4. **Two-factor authorization (may be required)**
    - *If you have not enabled two-factor authorization (2FA) for your Meta account you will need to do that now*
    - *See the Meta Account Access and Security Setup Guide for details on enabling 2FA*
-   - *If your account was created by WPS staff you will need to coodinate access*
+   - *If your account was created by WPS staff you will need to coordinate access*
 
 5. **Accept invitation and verify authorization** 
    - Accept invitation on Meta web site
@@ -57,7 +57,7 @@ Developer credentials are required to enable certain features that are needed to
 ### Connect Headset to Meta Horizon phone application
 
 6. **Power on VR headset**
-   - *The follwing steps assume that the VR headset has been initially setup*
+   - *The following steps assume that the VR headset has been initially setup*
    - *If this is not the case - see **VR Headset Initial Setup Guide** for required steps*
    - Connect VR headset to internet
    - *It is best to have only one headset powered on at a time*
@@ -85,7 +85,7 @@ Developer credentials are required to enable certain features that are needed to
 ### Enable Developer settings on VR headset
 
 - *You will be wearing the VR headset for the next steps*
-- *For detailed instructions on accessing the Settings menu see - **Recomended Headset Settings***
+- *For detailed instructions on accessing the Settings menu see - **Recommended Headset Settings***
 
 10. **Open the Advanced Settings menu**
     - Open the **Quick Settings** menu by clicking on the time/WiFi/battery display
@@ -97,7 +97,7 @@ Developer credentials are required to enable certain features that are needed to
     - Scroll down to find **Developer** section
     - Toggle on **Enable Developer Settings**
     - An additional list of options should appear
-    - Toggle on **Enable MTP Notifcation**
+    - Toggle on **Enable MTP Notification**
     - Toggle off **Physical Link Features**
     - Toggle off **Link Auto-Connect**
 
@@ -112,7 +112,7 @@ Developer credentials are required to enable certain features that are needed to
 - Verify the correct Email for the Meta account
 - When logging in, use email code instead of password to confirm account match
 - Ensure password is correct for account 
-- If Meta account was created by WPS, coordinate further troubleshootings with staff
+- If Meta account was created by WPS, coordinate further troubleshooting with staff
 
 **Two-factor authorization issues**
 - If account was created by WPS, coordinate or receive 2FA access *(usually Google Authenticator)*
@@ -122,7 +122,7 @@ Developer credentials are required to enable certain features that are needed to
 
 **Unable to accept invitation to join Organization**
 - Ensure Meta account matches Email address on invitation
-- Atttempt to accept invitation using Chrome or Firefox browsers - *(Safari has caused issues in the past)*
+- Attempt to accept invitation using Chrome or Firefox browsers - *(Safari has caused issues in the past)*
 
 **Unable to find Device in Meta Horizon app**
 - Ensure both VR headset and phone are using the same internet source
@@ -134,7 +134,7 @@ Developer credentials are required to enable certain features that are needed to
 - Turn off other nearby Devices to simplify setup
 - Match serial numbers *(serial number is found on left temple on headset)*
 - *Serial number is on inside of left temple - Quest 3*
-- *Serial number is on outside of left temple, under headstrap cover - Quest 2*
+- *Serial number is on outside of left temple, under head-strap cover - Quest 2*
 
 **Developer Mode not available in Meta Horizon app**
 - Ensure that Meta account has been added to WPS Organization as developer

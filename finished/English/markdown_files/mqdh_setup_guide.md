@@ -3,7 +3,7 @@
 ## Purpose & Context
 This guide establishes the Meta Quest Developer Hub (MQDH) on your computer, which serves as the foundation for advanced VR headset management. MQDH enables you to install custom applications like WPS Auto Launch, manage developer settings, and perform advanced troubleshooting. This is a one-time setup process that creates the development environment needed for WildXR deployments.
 
-⚠️ **Meta**: Meta hardware and software (including MQDH) are outside WPS control. Meta updates may cause unexpected functionality changes in VR systems. WPS monitors Meta releases to inform users of potential impacts and changes.
+⚠️ **Third Party Software**: Third Party hardware and software (Meta, ArborXR) are outside WPS control. Meta updates may cause unexpected functionality changes in VR systems. WPS monitors Meta and ArborXR releases to inform users of potential impacts and changes.
 
 ## Prerequisites
 - Windows or Mac computer with internet access
@@ -188,13 +188,13 @@ Your Meta account must have developer privileges enabled by WPS before MQDH will
 - Confirm password accuracy with WPS staff
 - Check that account has developer privileges enabled
 - Ensure 2FA codes are current (30-second expiration)
+<div style="page-break-after: always;"></div>
 
 **MQDH won't launch after installation:**
 - Check Windows Defender or antivirus quarantine
 - Verify installation completed successfully
 - Try running as administrator
 - Restart computer and retry launch
-<div style="page-break-after: always;"></div>
 
 **Headset not recognized by MQDH:**
 - Verify both computer and headset are connected to the same WiFi network
@@ -224,6 +224,7 @@ Your Meta account must have developer privileges enabled by WPS before MQDH will
 ⚠️ **Headset Linking**: MQDH requires headsets to be ADB to be enabled for some funcitonality. If functionality is missing this may be the issue.
 
 ⚠️ **Software Updates**: MQDH is in a constant state of development and as such will often require an update. If possible, always update MQDH when prompted prior to completing other tasks in MQDH.
+<div style="page-break-after: always;"></div>
 
 ## Verification Steps
 

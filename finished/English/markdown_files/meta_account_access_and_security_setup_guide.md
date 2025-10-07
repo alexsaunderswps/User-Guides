@@ -3,7 +3,7 @@
 ## Purpose & Context
 This guide provides complete access to your WPS-managed Meta account and sets up secure two-factor authentication (2FA). Meta accounts are required for all Quest headsets and may be needed to resolve connection issues, manage device settings, or troubleshoot VR applications.
 
-⚠️ **Meta**: Meta hardware and software (including MQDH) are outside WPS control. Meta updates may cause unexpected functionality changes in VR systems. WPS monitors Meta releases to inform users of potential impacts and changes.
+⚠️ **Third Party Software**: Third Party hardware and software (Meta, ArborXR) are outside WPS control. Meta updates may cause unexpected functionality changes in VR systems. WPS monitors Meta and ArborXR releases to inform users of potential impacts and changes.
 
 ## Prerequisites
 - An internet connection

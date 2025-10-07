@@ -3,7 +3,7 @@
 ## Purpose & Context
 This guide establishes the foundation for all VR headset file management tasks. You'll connect your Meta Quest 2, Quest 3, or Quest 3s to a computer and access the WildXR application files. This connection is required before transferring media files, confirming configuration or localConfiguration files, or troubleshooting application issues.
 
-⚠️ **Meta**: Meta hardware and software (including MQDH) are outside WPS control. Meta updates may cause unexpected functionality changes in VR systems. WPS monitors Meta releases to inform users of potential impacts and changes.
+⚠️ **Third Party Software**: Third Party hardware and software (Meta, ArborXR) are outside WPS control. Meta updates may cause unexpected functionality changes in VR systems. WPS monitors Meta and ArborXR releases to inform users of potential impacts and changes.
 
 ## Prerequisites
 - Meta Quest 2, Quest 3, or Quest 3s VR headset
@@ -30,11 +30,11 @@ This guide establishes the foundation for all VR headset file management tasks. 
 2. **Power on your headset**
    - **Quest 2**: Press **power button** on right side
    - **Quest 3 & Quest 3s**: Press **power button** on left side
+<div style="page-break-after: always;"></div>
 
 3. **Connect USB cable**
    - **Quest 2**: USB port located on left side below temple
    - **Quest 3 & Quest 3s**: USB port located on left side on temple
-<div style="page-break-after: always;"></div>
 
 4. **Identify primary controller**
    - **Quest 2**: Right controller has **horizontal oval button**
@@ -76,11 +76,11 @@ This guide establishes the foundation for all VR headset file management tasks. 
 10. **Open file browser**
     - **Windows**: Open **File Explorer**, click **"This PC"**
     - **Mac**: Open **Finder**
+<div style="page-break-after: always;"></div>
 
 11. **Navigate to headset**
     - Double-click **"Quest 2"**, **"Quest 3"**, or **Quest 3s**
     - Double-click **"Internal shared storage"**
-<div style="page-break-after: always;"></div>
 
 12. **Navigate to WildXR files**
     - Double-click **"Android"**
@@ -118,10 +118,10 @@ This guide establishes the foundation for all VR headset file management tasks. 
 - Configuration settings that control the appearance of the WildXR application
 - If headset or computer (device) is registered through WildXR Web Portal these settings are controlled remotely
 - If headset or computer (device) is not registered through WildXR Web Portal these settings are preconfigured by the WildXR application
+<div style="page-break-after: always;"></div>
 
 **metadataDatabase.json**
 - Metadata required by the WildXR application for proper functioning
-<div style="page-break-after: always;"></div>
 
 **DownloadQueue.json**
 - Information for video download function in the WildXR application
@@ -159,13 +159,13 @@ This guide establishes the foundation for all VR headset file management tasks. 
 - Ensure headset is fully powered on and not in sleep mode
 - Check if developer mode is enabled in headset settings
 - *You must accept the USB connection notification each time the USB is connected*
+<div style="page-break-after: always;"></div>
 
 **Files/folders appear empty or inaccessible:**
 - Verify WildXR has been run at least once on the headset
 - Check that the correct path is being followed: `Android` > `data` > `com.wps.wildx` > `files`
 - Ensure USB debugging permissions were granted if prompted
 - Try refreshing the file browser view
-<div style="page-break-after: always;"></div>
 
 ## Important Notes
 
@@ -173,11 +173,11 @@ This guide establishes the foundation for all VR headset file management tasks. 
 1. Copy files to your computer
 2. Edit them there
 3. Copy the modified files back to overwrite originals
-4. Files can be opened to verify changes have been applied *(see **File Transfer Verifcation** below)*
+4. Files can be opened to verify changes have been applied *(see **File Transfer Verification** below)*
 
 ⚠️ **Backup Recommendation**: Always create a backup copy of configuration files before editing.
 
-⚠️ **File Editing Verification**: Always check that edited files have been transfered successfully to the headset.
+⚠️ **File Editing Verification**: Always check that edited files have been transferred successfully to the headset.
 
 ⚠️ **File Transfer Recommendation**: When sideloading video files, verify the **downloads** folder contains the number of videos you attempted to sideload.
 

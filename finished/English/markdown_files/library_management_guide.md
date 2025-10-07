@@ -4,7 +4,7 @@
 This guide provides the required steps to install the WildXR application and remove or hide unwanted VR applications. 
 Meta VR headsets automatically install numerous social media apps that may be undesirable in a public setting.
 
-⚠️ **Meta**: Meta hardware and software (including MQDH) are outside WPS control. Meta updates may cause unexpected functionality changes in VR systems. WPS monitors Meta releases to inform users of potential impacts and changes.
+⚠️ **Third Party Software**: Third Party hardware and software (Meta, ArborXR) are outside WPS control. Meta updates may cause unexpected functionality changes in VR systems. WPS monitors Meta and ArborXR releases to inform users of potential impacts and changes.
 
 ## Prerequisites
 - A WiFi internet connection
@@ -26,17 +26,17 @@ Meta VR headsets automatically install numerous social media apps that may be un
    - Put on the VR headset
    - On the floating menu bar - click the **Store** icon *(an orange storefront icon)*
 
-2. **Seach for WildXR**
+2. **Search for WildXR**
    - Click on the **"Search"** icon in the upper left *(a magnifying glass icon)*
-   - Enter **"Wildxr"** on the virtual keyboard that appears *(select keys with the right or left hand controller)*
+   - Enter **"WildXR"** on the virtual keyboard that appears *(select keys with the right or left hand controller)*
    - Click the **"Search"** key on the virtual keyboard to initiate the search
+<div style="page-break-after: always;"></div>
 
 3. **Install WildXR**
    - Under **"Apps & Games"** locate the WildXR tile.
    - Click on the **"wildXR"** tile
    - Click on the **"Get"** button on the lower right 
-   - The Wildxr application should begin downloading and will install automatically.
-<div style="page-break-after: always;"></div>
+   - The WildXR application should begin downloading and will install automatically.
 
 ### Navigate to App Library
 
@@ -45,19 +45,19 @@ Meta VR headsets automatically install numerous social media apps that may be un
    - On the floating menu bar - click the **Library** icon *(a 3x3 grid of dots)*
 
 5. **Skip automatic install**
-   - A modal window may appear offering to automatically install apps from your library
+   - A modal window may appear offering, to automatically install apps from your library
    - Select **"Skip"** for these automatic installations
 
 ### Lock Undesired Applications
 
 6. **Lock undesired apps with a passcode**
-   - Using the controllers navigate to **Settings**
+   - Using the controllers, navigate to **Settings**
    - Scroll the left-side menu until you see **Passcode & Security**
    - Enter the **Passcode & Security** settings.
    - Navigate to **Security** -> **Locked Apps**
    - Click **Select All** in the upper right
    - Toggle the **WildXR** app so that it will not be locked
-   - Enter a Passcode to lock the applications *(WPS Staff will not be able to recover this PIN is you lose it)*
+   - Enter a Passcode to lock the applications *(WPS Staff will not be able to recover this PIN if you lose it)*
    - Confirm the Passcode to lock the selected applications
 
 ### Curate Visible Applications
@@ -75,13 +75,13 @@ Meta VR headsets automatically install numerous social media apps that may be un
    - Click the **"Uninstall"** button on the warning modal that appears
    - The application tile will remain visible to users after being uninstalled
    - Click the **"Options"** button again to hide the uninstalled application
+<div style="page-break-after: always;"></div>
 
 9. **Hide applications**
    - Choose **"Hide:**
-   - *WPS does not recommend Hiding the **"Settings"** application - no functionality will be lost if it is hidden*
+   - *WPS does not recommend hiding the **"Settings"** application - no functionality will be lost if it is hidden*
    - Check the **"Don't show again"** box
    - Click **"Hide"**
-<div style="page-break-after: always;"></div>
 
 ### **Make WildXR readily available**
 
@@ -115,18 +115,22 @@ Meta VR headsets automatically install numerous social media apps that may be un
 - Meta prevents the removal of certain applications
 - These applications should be locked and hidden to minimize the opportunities for abuse
 
+**A certain application can not be hidden**
+- Meta may remove the ability to hide certain, or all, applications
+- These applications should be locked to minimize the opportunities for abuse
+<div style="page-break-after: always;"></div>
+
 **Many applications are visible in the Library panel**
 - Meta automatically installs, or makes visible, various applications
 - WPS cannot prevent the display or installation of certain applications
 - Follow the steps to **Lock**, **Uninstall**, and **Hide** applications
-- Forcing WildXR to autolaunch will remove some opportunity to abuse the VR system
+- Forcing WildXR to auto-launch will remove some opportunity to abuse the VR system
 
 **Unable to unlock applications once locked**
 - WPS Staff are unable to recover a forgotten Passcode
-- Ensure that Passcodes are kept in a secured location or Password management application
+- Ensure that Passcodes are kept in a secure location or Password management application
 - Use a memorable, but not overly simple, passcode to lock applications
 - A factory reset will be necessary to restore access to apps if a Passcode has been lost
-<div style="page-break-after: always;"></div>
 
 ## Important Security Notes
 
@@ -136,8 +140,8 @@ Meta VR headsets automatically install numerous social media apps that may be un
 
 ⚠️ **Restrict Internet Connectivity**: Restricting Internet connectivity will remove some functionality in managing your headset through the WildXR web portal.
 
-⚠️ **Meta Store Access**: Meta prevents the locking, hiding, and uninstalling the Meta Store application. 
+⚠️ **Meta Store Access**: Meta prevents locking, hiding, and uninstalling the Meta Store application. 
 
-⚠️ **Additional Security**: Options for further securing the VR experience are available but add cost and complexity to headset use. Contact WPS staff for more information.
+⚠️ **Additional Security**: Options for further securing the VR experience are available, but add cost and complexity to headset use. Contact WPS staff for more information.
 
-⚠️ **Account Recovery**: WPS Staff have access to only certain credentials for your Meta account. Always secure you access codes somewhere safe.
+⚠️ **Account Recovery**: WPS Staff have access to only certain credentials for your Meta account. Always secure your access codes somewhere safe.
