@@ -44,10 +44,10 @@ This guide introduces the management of organization users via the WildXR Web Po
    - Enter the new user's first and last name in the appropriate fields
    - Enter an email for the new user
    - *Emails must be unique to each user; a shared organization email (info@yourorganization.org) will be invalid if previously used*
-   - Enter a username of the new user
+   - Enter a username for the new user
    - *Usernames must be unique to each user; an organization may not reuse the same username for multiple users*
    - *If you are an Organization Admin the **"Role"** and **"Organization"** fields will be prepopulated and cannot be changed*
-   - Double check the information and click **"Save"** when done
+   - Double-check the information and click **"Save"** when done
 
 5. **Set new user password**
    - Click anywhere on the user row
@@ -67,26 +67,26 @@ This guide introduces the management of organization users via the WildXR Web Po
    - Edit the appropriate fields
    - To change a password, click on **"Update Password"**
    - Confirm changes and click **"Save"** or **"Cancel"** as desired
-   - *Once a password update has been **Applied** it will not be reverted by clicking "**Cancel"** on the **Edit User** page*
+   - *Once a password update has been **Applied** it will not revert by clicking "**Cancel"** on the **Edit User** page*
 
 ### Delete a User
 
 7. **Delete an existing user**
    - Contact WPS Staff to delete an existing user from your organization
-   - *If a user must be blocked prior to deletion, follow the steps to **Edit a User** and **Update Password** to prevent account access*
+   - *If a user must be blocked before deletion, follow the steps to **Edit a User** and **Update Password** to prevent account access*
 <div style="page-break-after: always;"></div>
 
 ## Troubleshooting
 
 **Unable to Log In to Wildxr.org:**
-- Double check your log in credentials
+- Double-check your login credentials
 - Check your internet connection
 - If there is another user in your organization, have them update password and check username
-- Contact WPS if Log In continues to fail
+- Contact WPS if login continues to fail
 
 **New user is unable to log in to Wildxr.org:**
 - New users need to have an initial password set by an existing user via the **"Update Password"** - see Step 5
-- Double check the credentials provided to the new user
+- Double-check the credentials provided to the new user
 - Ensure that the new user appears on the User page for your organization
 
 **Expected Users are not visible:**
@@ -98,13 +98,12 @@ This guide introduces the management of organization users via the WildXR Web Po
 - Organization Admin users cannot change organization assignment for users
 
 **Unable to change user role:**
-- Organization Admin users cannot change role assignment for users
+- Organization Admin users cannot change role assignments for users
 
 **Unable to create a new user:**
 - Ensure that the username has not been used in your organization
 - Ensure that the email address has not been used in your organization
 - Connect WPS if user creation continues to fail
-<div style="page-break-after: always;"></div>
 
 ## Important Notes
 
@@ -113,6 +112,7 @@ This guide introduces the management of organization users via the WildXR Web Po
 ⚠️ **Email addresses must be unique**: If a group email has been used for a user in your organization (info@yourorganization.org), it cannot be used for a new user.
 
 ⚠️ **Usernames must be unique**: Usernames cannot be reused within an organization.
+<div style="page-break-after: always;"></div>
 
 ## Verification Steps
 

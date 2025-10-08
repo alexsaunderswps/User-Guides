@@ -152,3 +152,12 @@ This guide introduces the management of devices (headsets or computers) running 
 ⚠️ **Internet Connection**: Devices must be connected to the internet while registering and whenever updates to a device **Installation** are made (see the **Web Portal Installation Management Guide**).
 
 ⚠️ **Video downloads**: Any new or updated device **Installation** will require the download of video files for uninterrupted playback. Make sure to account for the time it may take to download videos associated with the **Installation**.
+
+## Verification Steps
+
+Verify that your device creation or updates have been successful.
+
+**Complete functionality verification:**
+- Log out of the Wildxr.org Web Portal
+- Log in and refresh the **Devices** page to ensure your device appears as expected
+- If you have modified **Installation** assigned to a **Device**, connect the device to the internet and launch WildXR to make sure the changes have been applied

@@ -3,9 +3,9 @@
 ## Purpose & Context
 This guide introduces the management of installations (the experience presented to headset users) running the WildXR VR application via the WildXR Web Portal (Wildxr.org).
 
-⚠️ **Video Download Time**: Whenever a new instance or update of WildXR is required all associated videos must be downloaded to provide a smooth playback experience. Depending on the video library size and internet speeds, this can take multiple hours. Please consider this when scheduling an update or planning for new WildXR installations.
+⚠️ **Video Download Time:** Whenever a new instance or update of WildXR is required all associated videos must be downloaded to provide a smooth playback experience. Depending on the video library size and internet speeds, this can take multiple hours. Please consider this when scheduling an update or planning for new WildXR installations.
 
-⚠️ **Installations** act as the source of truth for how the WildXR application behaves when online. If changes are made via the user interface, and not by updating the **Installation** assigned to a headset, those changes may be overwritten when the headset connects to the internet. Always update an **Installation** if changes to the WildXR application behavior is
+⚠️ **Installations:** Installations are settings that determine what and how content is shown inside an instance of the WildXR application. If changes are made via the user interface, and not by updating the **Installation** assigned to a headset, those changes may be overwritten when the headset connects to the internet. 
 
 ## Prerequisites
 - Windows or Mac computer with internet access
@@ -80,10 +80,10 @@ This guide introduces the management of installations (the experience presented 
    - *This setting is considered a **Beta** feature and may not behave reliably in all situations*
    - **Idle Timer Length Seconds** acts as a backup to the headset **Presence Sensor** as presence detection can be unreliable with various Meta firmware versions
    - **Idle Timer Length** is the amount of time after which a lack of movement within the headset triggers a **Presence Sensor** event within the WildXR application
-   - *This setting was primarily used to trigger **Spectator Camera** events on connected systems, but may also be helpful in gathering **Analytic** data*
+   - *This setting was primarily used to trigger **Spectator Camera** events on connected systems, but may also help gather **Analytic** data*
    - **Idle Timer Delay Seconds** is the delay between the time a headset detects new motion to the time at which it resets the headset view
    - **Idle Timer Delay** reduces the chance that a headset will show a non-standard view when mounted (put on by a user) after having been stored on a hook
-   - *This delay is difficult to predict without some experience and should be custom set for each **Installation** if **Idle Timer Length** is being used*
+   - *This delay is difficult to predict without some experience and should be custom-set for each **Installation** if **Idle Timer Length** is being used*
 <div style="page-break-after: always;"></div>
 
 ### Globe Starting position 
@@ -92,9 +92,9 @@ This guide introduces the management of installations (the experience presented 
    - Determines where on the globe a gaze reticle will be positioned for new users
    - Not used when a single video is played on loop
    - If multiple **Map Markers** are used in a **Video Catalogue**, WPS recommends positioning the gaze reticle close to at least one marker
-   - *WPS recommends using Google maps to find a position that works best for your installation*
+   - *WPS recommends using Google Maps to find a position that works best for your installation*
    - *WPS recommends not positioning your **Globe Start Lat. and Long.** too close to a **Map Marker**, as the associated gallery may open before the user realizes they can navigate the globe* 
-   - Lat. and Long. co-ordinates can include decimal digits, but cannot be 0 and 0
+   - Lat. and Long. coordinates can include decimal digits, but cannot be 0 and 0
 
 ### Video Catalogue settings
 
@@ -104,7 +104,6 @@ This guide introduces the management of installations (the experience presented 
    - If you are logged in as an **Organization Admin**, only catalogues associated with your **Organization** or those created by **WildXR** staff are available
    - **System Admin** have access to all catalogues
    - Select the catalogue to be used for your **Installation**
-<div style="page-break-after: always;"></div>
 
 10. **Show adult content**
     - Check the **"Show Graphic Death"** to expose videos that show adult content involving death or gore
@@ -112,6 +111,7 @@ This guide introduces the management of installations (the experience presented 
     - If these boxes are left unchecked, videos that show this content will not be visible within the WildXR application
     - ⚠️ Regardless of whether these checkboxes are selected or not, it is possible to select a video as an **Installation** startup video that contains adult content.
     - ⚠️ Review video selection to ensure content is appropriate for your intended audiences. 
+<div style="page-break-after: always;"></div>
 
 ### WildXR application startup behavior
 
@@ -121,7 +121,7 @@ This guide introduces the management of installations (the experience presented 
     - Select the **"Startup Video Loop"** checkbox if you want the startup video to play continuously in the headset - this will be the only video that plays
     - If the **Startup Video** is a video introduction to an **Installation** and you want it to play once for each user, leave the **"Startup Video Loop"** box unchecked
     - If you want users to choose their own video from the **Video Catalogue** leave the **"Select Startup Video"** field blank
-    - Checking the **"Resume Startup Video on Awake"** box with cause the video to continue playing when a new user picks up the headset instead of starting from the beginning
+    - Checking the **"Resume Startup Video on Awake"** box will cause the video to continue playing when a new user picks up the headset instead of starting from the beginning
 
 ### Favorites
 
@@ -131,7 +131,6 @@ This guide introduces the management of installations (the experience presented 
     - To remove videos from the **Favorites** list, click the **x** button in their title display.
     - Select the **"Filter Favorites By Default"** checkbox to have thumbnail galleries display **Favorites** instead of all videos represented by a **Map Marker**
     - *Users can switch to seeing all videos, instead of only favorites, by selecting the **All** button at the top of a thumbnail gallery*
-<div style="page-break-after: always;"></div>
 
 ### Set videos to download automatically
 
@@ -146,15 +145,15 @@ This guide introduces the management of installations (the experience presented 
       3. **Download Favorites** - All videos selected as **Favorites** are downloaded when WildXR launches
       4. **Download Entire Catalogue** - All videos in the currently selected **Video Catalogue** are downloaded when WildXR launches
     - ⚠️ Sideloading a headset with videos (transferring video files via a USB connection) is recommended for large videos and large video catalogues
+<div style="page-break-after: always;"></div>
 
 ### Control, Demo Mode, Menu Tray, and Session Data
 
 14. **Select Control**
     - By default, users interact with the WildXR user interface with **Gaze** control - controlling a selection reticle with head movement
-    - Select **Hand Controllers** to allow users to use the physical controllers, modeled as hands, to interact with the WildXR user interface
+    - Select **Hand Controllers** to allow users to use the physical controllers, modelled as hands, to interact with the WildXR user interface
     - ⚠️ The **Hand Controllers** option is still in development and may cause unexpected behavior in the app and is not recommended for public use
     - ⚠️ Giving the public access to the physical controllers associated with VR headsets allows them to exit WildXR and gain access to the general VR interface which is generally undesirable
-<div style="page-break-after: always;"></div>
 
 15. **Demo Mode**
     - ⚠️ **Demo Mode** is recommended for most public deployments of WildXR ⚠️
@@ -179,11 +178,11 @@ This guide introduces the management of installations (the experience presented 
 17. **Send Session Data**
     - ⚠️ This feature is in development
     - When selected **Send Session Data** will send information about how users are interacting with the WildXR application and the videos shown in the assigned **Installation**
+<div style="page-break-after: always;"></div>
 
 18. **Save new installation**
     - Click the **"Save"** button to save your new installation and allow its assignment to registered devices
     - Click the **"Cancel"** button to discard your installation and return to the **Installations** page
-<div style="page-break-after: always;"></div>
 
 ## Edit an existing installation
 - *Organization users can only edit installations that their organization owns*
@@ -230,6 +229,10 @@ This guide introduces the management of installations (the experience presented 
 
 ## Troubleshooting
 
+**Installation not showing in headset**
+- Make sure you have assigned the **Installation** to a **Device** on the **Devices** page (refer to the **Web Portal Device Management Guide**)
+- Ensure that the device in question is registered to the wildxr.org website and has a **WildXR Number**
+
 **Unable to log onto the Wildxr.org website:**
 - Ensure you are entering the correct credentials to log into Wildxr.org *(May have been supplied by WPS Staff)*
 - If someone within your organization created your account; check that they assigned a password to your account *(passwords are not created automatically)*
@@ -243,10 +246,11 @@ This guide introduces the management of installations (the experience presented 
 - If you are logged in to the wildxr.org website as an **Organization Admin** you will not be able to edit the **Organization** field of an **Installation**
 - If you feel the **Installation** in question should belong to a different **Organization** please contact WPS staff for assistance
 
-**Organization field shows different Organization than expected / does not match my Organization:**
+**Organization field shows different Organization than expected or does not match my Organization:**
 - Please double-check that you are logged into the correct account
 - If you are a **System Admin** users, you will have access to all **Organizations** and can choose the correct value for the **Organization** field
 - If you require further assistance please contact WPS staff
+<div style="page-break-after: always;"></div>
 
 **Tips do not display:**
 - **Tips** are only shown to users during loading screens, both for the WildXR application and for videos within the WildXR application
@@ -263,17 +267,18 @@ This guide introduces the management of installations (the experience presented 
 - Depending on the type of **Tutorial** selected, the interface may not show immediately on launch
 - **Dynamic tutorials** will only show if there is not headset movement or interaction with UI elements by the user
 - **Text** and **Video tutorials** may not show if a headset is passed from user to user, as opposed to the headset being put down and picked up
-- If **Tutorials** continue to behave in an unexpected manor, please contact WPS Staff.
+- If **Tutorials** continue to behave in an unexpected manner, please contact WPS Staff.
 
 **Tutorial displaying and should not be:**
 - Ensure that the **Select Tutorial Mode** field is correctly set to **None** and save the **Installation**
-- If the **"Save"** button is light green not changes have been applied and you can return to the **Installations** screen
+- If the **"Save"** button is light green, no changes have been applied and you can return to the **Installations** screen
 
 **Timer settings:**
 - Only **System Admin** users can access the **Timer settings** of an **Installation**
 - By default, all **Timer settings** are set to 0.0 seconds, this works in most deployment situations
 - If you would like to discuss adding **Timer settings** to your installation, please contact WPS staff
 - ⚠️*Headset **Timer settings** interact with certain headset features that are controlled by **Meta** and the effects can change unexpectedly based on firmware updates*
+<div style="page-break-after: always;"></div>
 
 **Globe Starting position has no effect:**
 - **Globe Starting position** is only used in deployments when users choose their own videos from a **Globe Scene**
@@ -291,23 +296,24 @@ This guide introduces the management of installations (the experience presented 
 **Unsure of Video Catalogue selection:**
 - **Installations** do not need to be assigned a **Video Catalogue** upon creation
 - The base WildXR **Installation** is applied to all **Devices** that do not have an assigned **Installation** 
-- The base **Installation** contains all WildXR produced videos and all **Core Map Markers**
+- The base **Installation** contains all WildXR-produced videos and all **Core Map Markers**
 - **Video Catalogue** creation can occur after **Installation** creation if the goal is only to control some aspects of the user experience
 
 **Video Catalogue missing:**
 - **Organization Admins** only have access to **Video Catalogues** created by their **Organization** or owned by WildXR
-- If you have created an **Video Catalogue** but cannot locate it, check the **Video Catalogue** page
+- If you have created a **Video Catalogue** but cannot locate it, check the **Video Catalogue** page
 - Ensure you are logged into the wildxr.org website with the correct credentials to view the missing catalogue
 
 **Adult content showing in Installation:**
 - Ensure that the **"Show Graphic ..."** boxes are not checked in the **Installation** in question
 - If **Demo Mode** is not checked, users can access the **Admin Panel** and can expose adult content in the WildXR application
-- If you have concerns that a video may not be labeled correctly as **Adult Content** please contact WPS staff
+- If you have concerns that a video may not be labelled correctly as **Adult Content** please contact WPS staff
+<div style="page-break-after: always;"></div>
 
 **Desired startup video not available:**
 - **Startup Video** selection is limited to videos contained within the assigned **Video Catalogue**
 - Ensure you are searching for the correct video by title in the **Select Startup Video** field
-- ⚠️ *Videos with **Adult Content** are still able to be selected as a **Startup Video** regardless of whether these videos have been hidden from normal view - always review the video selection prior to deploying to the public* ⚠️
+- ⚠️ *Videos with **Adult Content** are still able to be selected as a **Startup Video** regardless of whether these videos have been hidden from normal view - always review the video selection before to deploying to the public* ⚠️
 
 **Startup Video does not loop:**
 - Ensure that the **Startup Video Loop** box is checked in the **Installation** details
@@ -324,15 +330,51 @@ This guide introduces the management of installations (the experience presented 
 **Fewer videos than expected are present in Installation:**
 - When the **Filter Favorites by Default** box is checked, all galleries will display only **Favorite** videos, unless the user selects the **"All"** button at the top of the gallery
 - If the **Show Graphic ...** boxes are unchecked, you will have hidden all **Adult Content** and only a portion of videos in a **Video Catalogue** will be displayed
-- If a headset is offline when WildXR launches, WildXR will only display downloaded content - check you headset internet connection and relaunch WildXR
+- If a headset is offline when WildXR launches, WildXR will only display downloaded content - check your headset internet connection and relaunch WildXR
 - Video content is determined by **Video Catalogue** contents, which is influenced by the selected **Map Markers** for a **Video Catalogue**
 - Review the **Web Portal Map Marker Management Guide** and the **Video Catalogue Creation Guide** to ensure you have included all the videos desired in a **Video Catalogue**
 
 **Videos not downloading to headset:**
 - Video download speed and success are dependent on a strong, reliable internet connection
+- Ensure that you have the correct **Automatic Download Mode** set for the behavior you expect
+- ⚠️*Because video download success is dependent on internet speed and reliability, WPS recommends using **Download Entire Catalogue** only in specific situations where a **Video Catalogue** contains 20 or fewer videos or the user has an especially robust internet connection* ⚠️
+- If there are frequent interruptions in internet service, downloaded videos may be degraded and show artifacts, distorted audio, or incomplete playback
+- Always test downloaded video quality, and attempt to use WildXR offline after videos have downloaded and before deploying headsets to the public
 <div style="page-break-after: always;"></div>
+
+**Video Catalogue size is too large for download:**
+- If you would like to install the entire video catalogue from WildXR, or a large percentage of it, please contact WSP staff for assistance
+- ⚠️*Downloads will continue to process as long as the headset is connected to the internet and WildXR is running - 8 hours of download time can occur without user intervention (headset will sleep after 8 hours without interaction by a user)*
+
+**We would like to use Hand Controllers in our deployment:**
+- WPS recommends against using **Hand Controllers** in public deployments as it necessitates the user of the physical VR controllers
+- Physical VR controllers allow users to exit the WildXR application and access other UI interfaces including headset settings
+- Please contact WPS staff if you would like to discuss controller options for interaction with WildXR
+
+**Users can delete/download videos and add/remove favorites:**
+- Ensure that the **Demo Mode** checkbox is selected for your **Installation** as running WildXR in **Demo Mode** prevents such interactions
+- Remember that headsets will need to be connected to the internet and the WildXR application must be stopped and restarted for changes to **Installation** settings to take effect
+
+**Users can show/hide adult content:**
+- Access to the **Admin Panel** can be prevented by running WildXR in **Demo Mode**, refer to Step #15
+- Remember that headsets will need to be connected to the internet and the WildXR application must be stopped and restarted for changes to **Installation** settings to take effect
+
+**Save button is unresponsive or light green in color:**
+- If you are editing an existing **Installation** and attempt to save without making any changes the **"Save"** button will be unresponsive and light green in color
 
 ## Important Notes
 
-⚠️ **Developer Privileges Required**: Your Meta account must have developer access granted by WPS before MQDH will function properly for custom app installation.
+⚠️ **Changes to Installation settings:** Changes to an Installation are not automatically applied to instances of WildXR. WildXR must be stopped and re-launched and the headset must have an internet connection for changes to take place.
 
+⚠️ **Installations must be assigned to a registered device to be shown:** Installations are settings that determine what and how content is shown inside an instance of the WildXR application. An **Installation** must be assigned to device. Only devices registered on the wildxr.org website with a **WildXR Number** can be assigned an **Installation**
+
+⚠️ **Video playback quality:** Videos that are not downloaded to your device will attempt to stream from the cloud. Streaming is dependent on internet strength and speed for quality, and is not recommended for use in a public setting. Download all videos necessary for your **Installation** before deploying a device for use in a public setting.
+
+## Verification Steps
+
+Verify that your installation creation or updates have been successful.
+
+**Complete functionality verification:**
+- Log out of the Wildxr.org Web Portal
+- Log in and refresh the **Installations** page to ensure your installation appears as expected
+- Assign your **Installation** to a **Device** and connect that device to the internet. Launch WildXR and confirm that the **Installation** behaves as expected
