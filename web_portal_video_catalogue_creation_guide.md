@@ -1,21 +1,20 @@
 # WildXr Web Portal Video Catalogue Creation Guide
 
 ## Purpose & Context
-This guide introduces the management of devices (headsets or computers) running the WildXR VR application via the WildXR Web Portal (Wildxr.org)
+This guide introduces the management of Video Catalogues - a collection videos and markers used for one or more WildXR **Installations**
 
 ## Prerequisites
 - Windows or Mac computer with internet access
 - An internet browser (WPS recommends Chrome)
 - A WildXR account with credentials *(may have been created by WPS staff)*
-- A **"Device"** - either a VR headset (Quest 2, Quest 3, or Quest 3s) or Computer - with the WildXR application installed
 
 ## Quick Overview (for experienced users)
 1. Navigate to the Wildxr.org website
 2. Log In with your Username and Password *(may be provided by WPS staff)*
-3. Navigate to the Admin -> Devices page
-4. Edit an exisitng or Add a new Device
-5. *If adding a new device - you will need to launch the WildXR application to generate a device id*
-6. Verify the device settings
+3. Navigate to the Video Catalogues page
+4. Add a new or edit an existing Video Catalogue
+5. Add map markers and videos to a Video Catalogue (optional)
+6. Verify the Video Catalogue contents within the WildXR application
 
 ## Detailed Steps
 
@@ -31,48 +30,71 @@ This guide introduces the management of devices (headsets or computers) running 
    - Click **"Log In"**
 <div style="page-break-after: always;"></div>
 
-3. **Navigate to the Devices management page**
-   - In the top navigation bar, click **"Admin"**
-   - In the dropdown menu that appears click **"Devices"**
-   - *If you are an Organization Admin you will only see devices assocaited with your organization*
-   - *If you are a System Admin you will see all devices across all organizations*
-   - To **"Add"** a new device continue to Step 4
-   - To **"Edit"** an exisiting device, continue to Step 10
+3. **Navigate to the video catalogues page**
+   - In the top navigation bar, click **"Video Catalogues"**
+   - *If you are an Organization Admin you will only see catalogues associated with your organization*
+   - *If you are a System Admin you will see all catalogues across all organizations*
+   - To **"Add"** a new catalogue continue to Step 4
+   - To **"Edit"** an existing catalogue, continue to Step 8
 
-### Add a New Device
+### Add a new video catalogue
 
-4. **Generate a WildXR number**
-   - Launch the WildXR application on your device
-   - There should be a **gear icon** visible to the right of the **Menu Tray** this is the **Settings Menu**
-   - Open the **"Settings Menu"** by holding the gaze reticle *white dotnut shaped selector* over the **gear icon**
-   - Select the **Generate** button in the bottom right of the **""Settings Menu"**
-   - Write down the 10 character WildXR Number
-   - Click the **"Acccept"** button and quit the WildXR application
+4. **Name, Overview, and Organization**
+   - On the **Video Catalogues** page click the **"+ Add"** button in the top right
+   - In the **"Name"** field, enter the **Video Catalogue** name - *This name is used for organization and assignment on the WildXR web portal only and is not visible to the users*
+   - In the **"Overview"** field enter a brief description of the **Video Catalogue**
+   - *This **Overview** is used internally for organization and is not shown to the user*
+   - *If you are an **Organization Admin** the **"Organization"** field will be prepopulated with your organization*
+   - *If you are a **System Admin** select the appropriate **Organization** from the drop-down menu*
+   - Click the **"Next"** button
 
-5. **Lookup device on Wildxr.org**
-   - Click the **"Device Lookup"** button in the upper right of the **Devices** page
-   - Enter the 10 character WildXR Number that was displayed on the device in Step 4
-   - Click **"Apply"**
+### Add markers to a catalogue
 
-### Enter Device Details and Installation
+5. **Add core and custom map markers**
+   - Select the **"Core Map Markers"** for the catalogue by clicking the appropriate checkboxes
+   - **"Core Map Markers"** are curated by WildXR staff and are available to everyone
+   - *Use the **"Select All Map Markers"** checkbox to quickly select all **Core Map Markers***
+   - ⚠️*Map Marker selection determines which videos are available for your catalogue*
+   - ⚠️*If you select no map markers - all videos produced by your organization or WildXR are available for assignment to your catalogue*
+   - ⚠️*If you select map markers - only videos produced by your organization or WildXR, **and** associated with the selected markers - are available to be used in the catalogue*
+   - Click the **"Custom Map Marker"** tab to show markers associated with your organization
+   - Select the markers for the catalogue by clicking the appropriate checkboxes
+   - ⚠️*Be mindful of the number of markers selected for a catalogue as too many markers are visually unappealing to users in the WildXR application*
+   - ⚠️*Remember that Map Markers can overlap which can make them unresponsive to user interaction - always check your catalogue prior to using it in public facing VR experiences*
+   - Click the **"Next"** button
 
-6. **Confirm WildXR number**
-   -In the **"Device Details"** screen, confirm that the WildXR Number matches the number from Step 4
+### Associate videos with your catalogue
 
-7. **Enter device name and select organization**
-   - Enter a descriptive name in the **"Name"** field
-   - *WPS recommends including the last 7 characters of the device serial number as well as an abbreviation of your organization's name in the device name*
-   - *For example (WPS - Q022VC7 - location)* 
-   - If you are a **Organization Admin** the device will automatically be added to your organization
-   - If you are a **System Admin** select the correct organization from the **"Organization"** dropdown menu
-<div style="page-break-after: always;"></div>
+6. **Add videos**
+   - Check the box in the upper left corner of each video you want included in the **Video Catalogue** contents
+   - Use the **Search** function to narrow down the videos presented for inclusion
+   - Use the **Pagination** interface (page numbers) in the lower right to see more videos and add them to your catalogue
+   - *Videos will only show in the **Map Marker** to which they are assigned, or in the **All Clips** and **Short Films** galleries if the **Menu Tray** is visible in your **Installation**
+   - ⚠️*A **Video Catalogue** is a snapshot of content when it is created - updates to **Core Map Markers** and **Custom Map Markers** will not update within an existing **Video Catalogue** ⚠️
+   - When you have finished adding videos to your catalogue, click the **"Next"** button
+   - *If you are an **Organization Admin** you will only see videos associated with your organization and those by the WildXR team*
+   - *If you are a **System Admin** you will see all videos across all organizations*
+   - ⚠️*A **System Admin** should not add videos from different organizations to a catalogue unless that catalogue is for WildXR team use*
+   - ⚠️*Adding videos from different organizations to an organization's **Video Catalogue** can cause confusion and prevents the owning organization from removing that video during editing*
 
-8. **Enter an installation (Optional)**
+### Review video catalogue details
+
+8. **Review & Save**
+    - Review the information for your catalogue
+    - Check that the included **Map Markers** are the one you expected
+    - Check that the **"Videos"** count matches your expected value
+    - If all values are correct click the **"Save"** button
+    - If changes need to be made you can click the **"Back"** button
+    - *You can also click the radio button above the selection that needs correcting at the top of the page (**Add Video Catalogue** for catalogue details, **Map Markers** for marker selection, and **Videos** for video selection)*
+
+## Start editing below here
+
+9. **Enter an installation (Optional)**
    - If you have an **Installation** already created for the device select the **Installation** from the dropdown menu
    - If you do not have a **Installation** ready for this device, leave **Installation** blank and the default **Installation** will be applied
    - *If apply an **Installation** with **Demo Mode** enabled, remember that this removes the ability to manually download videos via the WildXR application*
 
-9. **Save the Device Details**
+2. **Save the Device Details**
    - Verify that all **Device Details** are correct
    - Click the **"Save"** button
 

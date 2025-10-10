@@ -58,6 +58,7 @@ This guide introduces the process of creating or editing a video on the WildXR W
 ### Add a New Video
 
 4. **Name, thumbnail, and Overview entries**
+   - Click the **"Add Video"** button in the top right
    - In the **"Name"** field, enter the video name - *This name represents the video title in all WildXR user interfaces*
    - Click the **"Choose a PNG file"** link to open a file picker and select a thumbnail image - *This image represents the video in all WildXR user interfaces*
    - *A PNG file is required, JPEG/JPG files will not be accepted*
@@ -71,18 +72,18 @@ This guide introduces the process of creating or editing a video on the WildXR W
    - *For example, for a YouTube video found at **https://www.youtube.com/watch?v=mtvJSQLadfg** only enter the **mtvJSQLadfg** value*
 <div style="page-break-after: always;"></div>
 
-6. **Start Time and End Time entries**
+1. **Start Time and End Time entries**
    - The **"Start Time"** entry can be left as is for most videos
    - The **"End Time"** entry will display the video length and is shown on video thumbnail images in WildXR user interfaces
    - *Although not required, an accurate **"End Time"** improves user experience when using the WildXR application*
 
-7. **Organization and Country entries**
+2. **Organization and Country entries**
    - If you are logged in as an **Organization Administrator** your organization value will be pre-populated in the **Organization** field
    - If you are logged in as a **System Administrator** select the correct organization from the drop-down menu
    - Select the correct **Country** from the drop-down menu - *This represents where the video was filmed.* 
    - *If multiple countries are included, select **Various***
 
-8. **Video Format and Video Resolution entries**
+3. **Video Format and Video Resolution entries**
    - **"Video Format"** influences the way the WildXR application displays the video to users
    - Select the correct **"Video Format"** from the drop-down menu
    - Most applications will use either **"2D Standard Format"** or **"Standard 360"**
@@ -92,19 +93,19 @@ This guide introduces the process of creating or editing a video on the WildXR W
    - If you are unsure of the **"Video Resolution"**, choose **4k**
    - The **"Video Resolution"** selection will not influence the playback of your video within the WildXR application*
 
-9. **Species entries**
+4. **Species entries**
    - **"Species"** selections determine how the video is filtered within the WildXR application
    - **"Species"** selections also show in WildXR user interfaces
    - You may select multiple **"Species"** values from the drop-down menu,or you may select **Various** to represent multiple species
    - If a **"Species"** value was added in error, click the **x** to the right of the species lozenge
 
-10. **Tag entries**
+5.  **Tag entries**
     - **"Tags"** influence where and when a video is shown within the WildXR application
     - **Carcasses** and entries beginning with **Graphic ...** are used for videos with Adult content and can be hidden from users
     - **Compilation** and **Short Films** tags are used for longer-form videos and influence video filtering within WildXR
 <div style="page-break-after: always;"></div>
 
-11. **Finish video details entry**
+1.  **Finish video details entry**
     - When you have entered all information on your new video click the **"Next"** button
 
 ### Add the video to map markers

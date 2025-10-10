@@ -1,25 +1,25 @@
 # WildXr Web Portal Map Marker Management Guide
 
 ## Purpose & Context
-This guide introduces the management of devices (headsets or computers) running the WildXR VR application via the WildXR Web Portal (Wildxr.org)
+This guide introduces the management of **Map Markers** (smaller collections of videos within a **Video Catalogue** that all share some common trait for organization (location, theme, species)).
 
 ## Prerequisites
 - Windows or Mac computer with internet access
 - An internet browser (WPS recommends Chrome)
 - A WildXR account with credentials *(may have been created by WPS staff)*
-- A **"Device"** - either a VR headset (Quest 2, Quest 3, or Quest 3s) or Computer - with the WildXR application installed
+- Coordinates for a Latitude and Longitude field (e.g. 12.345, -67.890)
 
 ## Quick Overview (for experienced users)
 1. Navigate to the Wildxr.org website
 2. Log In with your Username and Password *(may be provided by WPS staff)*
-3. Navigate to the Admin -> Devices page
-4. Edit an exisitng or Add a new Device
-5. *If adding a new device - you will need to launch the WildXR application to generate a device id*
-6. Verify the device settings
+3. Navigate to the Map Markers page
+4. Add a new or edit an existing Map Marker
+5. Add videos to the Map Marker (optional)
+6. Verify the Map Marker contents and position within the WildXR application
 
 ## Detailed Steps
 
-### Access Device Management page on Wildxr.org
+### Access Map Marker page on Wildxr.org
 
 1. **Navigate to WildXR web portal**
    - Open web browser and go to WildXR web portal
@@ -31,69 +31,116 @@ This guide introduces the management of devices (headsets or computers) running 
    - Click **"Log In"**
 <div style="page-break-after: always;"></div>
 
-3. **Navigate to the Devices management page**
-   - In the top navigation bar, click **"Admin"**
-   - In the dropdown menu that appears click **"Devices"**
-   - *If you are an Organization Admin you will only see devices assocaited with your organization*
-   - *If you are a System Admin you will see all devices across all organizations*
-   - To **"Add"** a new device continue to Step 4
-   - To **"Edit"** an exisiting device, continue to Step 10
+3. **Navigate to the Map Markers Admin page**
+   - In the top navigation bar, click **"Map Markers"**
+   - You will arrive on the **Core Map Marker** page - *The **Map Markers** tab will be highlighted* 
+   - *The **Core Map Markers** are markers created and curated by WPS staff - they can be used, but not edited*
+   - As an **Organization Admin** you will add and edit **Map Markers** specific to your organization via the **Custom Map Markers** tab
+   - *If you are an Organization Admin you will only see markers associated with your organization*
+   - *If you are a System Admin you will see all markers across all organizations*
+   - To **"Add"** a new marker continue to Step 4
+   - To **"Edit"** an existing marker, continue to Step 8
 
-### Add a New Device
+### Add a new Custom Map Marker
 
-4. **Generate a WildXR number**
-   - Launch the WildXR application on your device
-   - There should be a **gear icon** visible to the right of the **Menu Tray** this is the **Settings Menu**
-   - Open the **"Settings Menu"** by holding the gaze reticle *white dotnut shaped selector* over the **gear icon**
-   - Select the **Generate** button in the bottom right of the **""Settings Menu"**
-   - Write down the 10 character WildXR Number
-   - Click the **"Acccept"** button and quit the WildXR application
+4. **Name, Description, and Icon**
+   - On the **Map Marker Admin** page click the **" + Add Map Marker"** button in the top right
+   - In the **"Name"** field, enter the Map Marker name - *This name represents the marker on the globe and will be visible in the WildXR Globe Scene*
+   - ⚠️ *When selecting a **Name** for the marker, shorter is better - under 15 characters (including spaces)*
+   - In the **"Description"** field enter a brief description of what the map marker contains
+   - *The **"Description"** field is for internal reference only and is not visible within the WildXR app*
+   - *If you are an **Organization Admin** the **"Organization"** field will be prepopulated with your organization*
+   - *If you are a **System Admin** select the appropriate **Organization** from the drop-down menu*
+   - Select an **"Icon"** from the drop-down menu - there are 16 choices
 
-5. **Lookup device on Wildxr.org**
-   - Click the **"Device Lookup"** button in the upper right of the **Devices** page
-   - Enter the 10 character WildXR Number that was displayed on the device in Step 4
-   - Click **"Apply"**
-
-### Enter Device Details and Installation
-
-6. **Confirm WildXR number**
-   -In the **"Device Details"** screen, confirm that the WildXR Number matches the number from Step 4
-
-7. **Enter device name and select organization**
-   - Enter a descriptive name in the **"Name"** field
-   - *WPS recommends including the last 7 characters of the device serial number as well as an abbreviation of your organization's name in the device name*
-   - *For example (WPS - Q022VC7 - location)* 
-   - If you are a **Organization Admin** the device will automatically be added to your organization
-   - If you are a **System Admin** select the correct organization from the **"Organization"** dropdown menu
+5. **Location**
+   - In the **"Latitude"** field, enter the latitudinal coordinates 
+   - In the **"Longitude"** field, enter the longitudinal coordinates
+   - ⚠️*Latitude and Longitude coordinates must be unique for each **Map Marker***
+   - *The marker name will display on either side of the marker icon in the WildXR application - depending on its position relative to the viewer*
+   - ⚠️*Marker icons and marker names may overlap in the WildXR application if placed too close together*
+   - *WPS suggests separating markers by at least 6 degrees of **Latitude**, and if possible by 6 degrees of both **Latitude** and **Longitude** to prevent markers overlapping*
+   - ⚠️*WPS recommends reviewing how map markers display and their proximity to one another prior to using them in a public installation*
+   - Click the **"Next"** button
 <div style="page-break-after: always;"></div>
 
-8. **Enter an installation (Optional)**
-   - If you have an **Installation** already created for the device select the **Installation** from the dropdown menu
-   - If you do not have a **Installation** ready for this device, leave **Installation** blank and the default **Installation** will be applied
-   - *If apply an **Installation** with **Demo Mode** enabled, remember that this removes the ability to manually download videos via the WildXR application*
+### Add videos to a map marker
 
-9. **Save the Device Details**
-   - Verify that all **Device Details** are correct
-   - Click the **"Save"** button
+6. **Associating videos with a Map Marker (optional)**
+   - *You can add existing video to a **Map Marker** through the marker creation wizard or later during edit*
+   - *You can also add videos to a **Map Marker** through the edit video process*
+   - Check the box in the upper left corner of each video you want included in the **Map Marker** contents
+   - Use the **Search** function to narrow down the videos presented for inclusion
+   - Use the **Pagination** interface (page numbers) in the lower right to see more videos and add them to your marker
+   - When you have finished adding videos to your marker, click the **"Next"** button
+   - *If you are an **Organization Admin** you will only see videos associated with your organization and those by the WildXR team*
+   - *If you are a **System Admin** you will see all videos across all organizations*
+   - ⚠️*A **System Admin** should not add videos from different organizations to a marker unless that marker is for WildXR team use*
+   - ⚠️*Adding videos from different organizations to an organization's **Custom Map Marker** can cause confusion and prevents the owning organization from removing that video during editing*
 
-### Edit an Exisiting Device
+### Review map marker details
 
-10. **Open an exisiting device**
-    - Scroll through the devices displayed or navigate to additional pages via the buttons in the lower right
-    - *Alternatively you can search for the Device name using the **Search** field in the upper left*
-    - Click anywhere on the device row when you have identified the device you wish to edit
+7. **Review & Save**
+    - Review the information for your marker
+    - Check that the **"Videos"** count matches your expected value
+    - If all values are correct click the **"Save"** button
+    - If changes need to be made you can click the **"Back"** button
+    - *You can also click the radio button above the selection that needs correcting at the top of the page (**Edit Map Marker** for marker details, **Videos** for video selection)*
 
-11. **Edit the device details**
+## Edit an existing map marker
+
+### Access the Map Marker page on Wildxr.org
+
+8. **Navigate to WildXR web portal**
+   - Open web browser and go to WildXR web portal
+   - Visit https://wildxr.org
+
+9. **Log In to WildXR web portal**
+   - Enter your Username in the appropriate field
+   - Enter your Password in the appropriate field
+   - Click **"Log In"**
+<div style="page-break-after: always;"></div>
+
+10. **Navigate to the Map Markers Admin page**
+    - In the top navigation bar, click **"Map Markers"**
+    - You will arrive on the **Core Map Marker** page - *The **Map Markers** tab will be highlighted* 
+    - *The **Core Map Markers** are markers created and curated by WPS staff - they can be used, but not edited*
+    - As an **Organization Admin** you will add and edit **Map Markers** specific to your organization via the **Custom Map Markers** tab
+    - *If you are an Organization Admin you will only see markers associated with your organization*
+    - *If you are a System Admin you will see all markers across all organizations*
+
+### Find the map marker that needs editing
+
+11. **Locate and open map marker for editing**
+    - Click the **"Custom Map Markers"** tab in the top left to view your editable map markers
+    - You may need to scroll the page to find the map marker in question
+    - Once you have found the **Custom Map Marker** that you wish to edit, click anywhere along its row
+
+### Edit marker details
+
+12. **Edit the marker details**
     - Select the fields in need of updating
     - Verify all changes are correct
-    - *If you are a **System Admin** verify that you are assigning the device to the correct organization*
-    - Click **"Save"** to save the device details update
+    - *If you are a **System Admin** verify that you are assigning the marker to the correct organization*
+    - Click the **"Next"** button to edit video associations
 
-### Apply Installation changes to a device
+### Add or remove videos associated with the marker
 
-12. **Restart the WildXR App**
-    - Changes to a device's assigned **Installation** will not take affect until the WildXR app is restarted on the device
-    - *Devices will need to be connected to the internet to accept an **Installation** assignment*
+13. **Select or deselect videos**
+    - To add new videos to the **Custom Map Marker** select the checkbox in the upper left of the video thumbnail
+    - To remove videos from the **Custom Map Marker** deselect the checkbox in the upper left of the video thumbnail
+    - Click the **"Next"** button when done editing videos associated with the marker
+    - *If you are an Organization Admin you will only see videos associated with your organization and those created by the WildXR team*
+    - *If you are a System Admin you will see all videos across all organizations*
+<div style="page-break-after: always;"></div>
+
+### Review and save changes
+
+14. **Review & Save edited Map Marker**
+    - Review the information for your marker
+    - Check that the **"Videos"** count matches your expected value
+    - If all values are correct click the **"Save"** button
+    - If changes need to be made you can click the **"Back"** button
 
 ## Troubleshooting
 
@@ -101,54 +148,53 @@ This guide introduces the management of devices (headsets or computers) running 
 - Ensure you are entering the correct credentials to log into Wildxr.org *(May have been supplied by WPS Staff)*
 - If someone within your organization created your account; check that they assigned a password to your account *(passwords are not created automatically)*
 - Double-check the URL you have entered into your Web Browser *(WPS recommends using Chrome)*
+
+**When saving an error shows that Latitude or Longitude is required:**
+- WildXR does not accept a **Latitude** or **Longitude** value of 0 for **Custom Map Markers**.
+- Add a small decimal amount if a 0, 0 marker is needed for your organization.
+
+**When saving an error shows that "Another map marker exists at this location":**
+- Map Marker coordinates are required to be unique within an organization.
+- *This is done to prevent a total overlap of Map Markers*.
+- ⚠️*WPS recommends separating markers by at least 6 degrees of **Latitude**, and if possible, 6 degrees of both **Latitude** and **Longitude** to prevent overlap.
+
+**Unable to find and assign video to map marker:**
+- Only videos belonging to your **Organization** or those created by **WildXR staff** are available if you are an **Organization Admin** user.
+- The WildXR video collection is quite large and it is easy to miss an existing video - use the search function on the **Videos** selection page to narrow your choices.
+- If you believe a video should be available to your organization and it is not, contact WPS Staff.
+
+**No Icon represents the contents of my Custom Map Marker:**
+- Current **Icon** selection is limited to 16 choices that represent a wide range of video concepts.
+- **Icons** are specifically crafted to look good within the WildXR application.
+- WPS Staff are not currently crafting custom **Icons** for markers in WildXR.
 <div style="page-break-after: always;"></div>
 
-**Unable to generate a WildXR number:**
-- Ensure that the WildXR application has been successfully installed on the device
-- If you are attempting to launch WildXR on a computer you will need to connect a VR headset to successfully navigate the WildXR app
-- Verify that you can see the **gear icon** used to access the **"Settings Menu"** 
-
-**Unable to find WildXR number on the Wildxr.org website:**
-- Ensure you have correctly typed the WildXR number into the Device Lookup field on the Wildxr.org website
-- If you are currently on the **Devices** page of the Wildxr.org website, navigate away and then back before attempting the Device Lookup
-- Refresh your browser window *(WPS recommends using Chrome)*
-
-**WildXR number is already generated for a device:**
-- Double check that the device has not already been registered on the WildXR.org website
-- If you are re-installing WildXR on a computer, you will need to remove the **Wildlife Protection Solutions** folder from your hard drive
-  - *Ensure that **Hidden Items** are visible in your **File Explorer***
-  - Open a folder and, under **View** options click **"Show"** and check **"Hidden Items"**
-  - On Windows navigate to ```This PC -> C -> Users -> [Your User Name] -> App Data -> Local Low```
-  - Delete the **Wildlife Protection Solutions** folder
-  - Reinstall the **WildXR** application
-
-**Applied changes to Device not visible in Device**
-- Ensure that your device is connected to the internet
-- If you have assigned a new **Installation** the device must stop the current session of WildXR and relaunch the WildXR app prior to changes taking effect
-- Double check that the Wildxr Number is the one assigned to the headset you are using *(Check the settings menu to confirm the Wildxr number)*
-
-**Unable to edit Device Organization**
-- If you are logged into the Wildxr.org website as an **Organization Admin** will not be able to change the device's assigned organization
-- Log in as a **System Admin** to enable organization assignment or contact WPS Staff
-<div style="page-break-after: always;"></div>
+**Map Marker not visible in Installation:**
+- **Map Markers** are only visible in the **Globe** scene of WildXR.
+- If you are running a **Startup Video** in **Loop Startup Video** mode, no markers will be shown
+- **Map Markers** need to be included in a **Video Catalogue** before they can be shown in the WildXR application.
+- **Map Markers** in a **Video Catalogue** will only be shown if that catalogue is used in an **Installation**.
+- Reach out to WPS Staff if **Map Markers** are not behaving as expected in your system
+- *If your device is offline and the videos associated with the invisible map marker are not downloaded, WildXR will hide the marker*
 
 ## Important Notes
 
-⚠️ **Developer Privileges Required**: Your Meta account must have developer access granted by WPS before MQDH will function properly for custom app installation.
+⚠️ **Map Markers can overlap**: Overlapping Map Markers are difficult for users to interact with. Verify that Map Markers are separated with no overlap before deploying your markers to a publicly used Catalogue or Installation.
 
-⚠️ **Account Consistency**: The Meta account used in MQDH must exactly match the account associated with your VR headsets. Mixed accounts will prevent proper device recognition.
-
-⚠️ **Security Coordination**: Never modify developer settings or install unauthorized applications without WPS approval. This can compromise headset security and void support agreements.
-
-⚠️ **System Requirements**: MQDH requires modern computer specifications and may not work properly on older or resource-limited systems.
+⚠️ **Markers without downloaded videos will not show in WildXR when offline**: If a device is offline, map markers will not show if they do not contain any downloaded videos. Reconnect to the internet or sideload the needed videos to have WildXR show the marker in question.
 
 ## Verification Steps
 
-Verify that your MQDH application is capable of recognizing, connecting to, and managing VR headsets without additional configuration steps.
+Verify that your map marker creation or updates have been successful.
 
 **Complete functionality verification:**
-- MQDH launches without errors and displays account information correctly
-- At least one headset appears as "Active" in the devices list
-- USB debugging authorization has been granted and confirmed
-- Device management icons are accessible and responsive in the left sidebar
-- You can access the headset's file system and application management features
+- Log out of the Wildxr.org Web Portal
+- Log in and refresh the **Map Markers** page to ensure your marker appears as expected
+- Assign your **Custom Map Marker** to a **Video Catalogue** and that **Video Catalogue** to an **Installation**.
+- Assign that **Installation** to a registered **Device** and connect that device to the internet. 
+- Launch WildXR and confirm that the **Map Marker** and all expected **Videos** appears as expected
+- Verify that the marker details appear as expected:
+    - Marker title
+    - Marker icon
+    - Marker position
+    - Marker video contents
