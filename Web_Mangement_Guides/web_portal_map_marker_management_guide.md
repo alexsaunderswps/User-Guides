@@ -1,4 +1,4 @@
-# WildXr Web Portal Map Marker Management Guide
+# WildXR Web Portal Map Marker Management Guide
 
 ## Purpose & Context
 This guide introduces the management of **Map Markers** (smaller collections of videos within a **Video Catalogue** that all share some common trait for organization (location, theme, species)).
@@ -190,8 +190,8 @@ Verify that your map marker creation or updates have been successful.
 **Complete functionality verification:**
 - Log out of the Wildxr.org Web Portal
 - Log in and refresh the **Map Markers** page to ensure your marker appears as expected
-- Assign your **Custom Map Marker** to a **Video Catalogue** and that **Video Catalogue** to an **Installation**.
-- Assign that **Installation** to a registered **Device** and connect that device to the internet. 
+- Assign your **Custom Map Marker** to a **Video Catalogue** and that **Video Catalogue** to an **Installation**
+- Assign that **Installation** to a registered **Device** and connect that device to the internet
 - Launch WildXR and confirm that the **Map Marker** and all expected **Videos** appears as expected
 - Verify that the marker details appear as expected:
     - Marker title
