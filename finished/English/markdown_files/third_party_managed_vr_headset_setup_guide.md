@@ -63,6 +63,7 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
     - **Quest 2**: Press **power button** on right side
     - **Quest 3 & Quest 3s**: Press **power button** on left side
     - Put on the VR headset
+<div style="page-break-after: always;"></div>
 
 5. **Initial introduction and connect to WiFi**
     - Follow the on-screen prompts in the VR Headset
@@ -75,7 +76,6 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
     - *Your headset may indicate that you can continue setup in the Meta Horizon phone app*
     - ⚠️ **Allow the headset to install all pending updates (*it may restart*) before proceeding** ⚠️
     - ⚠️ **DO NOT continue setup in the Meta Horizon app as this will not allow pairing with Meta-for-Work and ArborXR** ⚠️
-<div style="page-break-after: always;"></div>
 
 6. **Adding a hidden network to WiFi**
     - *You may need assistance from your company's IT department if you have a robust WiFi security program*
@@ -102,6 +102,7 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
    - Click **"Continue"** on the **You'll need your computer for the next step** screen
    - Your device should now show a website address and 8-character code
    - *Switch to your computer for the next steps*
+<div style="page-break-after: always;"></div>
 
 ### Enroll headset on Meta-for-Work website
 
@@ -117,7 +118,6 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
    - You should see an option related to your **Organization** with a sub-text **ArborXR-Third-party**
    - Click the option listing your **Organization**
    - *If there is more than one option, or if the correct option is not clear, please contact WPS Staff*
-<div style="page-break-after: always;"></div>
 
 10. **Enter device temporary code**
     - There should be an 8-character code shown in your VR headset.
@@ -135,6 +135,7 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
     - If you have more headsets to enroll, click the **"Enroll another headset"** button
     - *Your headset will not be visible in the **Managed Devices** section of the Meta-for-Work webpage until configuration is complete*
     - *Switch to your VR headset for the next steps*
+<div style="page-break-after: always;"></div>
 
 ### Headset configuration
 
@@ -149,7 +150,6 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
     - On the **Configuring** screen click the **"Continue"** button
     - A few more screens may show during installation, leave the headset on during this process or progress may halt.
     - *Refresh the Meta-for-Work **Devices** web-page - your device should now be visible*
-<div style="page-break-after: always;"></div>
 
 ### **Accept conditions from Meta**
 
@@ -168,6 +168,7 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
 - *Additional headset settings need to be applied before your headset is ready for use - See Step #19*
 
 - *WPS recommends completing the ArborXR connection steps below first, as some settings may be unavailable before doing so*
+<div style="page-break-after: always;"></div>
 
 ### **Connect VR headset to ArborXR group**
 
@@ -191,7 +192,6 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
     - *This interface lists all the **Devices** currently managed by WPS through ArborXR*
     - *Before you make any changes, verify that the device you are about to edit belongs to your organization*
     - *Check the device serial number on the ArborXR website matches the device name on the Meta-for-Work website*
-<div style="page-break-after: always;"></div>
 
 ### **Claim your device**
 
@@ -205,6 +205,7 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
     - *There should be only one option for group selection*
     - *If there is more than one option, or the correct option is not clear, please contact WPS Staff for assistance*
     - Click the **"Assign to Group"** button
+<div style="page-break-after: always;"></div>
 
 ### Finish device configuration
 
@@ -229,12 +230,12 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
         3. Click the **Passthrough** button so that passthrough shows **Off** and the external environment becomes hidden
         4. Return to the **Developer Settings** and toggle off **Physical Space Features**
     - *Not all of the **Recommended Settings** will be available in managed headsets - this is normal and expected*
-<div style="page-break-after: always;"></div>
 
 21. **Remove unneeded software**
     - Follow the **Library Management** guide
     - *In managed headsets the primary library curation will be the **Hiding** and **Locking** of unneeded applications*
     - *Not all of the **Library Management** options will be available in managed headsets - this is expected*
+<div style="page-break-after: always;"></div>
 
 22. **Launch WildXR once**
     - After all other steps have been completed, launch the WildXR application.
@@ -262,13 +263,13 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
 - Confirmation codes can be delayed by slow or intermittent internet connections
 - Check the **Spam** folder in your email browser
 - Ensure you are looking in the correct email account *(account may have been provided by WPS)*
-<div style="page-break-after: always;"></div>
 
 **Meta-for-Work account asking for 2-Factor Authorization (2FA):**
 - WPS staff will prepopulate a **Google Authenticator** account for Meta-for-Work
 - If you were given a Blu phone during deployment, access the Google Authenticator application and look for the Meta-for-Work 2FA code
 - If you were not given a Blu phone during deployment, you may be required to download the Google Authenticator application on your work phone
 - Use the Gmail account associated with your WPS VR deployment to log into Google Authenticator
+<div style="page-break-after: always;"></div>
 
 **No devices shown on Devices screen in Meta-for-Work:**
 - Ensure you have logged into the correct **Meta-for-Work** account (one provided by WPS)
@@ -298,11 +299,11 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
 - For Meta-for-Work and ArborXR managed headsets you should not use the Meta Horizon application
 - The Meta Horizon app is for personal VR account management only
 - If you have questions about which service you should be using please contact WPS staff
-<div style="page-break-after: always;"></div>
 
 **Five character code is shown, not eight character:**
 - A 5 character code is associated with personal VR account management
 - Make sure you have selected the **Connect to your organization** button for headset connection 
+<div style="page-break-after: always;"></div>
 
 **Unable to Enroll headset on Meta-for-Work site:**
 - Make sure you are on the **Meta-for-Work** account (https://work.meta.com) and not the personal Meta account (https://www.meta.com) that you may have used in the past
