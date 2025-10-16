@@ -24,6 +24,7 @@ Accounts created without the help of WPS staff cannot be accessed by WPS staff d
 4. WildXR and Auto Launch *(if desired)* are installed on headset
 5. Headset is registered with WildXR Website for remote provisioning
 6. Videos are downloaded or side-loaded to improve WildXR performance 
+<div style="page-break-after: always;"></div>
 
 ## Detailed Steps
 

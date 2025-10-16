@@ -1,7 +1,7 @@
 # WildXR Web Portal Video Management Guide
 
 ## Purpose & Context
-This guide introduces the process of creating or editing a video on the WildXR Web Portal (Wildxr.org)
+This guide introduces the process of creating/editing a video on the WildXR Web Portal (Wildxr.org)
 
 ## Prerequisites
 - Windows or Mac computer with internet access
