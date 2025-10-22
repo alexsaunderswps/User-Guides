@@ -13,7 +13,7 @@ This guide details the hardware and software associated with the Phoenix Zoo VR 
 ### Hardware:
 1. Quest 3 VR headsets managed by third-party software (3P) Meta-for-Work and ArborXR (includes 2 physical controller per headset)
 2. Reinforced USB-C cables for power supply to headsets
-3. Quest 3 VR headsets for backup purposes (one for each station)
+3. Power bricks for supply, 15W minimum
 4. MeLE microcomputers running PotPlayer for video playback
 5. 65" TVs
 6. Kasa smart power strips, power for all hardware
@@ -65,66 +65,114 @@ This guide details the hardware and software associated with the Phoenix Zoo VR 
    - ⚠️*WPS Staff recommends that controllers not be stored with batteries, both to prolong battery life, but also to prevent constant **Controller connection** alerts within the headset which will impact user experience*⚠️
    -⚠️*WPS Staff recommend that controllers be stored near headsets in operation, but hidden from public use as they are not needed for the proper functioning of the WildXR experience*⚠️
 
-3. **Open the Settings Menu**
-   - Click **"Settings"** in the top right of the Quick Settings Menu display
-   - *A new floating window should appear, displaying headset Settings*
-   - *Some options will not be visible until you scroll the left-hand list of setting categories*
-   - *Joysticks on either controller will allow you to scroll when the aiming reticle is hovered over the list*
+3. **USB cable & Quest 3 power brick**
+   - All USB cables are USB-C to USB-C cables
+   - All cables are reinforced with a static climbing rope and mesh sheath to provide some ruggedness to the cable connection
+   - Cables for this deployment are for constant power supply
+   - Cables include a short, USB-C male-to-female, stress relief cable that attaches to the Headset and then the longer cable
+   - ⚠️*Cables can be a tripping hazard and should be managed for length and to ensure no slack lays on the floor of the display*⚠️
+   - ⚠️*Power issues are generally caused by loose or unplugged cables, check all joints if a headset is experiencing power issues*⚠️
 
-### General Settings
+4. **Silicon face mask**
+   - Aftermarket face mask for Quest 3 headsets
+   - Can be removed, replaced, best done with cage removed
+   - Cleaning with *"Facial Towelettes"* recommended to remove grime (avoid lenses if possible)
 
-4. **Software Update Settings**
-   - Click the **"Software Update"** tab
-   - Toggle **off** all options:
-     - `Software updates`
-     - `Security and Critical updates`
-     - `Automatically power headset to update`
-     - `Update and backup before shutdown`
+5. **Comfort head strap**
+   - Aftermarket head strap for Quest 3 headsets
+   - Can be removed, replaced, cage and USB cable must be removed prior to removal
+   - Provides anchor point for USB cable
+   - Adjustable via dial at back of strap
+   - Articulated at temples to allow fitting over some glasses and hairstyles
 
-5. **Cloud Backup Settings**
-   - Click the **"Cloud Backup"** tab
-   - Toggle **off** `Cloud Backups`
+6. **Power and batteries**
+   - Headset contains internal lithium ion rechargeable battery which gives roughly 2.5 hours playback
+   - External battery can be added for an additional 1 - 1.5 hours playback
+   - In WPS experience, constant power supply has not degraded battery life to a significant degree
+   - Controllers take AA batteries, generally only the right controller is needed for troubleshooting issues
+   - Power supply brick (socket to USB C) should be Meta brand or brick capable of supplying **15W** of power or charging may not keep pace with battery drawdown
 
-6. **Power Settings**
-   - Click the **"Power"** tab
-   - Set **"Display Off"** to **4 hours**
-   - Set **"Auto Sleep Headset"** to **4 hours** *(may not be present on all headsets)*
-   - Toggle **off** all options under **"Battery"**:
-     - `Battery Saver`
-     - `Low battery audio alert`
-     - `Low battery voice alert`
+7. **MeLE microcomputer**
+   - Windows 11 OS computer in small form factor
+   - Can get hot to touch, this is normal
+   - Connected via HDMI cable to TV
+   - Connected to Kasa power strip with proprietary PSU ⚠️**(Do Not Use off-brand PSU - Unit will be bricked)**⚠️
+   - Should turn on automatically with supplied power
+   - Microcomputer will be scheduled for on/off time via Kasa power strip
+   - Wired mini-keyboards with trackballs are supplied for computer control by IT staff when needed
+   - Managed remotely by WPS support staff (Windows updates, installed software updates, etc)
 
-### Notification Settings
+8. **TV**
+   - Brand and settings to be determined
+   - Should turn on automatically with supplied power
+   - Connected to microcomputer with HDMI cable
+   - Connected to Kasa power strip and scheduled with on/off times to coincide with microcomputer
 
-7. **Notification Settings**
-   - Toggle **on** `Do Not Disturb`
-   - Select **"Until I turn it off"** from the options that appear
-   - Click **"Done"**
-<div style="page-break-after: always;"></div>
+9. **Kasa power strip**
+   - Smart power strip with scheduling capabilities
+   - 3 outlets will be left unscheduled for 24/7 power supply to headsets
+   - 2 outlets will be scheduled based on Guest Services requirements to cycle on/off microcomputer and TV
+   - Kasa account for phoenixzoo@wildlifeprotectionsolutions.org will be created and populated on BLU phone Kasa app
+   - Individual outlets can be cycled manually using small button to upper left of outlet
+   - A small LED indicates power state of outlet, always check outlet state if power issues are persistent
 
-### Environment Setup Settings
+10. **BLU Android WiFi only smart phone**
+    - Provided to allow access to phoenixzoo VR related accounts
+    - Locked PIN (0102) to access
+    - Should remain at display to allow troubleshooting when needed
 
-8. **Interactive Objects Settings**
-   - Click the **"Interactive objects"** tab
-   - Toggle **off** all options:
-     - `Avatar Mirror`
-     - `First Encounters`
-     - `Portal to Meta Horizon World`
+### Software
 
-### Advanced Settings
+11. **Autolaunchping.apk**
+    - Small android application created by WPS to allow auto launch of WildXR application on headset startup
+    - Can provide "proof-of-life" ping to a healthchecks.io URL if desired to allow remote monitoring of headset state
+    - *healthcheck.io ping relevancy questionable with ArborXR integration - contact WPS staff if desired or concerning*
+    - Installed automatically via ArborXR settings, visible in **"For Work"** library section of application
+    - ⚠️**Must be launched once prior to putting headsets into public use or WildXR will not auto launch on startup**⚠️
+    - ⚠️*After initial launch, no interaction is needed under normal operating conditions*⚠️
 
-9. **Developer Settings**
-   - Toggle **on** `Enable Developer Settings`
-   - Toggle **on** `Enable MTP Notification`
-   - Toggle **off** `Physical Space Features`
-   - Toggle **off** `Link Auto-Connect`
+12. **WildXR.apk**
+    - Base application that provides the WildXR VR experience
+    - Designed and created by WPS staff
+    - Provides two experience modes:
+       - Single video loop for tightly curated experience - video restarts when new user dons headset, minimal user interaction
+       - Open experience - users choose which video to watch from a curated collection, more user options within application
+    - The WildXR experience on a headset is called an **Installation**
+    - **Installations** can vary in what is shown to a guest, and how it is shown
+    - **Installations** can are assigned to headsets via a **WildXR number** that identifies a headset to the WildXR.org web portal
+    - Headset experiences can be managed via the WildXR.org portal, but that is beyond the scope of this guide
+    - ⚠️*WPS recommends that, initially, all videos required for an **Installation** be sideloaded (physically installed) onto the device*⚠️
+    - ⚠️*Streaming or downloading video content is highly dependant on internet bandwidth and stability and almost always degrades the user experience*
+    - *The WildXR application is available for free to owners of Meta VR headsets through the Horizon Store or Rift Store*
+    - ⚠️*Custom content is not available to the general public through the WildXR application*⚠️
 
-### Next Steps
+13. **ArborXR Suite**
+    - Remote management software installed by ArborXR
+    - Required for remote management by WPS support staff
+    - WPS does not control or influence the features or effects of ArborXR suite software
 
-10. **Create App PIN and lock apps**
-    - Follow the **Library Management** guide
+14. **PotPlayer**
+    - A video playback freeware program installed on supplied microcomputers by WPS staff
+    - Settings and updates will be initially managed by WPS staff remotely
+    - Set to launch automatically on computer startup (added to startup folder)
+    - Set to launch and loop single selected video via PotPlayer settings
 
-## Understanding Recommended Headset Settings
+15. **MeshConnect Agent**
+    - MeshConnect is a self-hosted (hosted on a server controlled by WPS on Microsoft Azure) remote access program
+    - Allows WPS support staff to remotely access microcomputer to aid in upkeep and troubleshooting
+    - No requirement for local permissions to remote access, but all non-system level actions should be visible to institutional staff via the attached monitor/TV
+    - Remote access highly dependent on internet bandwidth and stability and may be unavailable at times
+
+16. **Windows Update Blocker (WUB)**
+    - Freeware program installed by WPS staff
+    - Used to prevent automatic Window OS updates from interrupting guest experience
+    - Can be switched off to allow support staff to manually apply updates at scheduled times
+    - Can influence the successful updating of other software packages
+
+17. **Auto Hide Mouse Cursor**
+    - Freeware program installed by WPS staff
+    - Used to automatically hide the mouse cursor to enhance guest experience
+    - Cursor reappears on mouse movement and will automatically hide after 5 seconds of inactivity
 
 **Why These Settings:**
 The recommended settings have been tested in public venues and provide the most consistent and longest lasting user experience to date.
