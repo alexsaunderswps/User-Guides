@@ -59,6 +59,7 @@ This guide details the hardware and software associated with the Phoenix Zoo VR 
    - **Headset Sensors** - Two on lower "cheeks" of headset used for positioning in space (tracking use position), internal sensor between lenses used for detecting user presence (presence sensor).
    - **Double tap on headset case** - If not managed in settings could provide passthrough (ability to see surroundings) when in Quest main menu. Should not impact WildXR viewing or playback.
    - **Headset Fan** - Internal, top main dome of headset. Cools headset and occasionally can be heard in very quiet environs. If excessively noisy, or if headset is uncomfortable to touch, headset should be removed from operation.
+   - **Headset Status Lights** - There are two status lights on the Quest 3 headset, one in at the top center of the headset and one just above the left temple. The center LED shows external sensor activity (solid for sensor are on, blinking for casting or recording) and may not always be visible during use. The left LED shows power level (White - headset is on, Green - headset is fully powered, Orange - headset is charging, Red - headset is critically low, Flashing Red - charging issue with headset)
 
 2. **Quest 3 VR Controllers**
    - *Details about the Quest 3 controllers is readily available online, WPS Staff recommends referencing the internet for images and detailed steps that may assist you in any problems you may encounter*
@@ -68,6 +69,7 @@ This guide details the hardware and software associated with the Phoenix Zoo VR 
       - *If you need to stop the WildXR application for any reason, this is the easiest, but may need to be combined with a sleep/wake cycle on the headset to interrupt the WildXR app*
    - ⚠️*WPS Staff recommends that controllers not be stored with batteries, both to prolong battery life, but also to prevent constant **Controller connection** alerts within the headset which will impact user experience*⚠️
    -⚠️*WPS Staff recommend that controllers be stored near headsets in operation, but hidden from public use as they are not needed for the proper functioning of the WildXR experience*⚠️
+<div style="page-break-after: always;"></div>
 
 3. **USB cable & Quest 3 power brick**
    - All USB cables are USB-C to USB-C cables
@@ -76,7 +78,6 @@ This guide details the hardware and software associated with the Phoenix Zoo VR 
    - Cables include a short, USB-C male-to-female, stress relief cable that attaches to the Headset and then the longer cable
    - ⚠️*Cables can be a tripping hazard and should be managed for length and to ensure no slack lays on the floor of the display*⚠️
    - ⚠️*Power issues are generally caused by loose or unplugged cables, check all joints if a headset is experiencing power issues*⚠️
-<div style="page-break-after: always;"></div>
 
 4. **Silicone face mask**
    - Aftermarket face mask for Quest 3 headsets
@@ -106,13 +107,13 @@ This guide details the hardware and software associated with the Phoenix Zoo VR 
    - Microcomputer will be scheduled for on/off time via Kasa power strip
    - Wired mini-keyboards with trackballs are supplied for computer control by IT staff when needed
    - Managed remotely by WPS support staff (Windows updates, installed software updates, etc)
+<div style="page-break-after: always;"></div>
 
 8. **TV**
    - Brand and settings to be determined
    - Should turn on automatically with supplied power
    - Connected to microcomputer with HDMI cable
    - Connected to Kasa power strip and scheduled with on/off times to coincide with microcomputer
-<div style="page-break-after: always;"></div>
 
 9. **Kasa power strip**
    - Smart power strip with scheduling capabilities
@@ -135,6 +136,7 @@ This guide details the hardware and software associated with the Phoenix Zoo VR 
     - Installed automatically via ArborXR settings, visible in **"For Work"** library section of application
     - ⚠️**Must be launched once prior to putting headsets into public use or WildXR will not auto launch on startup**⚠️
     - ⚠️*After initial launch, no interaction is needed under normal operating conditions*⚠️
+<div style="page-break-after: always;"></div>
 
 12. **WildXR.apk**
     - Base application that provides the WildXR VR experience
@@ -146,7 +148,6 @@ This guide details the hardware and software associated with the Phoenix Zoo VR 
     - **Installations** can vary in what is shown to a guest, and how it is shown
     - **Installations** can are assigned to headsets via a **WildXR number** that identifies a headset to the WildXR.org web portal
     - Headset experiences can be managed via the WildXR.org portal, but that is beyond the scope of this guide
-<div style="page-break-after: always;"></div>
 
 12. **WildXR.apk - cont.**
     - Reference the **"Web Portal Guides"** for details on managing **Devices**, **Installations**, and other aspects of the VR experience
@@ -165,6 +166,7 @@ This guide details the hardware and software associated with the Phoenix Zoo VR 
     - Settings and updates will be initially managed by WPS staff remotely
     - Set to launch automatically on computer startup (added to startup folder)
     - Set to launch and loop single selected video via PotPlayer settings
+<div style="page-break-after: always;"></div>
 
 15. **MeshConnect Agent**
     - MeshConnect is a self-hosted (hosted on a server controlled by WPS on Microsoft Azure) remote access program
@@ -182,7 +184,6 @@ This guide details the hardware and software associated with the Phoenix Zoo VR 
     - Freeware program installed by WPS staff
     - Used to automatically hide the mouse cursor to enhance guest experience
     - Cursor reappears on mouse movement and will automatically hide after 5 seconds of inactivity
-<div style="page-break-after: always;"></div>
 
 18. **Google Authenticator**
     - Installed on BLU phone to allow access to accounts that require two-factor authentication (2FA)
@@ -221,6 +222,12 @@ These steps will have been completed by WPS staff on deployment. They are covere
 <div style="page-break-after: always;"></div>
 
 ### Daily operation
+- WPS recommends staff perform a functionality check of all hardware associated with a display each day prior to opening and once again prior to display close
+- Cleaning each headset along with functional morning and evening checks is recommended
+- Adjust cable length and check for security to physical cabinets (guests cannot pull to gain more cable length) daily with morning functional check
+- If pest species are present on grounds (crickets, cockroaches, etc) check for presence during AM checks and consider bagging headsets in mesh vegetable bags overnight 
+- ⚠️**Avoid storage headsets in plastic bags or any material that will allow heat buildup or headset damage may occur**⚠️
+- Check cage bolt tightness once per week or after especially heavy use days
 
 **Stand alone headsets**
 These VR headsets are connected to power so that they are ready for guest use at any time. The WildXR will be playing and need no interaction by staff of guests (save for volume and IP adjustment). Videos will start from the beginning for each new guest that dons the headset (presence sensor between lenses may need cleaning for consistent behavior). Videos may restart if the guest "peeks" out of the headset.
@@ -285,12 +292,116 @@ These VR headsets are connected to power so that they are ready for guest use at
 - Adjust velcro strap along top of head strap
 <div style="page-break-after: always;"></div>
 
+**Headset plays incorrect video:**
+- Headsets (**Devices**) are assigned videos (**Installations**) based on their **WildXR Number**
+- These settings are available on the Wildxr.org web portal and can not be changed by directly interacting with the headset
+- Changes to the assigned **Installation** will only take effect when a **Device** is connected to the internet and WildXR is relaunched
+- Contact WPS staff if assistance is needed or consult the **Web Portal Guide** series for more information
+
+**Headset video plays once and does not loop:**
+- Headsets (**Devices**) are assigned playback parameters (**Installations**) based on their **WildXR Number**
+- These settings are available on the Wildxr.org web portal and can not be changed by directly interacting with the headset
+- Changes to the assigned **Installation** will only take effect when a **Device** is connected to the internet and WildXR is relaunched
+- Contact WPS staff if assistance is needed or consult the **Web Portal Guide** series for more information
+
+**Headset opens into a Globe scene:**
+- Headsets (**Devices**) are assigned a guest environment (**Installations**) based on their **WildXR Number**
+- These settings are available on the Wildxr.org web portal and can not be changed by directly interacting with the headset
+- Changes to the assigned **Installation** will only take effect when a **Device** is connected to the internet and WildXR is relaunched
+- Contact WPS staff if assistance is needed or consult the **Web Portal Guide** series for more information
+
+**Video playback is choppy, lags, or has audio distortion:**
+- These are symptoms of streaming video
+- Videos may not have been downloaded or sideload properly
+- If recent adjustments have been made to content, new videos may have been assigned and not loaded onto the **Device**
+- Consult the **Video file transfer guide** for steps on sideloading video content
+- WPS can assist with file location and download if needed
+
+**"Device appears offline or no videos downloaded" warning appears:**
+- Occurs when a **Device** is not connected to the internet and no videos associated with the current **Installation** have been downloaded or sideload
+- Connecting the **Device** to the internet will prevent alert from showing, but videos will stream, resulting in lower quality
+- WPS recommends sideloading or downloading the video files associated with the **Installation** before using in the public
+<div style="page-break-after: always;"></div>
+
+**Device not showing WildXR - displays multiple menus:**
+- The headset is most likely in the main Meta Horizon interface
+- This may happen due to WildXR quitting unexpectedly or user tampering
+- Select the WildXR application icon in the menu-tray with the gaze reticle and launch via the volume control button
+- *You can also reboot the **Device** if needed to check that the autolaunch program is functioning as expected* 
+
+**Headset loses power during day:**
+- Check all USB connection sites as power cable may have become disconnected
+- Check that power brick is firmly inserted into socket
+- If a smart power strip is being used, ensure that sockets are on and providing power
+- If a smart power strip is being used, ensure that the sockets are not scheduled on/off at certain times of day (via Kasa application)
+- Check main power source if power is lost across multiple devices
+- Continued power issues may indicate a damaged USB cable or damaged USB headset port
+- Replace a USB cable before writing off a headset as damaged
+
+**Headset fan is audible or headset face is becoming hot to touch:**
+- ⚠️**If either of these signs are present remove the headset from public use immediately**⚠️
+- Damage to a headset fan, usually caused by a hard impact, is difficult and expensive to repair and generally mean retiring the headset from use
+- A hot (not warm) headset may indicate that a fan has failed completely and could injure a guest of kept in public use
+
+**TV shows *"No Signal"* not video playback:**
+- Boot timing with microcomputer and TV is off
+- Either microcomputer or TV powered on prior in advance of paired device
+- Power cycle tv (turn off / wait 15s / turn on) or power cycle Kasa smart power strip
+- Adjustments to outlet schedule via the Kasa application may be necessary if problem is chronic
+- ⚠️*Make sure that staff are not manually turning off / on the tv or computer as this can cause linking issues*⚠️
+- ⚠️*Organizations may find it more reliable to have staff manually turn TVs and microcomputers on at the start of shift if linking issues are chronic*⚠️
+
+**Windows desktop displayed on TV:**
+- Failure to automatically launch PotPlayer (or other video playback software)
+- WPS adds the video playback software as a shortcut to the Windows startup folder
+- Check for shortcut in startup folder (Windows Key + R, type "shell:startup", hit enter)
+- Create a new shortcut linked to software (PotPlayer, vlc, etc)
+- Software may have been moved or updated which can cause autostart issues
+- If issue persists contact WPS staff for assistance
+<div style="page-break-after: always;"></div>
+
+**Video playback software showing update screen:**
+- If you see cursor movement on the screen you computer may be being controlled remotely by WPS staff or your IT department to apply updates.
+- If possible confirm that no remote access is happening before moving on to next steps (WPS will generally attempt maintenance/updates late Monday or early Tuesday Denver time)
+- Cancel any pending updates and check Settings -> General Settings -> automatically check for updates - this box should either be unchecked or set to "Never" as a dropdown menu option
+- Remember to click the **"Apply"** button in the bottom right corner to apply the changes
+- Contact WPS staff or you organization's IT department for further assistance
+
+**Video playback software plays video once but does not loop:**
+- Incorrect playback options set in PotPlayer
+- In PotPlayer window hit F5 (opens settings menu).
+- Navigate to Playback -> Playback Settings -> Select "Repeat Video Playback" and choose "Enable: Repeat playing item" from the drop down menu.
+- Click the **"Apply"** button in the bottom right corner to apply the changes
+- Click the **"Play"** button in the bottom left portion of the PotPlayer window (you may need to hover near the bottom of the screen to show the playback controls)
+- If the video does not play and loop, restart PotPlayer
+- If the video does not play and loop, navigate to the **"Videos"** folder and double click the video found there (there should only be one video in the top left of the **"Videos"** folder, do not use videos found in the **"Storage"** folder if present)
+- If the problem persists, contact WPS staff for assistance
+
+**Video playback is unusually slow or fast:**
+- Depending on the size and resolution of the video attempting to be played, the microcomputer system may have difficulty with smooth playback
+- If the video file was supplied by WPS, contact WPS staff for a new video file for playback
+- Only the video playback software should be open, other software (Web browsers, system updates, etc) can interfere with smooth video playback
+- Quit and restart the video playback software to see if this resolves the playback issue
+
+**Kasa smart power strip not providing power:**
+- If none of the outlets are providing power the power strip may be turned off, check the main switch
+- If the main switch shows that power should be supplied to the strip, check the building power (or contact the appropriate staff) as there may be upstream power issues
+- If only some of the outlets are providing power, check that the outlet is powered on (a small button at the top left of each outlet cycles power state) 
+- A small white LED light should be lit when an outlet is providing power
+- Kasa outlets may be set to a schedule for power supply, check in the Kasa application for applied schedules
+<div style="page-break-after: always;"></div>
+
+**Kasa smart power strip not responsive in the Kasa application:**
+- Communication between the Kasa smart power strip and the Kasa application is dependant on internet connection
+- Check that an internet connection is available and that the device running the Kasa application is connected to the correct network
+- Kasa smart power strips could be reset by power surges or tampering, check the Kasa application to see if the non-responsive strip is present in the device list
+
 ## Important Notes
 
-⚠️ **Default Values Warning**: Default values may prolong battery life but can introduce unexpected behavior in the WildXR application.
+⚠️ **Account Credentials**: WPS staff will create various accounts that are required for the VR deployment. Please coordinate any changes to account credentials with WPS senior support staff. WPS staff may not be able to retrieve account access if lost and this could critically impact display functionality.
 
-⚠️ **Developer Prerequisites**: If a Developer section is not visible under Advanced Settings, review the Guide for enabling Developer Settings on your headset.
+⚠️ **Headset life**: Quest 3 headsets are robust but not indestructible. Monitoring guests for negative interactions with equipment will prolong the life of all VR equipment. Physical damage is by far the most common cause of headset replacement.
 
-⚠️ **Update Management**: Meta has instituted forced updates after 30-45 days of delay. Check headsets for pending updates every 21 days and contact WPS for guidance.
+⚠️ **Guest safety**: VR experiences are new for the majority of guests. Reactions to VR content is hard to predict. WPS staff recommends reviewing possible safety concerns on a regular basis to align with organizational risk tolerance. Hazards such as tripping, falling, and tipping of equipment must be assessed by the organization and is beyond the scope of this guide.
 
-⚠️ **Developer Privileges Required**: Your Meta account must have developer access granted by WPS before advanced settings modifications will be available.
+⚠️ **WPS Support**: WPS Staff look forward to assisting you with any issues you may encounter while deploying a VR system. WPS staff is generally available during normal business hours (Denver Time), and occasionally on weekends. If you are requesting changes to content or device assignment please plan ahead and give 48 - 72 hours for changes to be implemented. New content, or content editing, takes longer and requirements should be discussed with senior support staff. For critical, time sensitive assistance, please call or use the dedicated WhatsApp channel for support.
