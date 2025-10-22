@@ -1,9 +1,11 @@
 # Phoenix Zoo VR Setup
 
 ## Purpose & Context
-This guide details the hardware and software associated with the Phoenix Zoo VR deployment of November 2025.
+This guide details the hardware and software associated with the Phoenix Zoo VR deployment of November 2025 and contains details for both Guest Services (GS) and Information Technology (IT). 
 
 ⚠️ **Third Party Software**: Third Party hardware and software (Meta, ArborXR, PotPlayer, Windows) are outside WPS control. Meta updates may cause unexpected functionality changes in VR systems. WPS monitors Meta and ArborXR releases to inform users of potential impacts and changes.
+
+⚠️ **Accounts and Passwords**: WPS staff have created various accounts for the Phoenix Zoo to allow for smooth functioning of the VR deployment. Details of these accounts will be provided in a separate document. It is **critically important** that the credentials associated with these accounts not be changed without coordination with WPS senior support staff. WPS staff may be unable to retrieve account information if credentials are changed unilaterally and, in some cases, the VR experience may be impacted by such changes ⚠️
 
 ## Prerequisites
 - None
@@ -11,7 +13,7 @@ This guide details the hardware and software associated with the Phoenix Zoo VR 
 ## Quick Overview
 
 ### Hardware:
-1. Quest 3 VR headsets managed by third-party software (3P) Meta-for-Work and ArborXR (includes 2 physical controller per headset)
+1. Quest 3 VR headsets managed by third-party software (3P) Meta-for-Work and ArborXR (includes 2 physical controller per headset) - headsets are called a **Device** in the WildXR Web portal ecosystem.
 2. Reinforced USB-C cables for power supply to headsets
 3. Power bricks for supply, 15W minimum
 4. MeLE microcomputers running PotPlayer for video playback
@@ -112,13 +114,12 @@ This guide details the hardware and software associated with the Phoenix Zoo VR 
    - Smart power strip with scheduling capabilities
    - 3 outlets will be left unscheduled for 24/7 power supply to headsets
    - 2 outlets will be scheduled based on Guest Services requirements to cycle on/off microcomputer and TV
-   - Kasa account for phoenixzoo@wildlifeprotectionsolutions.org will be created and populated on BLU phone Kasa app
+   - Kasa account for Phoenix Zoo will be created and populated on BLU phone Kasa app
    - Individual outlets can be cycled manually using small button to upper left of outlet
    - A small LED indicates power state of outlet, always check outlet state if power issues are persistent
 
 10. **BLU Android WiFi only smart phone**
-    - Provided to allow access to phoenixzoo VR related accounts
-    - Locked PIN (0102) to access
+    - Provided to allow access to Phoenix Zoo VR related accounts
     - Should remain at display to allow troubleshooting when needed
 
 ### Software
@@ -141,6 +142,7 @@ This guide details the hardware and software associated with the Phoenix Zoo VR 
     - **Installations** can vary in what is shown to a guest, and how it is shown
     - **Installations** can are assigned to headsets via a **WildXR number** that identifies a headset to the WildXR.org web portal
     - Headset experiences can be managed via the WildXR.org portal, but that is beyond the scope of this guide
+    - Reference the **"Web Portal Guides"** for details on managing **Devices**, **Installations**, and other aspects of the VR experience
     - ⚠️*WPS recommends that, initially, all videos required for an **Installation** be sideloaded (physically installed) onto the device*⚠️
     - ⚠️*Streaming or downloading video content is highly dependant on internet bandwidth and stability and almost always degrades the user experience*
     - *The WildXR application is available for free to owners of Meta VR headsets through the Horizon Store or Rift Store*
@@ -174,50 +176,102 @@ This guide details the hardware and software associated with the Phoenix Zoo VR 
     - Used to automatically hide the mouse cursor to enhance guest experience
     - Cursor reappears on mouse movement and will automatically hide after 5 seconds of inactivity
 
-**Why These Settings:**
-The recommended settings have been tested in public venues and provide the most consistent and longest lasting user experience to date.
+18. **Google Authenticator**
+    - Installed on BLU phone to allow access to accounts that require two-factor authentication (2FA)
+    - Account access can be installed on personal or work phones as needed by organization
+    - *Google Authenticator allows multiple accounts to be stored in the 2FA application*
 
-**Software Update Settings:**
-Turning off all automatic update settings prevents a headset from being unexpectedly unavailable during public hours. It also allows software updates to be tested in a controlled manner to prevent unanticipated conflicts between WildXR, Auto Launch, and headset software. Meta has instituted forced updates after 30 - 45 days of delay, allowing WPS a window to vet updates for performance and react, when possible, to software conflicts. We recommend checking headsets for pending updates every 21 days as routine maintenance and contacting WPS for guidance regarding installation.
+19. **Kasa**
+    - Installed on BLU phone to allow control and monitoring of Kasa smart power strips
+    - Will be associated with Phoenix Zoo account
+    - Can be installed on personal or work phones as needed by organization
 
-**Cloud Backup Settings:**
-There is no benefit to Cloud Backup in most end-user use cases where WildXR is used in a public or educational setting.
+20. **Meta Horizon**
+    - ⚠️*Use of the Meta Horizon app is not needed for the standard VR deployment and will only be necessary under specific circumstances*⚠️
+    - ⚠️*If VR headsets are removed from 3P management, WPS staff can assist the migration of headsets into the **Meta Horizon** ecosystem - this is a time and labour intensive process*⚠️
+    - Installed on BLU phone to allow management of personal headsets through Phoenix Zoo account
 
-**Power Settings:**
-Setting **"Display Off"** to **4 hours** allows headsets used in a public or educational setting to be immediately responsive to use. Having the display turn off will prolong battery life, but can cause the headset to be slow to respond to use and influence the orientation of scenes in WildXR in unexpected ways.
+## The VR experience in WildXR
 
-**Notification Settings:**
-Notifications can cause disruption of user experiences by displaying pop-up windows within the WildXR application.
-<div style="page-break-after: always;"></div>
+### Initial Setup and Launch
+These steps will have been completed by WPS staff on deployment. They are covered here to allow for replacement headsets to be incorporated at a future date if needed. Reach out to WPS staff is assistance or clarification is needed
 
-**Interactive Objects Settings:**
-A user may find themselves in the Quest main menu screen if there is an unexpected problem with the Auto Launch program or the WildXR application. Users familiar with VR headsets may force exit WildXR in certain situations to access the Quest main menu. By hiding interactive objects we can prevent some malicious or simple curious behavior from altering device settings.
+**Autolaunchping and WildXR**
+- When WildXR is installed on a **Device** it must be launched once to build a file structure on the headset
+- WildXR will not be launched automatically until the Autolaunchping app has been run once
+- Autolaunchping will show a small interface for entering a URL endpoint, this interface will be hidden by WildXR in most cases, and will not show again on subsequent headset boot up events
+- If the Autolaunchping interface is needed, manual launch the app from the **For Work** section of the app library
+- WildXR must be tied to a **Device** through the Wildxr.org web portal (see the **"Web Portal Device Management Guide"**) to show custom content
 
-**Developer Settings:**
-Toggling off physical space features removes the need to define a boundary in the headset. Boundary setting can interfere with user experience by interrupting the WildXR display if a user moves outside the boundary. Boundaries are also required to be set up each time a headset is moved any distance and can cause unexpected behavior in some situations.
-MTP Notifications allow the headset to be seen as a drive when connected to a computer via USB. This allows file transfer and manipulation, needed in some troubleshooting situations.
+**Video sideloading**
+- Video content can be streamed from the cloud, but is not recommended for public use as quality is highly dependant on internet bandwidth and stability
+- Video content can be downloaded to **Devices** and can be triggered manually or automatically based on **Installation** settings assigned to the **Device** (see respective **Web Portal Guides** or contact WPS staff for assistance)
+- Video download is dependant on internet bandwidth and stability and can result in artifacts if interrupted
+- Videos can be sideloaded (directly transferred to the **Device**) from a computer via USB C cable and is the preferred method of installing multiple videos.
+- *WPS Staff will generally install the entire WildXR catalogue onto devices as SOP, but this may not include custom content - Contact WPS Staff for clarification of what has been installed if there are concerns*
+
+### Daily operation
+
+**Stand alone headsets**
+These VR headsets are connected to power so that they are ready for guest use at any time. The WildXR will be playing and need no interaction by staff of guests (save for volume and IP adjustment). Videos will start from the beginning for each new guest that dons the headset (presence sensor between lenses may need cleaning for consistent behavior). Videos may restart if the guest "peeks" out of the headset.
+*Any issues can generally be solved by rebooting the headset (power off / 15s pause / power on)*
+*If menu or alert interaction is needed, a gaze reticle should appear and selections can be made using the volume rocker button*
+
+### Looped video installation
+
+**Single video experience**
+- Headsets are assigned an **Installation** that loops a single video on startup. 
+- Videos will restart automatically after a brief fade out of image and sound. 
+- Videos will restart when a headset is removed and donned by a new guest.
+- The looping video assigned to a headset can be changed - see the **Web Portal Guide** series for help with assigning an **Installation** to a **Device**.
+
+### Visitor choice installation
+
+**Multiple video experience**
+- Headsets are assigned an **Installation** that offers a curated catalogue of videos.
+- Guests will navigate a globe interface to choose from either **Map Markers** representing a video/collection of videos, or from a **Menu Tray** showing **All Clips** or **Short Films**.
+- Guests have the ability to play more than one video
+- Guest have the ability to pause, rewind, and fast-forward videos
+- Guest can choose to stop a video before the videos natural end
 
 ## Troubleshooting
 
-**Developer section not visible under Advanced Settings:**
-- Review the Guide for enabling Developer Settings on your headset
-- Ensure your Meta account has developer privileges enabled by WPS
-- Verify that developer mode is enabled in both the Meta Horizon phone app and headset settings
+**Headset chimes and shows a "Port Debris Warning":**
+- Using the gaze reticle or hand controllers, select the **"Ok"** button to clear the alert
+- Alert generally appears on power up, wake up, and when USB cable is reconnected
+- Alert will overlay WildXR and all other user interfaces
+- Caused by a firmware issue of the headset itself and *rarely* relates to actual debris within the USB port
+- Port cleaning, with compressed air, may reduce the frequency of the alert in some cases
 
-**Settings changes not persisting:**
-- Ensure you complete each section fully before moving to the next
-- Verify the headset is not in a restricted mode or parental controls
-- Check that your account has administrative privileges on the device
+**Headset display appears frozen:**
+- Tap the power button once to sleep the headset and again, after a brief pause, to wake the headset
+- Display should return to normal upon wake - if problem persists, reboot the headset (power off / 15s pause / power on)
+- Occasionally occurs when headset wakes from overnight sleep state or with reboot of headset and launch of WildXR
 
-**Cannot access certain settings options:**
-- Confirm your Meta account has the necessary permissions
-- Check if the headset is enrolled in an organization management system - managed systems prevent access to some settings
-- Verify the headset software version supports all listed settings
+**Black screen which appears on with or without audio playing:**
+- Tap the power button once to sleep the headset and again, after a brief pause, to wake the headset
+- Display should return to normal upon wake - if problem persists, reboot the headset (power off / 15s pause / power on)
+- Occasionally occurs when headset wakes from overnight sleep state or with reboot of headset and launch of WildXR
 
-**Power settings causing unexpected behavior:**
-- Test different **"Display Off"** timing if 4 hours causes issues
-- Monitor battery life with adjusted settings
-- Ensure the headset remains responsive during peak usage hours
+**Video not starting from beginning for new users:**
+- Clean the presence sensor with a cleaning wipe (between the headset lenses) and retry
+- Generally caused by grime on the sensor window
+- If problem persists, reboot the headset (power off / 15s pause / power on)
+- If problem is chronic, contact WPS staff as this can be influenced by **Installation** settings
+
+**Volume adjusts on it own, remains too quiet or too loud:**
+- Cage might be pressing on volume rocker switch
+- Adjust cage and try manual adjustment again
+- Rocker switch may need cleaning
+
+**Display is out of focus:**
+- Lenses may need cleaning with a lens cloth or microfiber cloth
+- IP dial may be out of adjustment, direct user on how to adjust IP for their eyes
+- Users with glasses may not be able to adjust the IP to help with vision issues
+
+**Headset too loose or too tight:**
+- Adjust head strap with dial at back of strap
+- Adjust velcro strap along top of head strap
 <div style="page-break-after: always;"></div>
 
 ## Important Notes
