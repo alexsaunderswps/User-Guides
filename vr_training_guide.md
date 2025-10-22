@@ -27,13 +27,13 @@ This guide details the hardware and software associated with the Phoenix Zoo VR 
 1. Autolaunchping.apk - Installed via ArborXR, automatically launches WildXR on headset power on
 2. WildXR.apk - Installed via ArborXR, automatically launched by autolaunchping.apk
 3. ArborXR suite - Installed via ArborXR to manage headset general settings
+<div style="page-break-after: always;"></div>
 
 #### MeLE computers:
 1. PotPlayer - Installed by WPS, runs video on loop on startup (added to startup folder)
 2. MeshConnect Agent - Installed by WPS, used for remote management by WPS support staff
 3. Windows Update Blocker (WUB) - Installed by WPS, used to prevent automatic Windows software updates which can impact user experience
 4. AutoHideMouseCursor - Installed by WPS, used to automatically hide mouse cursor during video playback
-<div style="page-break-after: always;"></div>
 
 #### BLU Phone:
 1. Google Authenticator - Installed by WPS, used to provide 2FA to other apps or websites
@@ -51,12 +51,14 @@ This guide details the hardware and software associated with the Phoenix Zoo VR 
    - **Power Button** - Located beneath the left temple. Accessible through drilled hole on cage. **Short Press** - cycles sleep state on headset. **Long Press** - cycles power state on headset. **Excessively long press** - force system reboot on headset (rarely needed)
    - **Interpupillary distance dial (IP dial)** - Located bottom of headset, left of nose. Sets the IP distance for headset lenses influencing focus of VR image. May need adjustment by user on case-by-case basis.
    - **Volume control rocker** - Located bottom of headset, right of nose. Rocking towards nose decreases volume, away from nose increases volume. When controllers are not present, can be used as a selector button for gaze reticle in menu screens and dialog boxes.
+<div style="page-break-after: always;"></div>
+
+1. **Quest 3 VR Headsets - cont.**
    - **USB C port** - On left temple. Allows both data transfer and power supply to headset. ⚠️*This port is a weak point on the headset and can be damaged if impacted or torqued*⚠️
    - **Headset Cameras** - Central camera manages depth perception, side cameras are a combination of color and IR, all for mixed reality experience (passthrough).
    - **Headset Sensors** - Two on lower "cheeks" of headset used for positioning in space (tracking use position), internal sensor between lenses used for detecting user presence (presence sensor).
    - **Double tap on headset case** - If not managed in settings could provide passthrough (ability to see surroundings) when in Quest main menu. Should not impact WildXR viewing or playback.
    - **Headset Fan** - Internal, top main dome of headset. Cools headset and occasionally can be heard in very quiet environs. If excessively noisy, or if headset is uncomfortable to touch, headset should be removed from operation.
-<div style="page-break-after: always;"></div>
 
 2. **Quest 3 VR Controllers**
    - *Details about the Quest 3 controllers is readily available online, WPS Staff recommends referencing the internet for images and detailed steps that may assist you in any problems you may encounter*
@@ -74,8 +76,9 @@ This guide details the hardware and software associated with the Phoenix Zoo VR 
    - Cables include a short, USB-C male-to-female, stress relief cable that attaches to the Headset and then the longer cable
    - ⚠️*Cables can be a tripping hazard and should be managed for length and to ensure no slack lays on the floor of the display*⚠️
    - ⚠️*Power issues are generally caused by loose or unplugged cables, check all joints if a headset is experiencing power issues*⚠️
+<div style="page-break-after: always;"></div>
 
-4. **Silicon face mask**
+4. **Silicone face mask**
    - Aftermarket face mask for Quest 3 headsets
    - Can be removed, replaced, best done with cage removed
    - Cleaning with *"Facial Towelettes"* recommended to remove grime (avoid lenses if possible)
@@ -109,6 +112,7 @@ This guide details the hardware and software associated with the Phoenix Zoo VR 
    - Should turn on automatically with supplied power
    - Connected to microcomputer with HDMI cable
    - Connected to Kasa power strip and scheduled with on/off times to coincide with microcomputer
+<div style="page-break-after: always;"></div>
 
 9. **Kasa power strip**
    - Smart power strip with scheduling capabilities
@@ -142,6 +146,9 @@ This guide details the hardware and software associated with the Phoenix Zoo VR 
     - **Installations** can vary in what is shown to a guest, and how it is shown
     - **Installations** can are assigned to headsets via a **WildXR number** that identifies a headset to the WildXR.org web portal
     - Headset experiences can be managed via the WildXR.org portal, but that is beyond the scope of this guide
+<div style="page-break-after: always;"></div>
+
+12. **WildXR.apk - cont.**
     - Reference the **"Web Portal Guides"** for details on managing **Devices**, **Installations**, and other aspects of the VR experience
     - ⚠️*WPS recommends that, initially, all videos required for an **Installation** be sideloaded (physically installed) onto the device*⚠️
     - ⚠️*Streaming or downloading video content is highly dependant on internet bandwidth and stability and almost always degrades the user experience*
@@ -175,6 +182,7 @@ This guide details the hardware and software associated with the Phoenix Zoo VR 
     - Freeware program installed by WPS staff
     - Used to automatically hide the mouse cursor to enhance guest experience
     - Cursor reappears on mouse movement and will automatically hide after 5 seconds of inactivity
+<div style="page-break-after: always;"></div>
 
 18. **Google Authenticator**
     - Installed on BLU phone to allow access to accounts that require two-factor authentication (2FA)
@@ -190,6 +198,7 @@ This guide details the hardware and software associated with the Phoenix Zoo VR 
     - ⚠️*Use of the Meta Horizon app is not needed for the standard VR deployment and will only be necessary under specific circumstances*⚠️
     - ⚠️*If VR headsets are removed from 3P management, WPS staff can assist the migration of headsets into the **Meta Horizon** ecosystem - this is a time and labour intensive process*⚠️
     - Installed on BLU phone to allow management of personal headsets through Phoenix Zoo account
+<div style="page-break-after: always;"></div>
 
 ## The VR experience in WildXR
 
@@ -209,6 +218,7 @@ These steps will have been completed by WPS staff on deployment. They are covere
 - Video download is dependant on internet bandwidth and stability and can result in artifacts if interrupted
 - Videos can be sideloaded (directly transferred to the **Device**) from a computer via USB C cable and is the preferred method of installing multiple videos.
 - *WPS Staff will generally install the entire WildXR catalogue onto devices as SOP, but this may not include custom content - Contact WPS Staff for clarification of what has been installed if there are concerns*
+<div style="page-break-after: always;"></div>
 
 ### Daily operation
 
@@ -233,6 +243,7 @@ These VR headsets are connected to power so that they are ready for guest use at
 - Guests have the ability to play more than one video
 - Guest have the ability to pause, rewind, and fast-forward videos
 - Guest can choose to stop a video before the videos natural end
+<div style="page-break-after: always;"></div>
 
 ## Troubleshooting
 
