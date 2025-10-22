@@ -405,3 +405,47 @@ These VR headsets are connected to power so that they are ready for guest use at
 ⚠️ **Guest safety**: VR experiences are new for the majority of guests. Reactions to VR content is hard to predict. WPS staff recommends reviewing possible safety concerns on a regular basis to align with organizational risk tolerance. Hazards such as tripping, falling, and tipping of equipment must be assessed by the organization and is beyond the scope of this guide.
 
 ⚠️ **WPS Support**: WPS Staff look forward to assisting you with any issues you may encounter while deploying a VR system. WPS staff is generally available during normal business hours (Denver Time), and occasionally on weekends. If you are requesting changes to content or device assignment please plan ahead and give 48 - 72 hours for changes to be implemented. New content, or content editing, takes longer and requirements should be discussed with senior support staff. For critical, time sensitive assistance, please call or use the dedicated WhatsApp channel for support.
+<div style="page-break-after: always;"></div>
+
+## Commonly used supplies
+
+### Headset pieces
+
+**KIWI design K4 Head Strap**
+- ```https://a.co/d/3E2sRVO```
+
+**Meta Quest 3 Silicone Facial Interface**
+- ```https://a.co/d/4m69dTP```
+
+### MeLE computer pieces
+
+**MeLE Power Supply Adapter for Mini PC Computer Quieter2/3/4 Series/PCG02 Pro**
+- ```https://a.co/d/eMhO2UT```
+
+### USB Cable pieces
+
+**Stress relief USB cable - cannot be used for data transfer**
+**2-Pack Right Angle USB2.0 C Adapter，4inch 90 degree USB c Male to Female Extension Cable Flat**
+- ```https://a.co/d/9nLRmeE```
+
+**AOLEBA 10.5 mm Static Climbing Rope**
+- ```https://a.co/d/a9CX6iL```
+
+**Alex Tech Braided Cable Sleeve**
+- ```https://a.co/d/cGpym12```
+
+**10 foot USB C cable**
+**LDLrui USB C Cable Right Angle[10ft 2Pack]**
+- ```https://a.co/d/9GHdigK```
+
+**16 foot USB C cable**
+**Kuject Link Cable 16FT Compatible for Quest 3S/3**
+- ```https://a.co/d/5sPqHWJ```
+
+**3M 06133 Scotch 33+ Super Vinyl Electrical Tape**
+- ```https://a.co/d/dkCVQ4y```
+
+### Power Supply
+
+**Kasa Smart Plug Power Strip HS300, Surge Protector with 6 Individually Controlled Smart Outlets**
+- ```https://a.co/d/e61mVj7```
