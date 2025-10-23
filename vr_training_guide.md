@@ -5,10 +5,9 @@ This guide details the hardware and software associated with the Phoenix Zoo VR 
 
 ⚠️ **Third Party Software**: Third Party hardware and software (Meta, ArborXR, PotPlayer, Windows) are outside WPS control. Meta updates may cause unexpected functionality changes in VR systems. WPS monitors Meta and ArborXR releases to inform users of potential impacts and changes.
 
-⚠️ **Accounts and Passwords**: WPS staff have created various accounts for the Phoenix Zoo to allow for smooth functioning of the VR deployment. Details of these accounts will be provided in a separate document. It is **critically important** that the credentials associated with these accounts not be changed without coordination with WPS senior support staff. WPS staff may be unable to retrieve account information if credentials are changed unilaterally and, in some cases, the VR experience may be impacted by such changes ⚠️
+⚠️ **Accounts and Passwords**: WPS staff create various accounts for the organization to allow for smooth functioning of the VR deployment. Details of these accounts will be provided in a separate document. It is **critically important** that the credentials associated with these accounts not be changed without coordination with WPS senior support staff. WPS staff may be unable to retrieve account information if credentials are changed unilaterally and, in some cases, the VR experience may be impacted by such changes ⚠️
 
-## Prerequisites
-- None
+⚠️ **Headset Safety**: Meta provides some guidelines and warning regarding VR headset use. WPS encourages organizations to review their **Heath & Safety Warnings** page at the following link http://bit.ly/3LbOMZv - or search for **"Meta quest 3 Health and safety"** in your web browser. **Risk sensitivity varies by institution and it is up to the organization to decide if and how to present this information to guests if deemed necessary**.⚠️
 
 ## Quick Overview
 
@@ -20,6 +19,7 @@ This guide details the hardware and software associated with the Phoenix Zoo VR 
 5. 65" TVs
 6. Kasa smart power strips, power for all hardware
 7. BLU WiFi connected smartphone for account access
+<div style="page-break-after: always;"></div>
 
 ### Software:
 
@@ -27,7 +27,6 @@ This guide details the hardware and software associated with the Phoenix Zoo VR 
 1. Autolaunchping.apk - Installed via ArborXR, automatically launches WildXR on headset power on
 2. WildXR.apk - Installed via ArborXR, automatically launched by autolaunchping.apk
 3. ArborXR suite - Installed via ArborXR to manage headset general settings
-<div style="page-break-after: always;"></div>
 
 #### MeLE computers:
 1. PotPlayer - Installed by WPS, runs video on loop on startup (added to startup folder)
@@ -398,13 +397,17 @@ These VR headsets are connected to power so that they are ready for guest use at
 
 ## Important Notes
 
+⚠️ **Headset Safety**: Meta provides some guidelines and warning regarding VR headset use. WPS encourages organizations to review their **Heath & Safety Warnings** page at the following link http://bit.ly/3LbOMZv - or search for **"Meta quest 3 Health and safety"** in your web browser. **Risk sensitivity varies by institution and it is up to the organization to decide if and how to present this information to guests if deemed necessary**.
+
 ⚠️ **Account Credentials**: WPS staff will create various accounts that are required for the VR deployment. Please coordinate any changes to account credentials with WPS senior support staff. WPS staff may not be able to retrieve account access if lost and this could critically impact display functionality.
 
 ⚠️ **Headset life**: Quest 3 headsets are robust but not indestructible. Monitoring guests for negative interactions with equipment will prolong the life of all VR equipment. Physical damage is by far the most common cause of headset replacement.
 
 ⚠️ **Guest safety**: VR experiences are new for the majority of guests. Reactions to VR content is hard to predict. WPS staff recommends reviewing possible safety concerns on a regular basis to align with organizational risk tolerance. Hazards such as tripping, falling, and tipping of equipment must be assessed by the organization and is beyond the scope of this guide.
 
-⚠️ **WPS Support**: WPS Staff look forward to assisting you with any issues you may encounter while deploying a VR system. WPS staff is generally available during normal business hours (Denver Time), and occasionally on weekends. If you are requesting changes to content or device assignment please plan ahead and give 48 - 72 hours for changes to be implemented. New content, or content editing, takes longer and requirements should be discussed with senior support staff. For critical, time sensitive assistance, please call or use the dedicated WhatsApp channel for support.
+⚠️ **WPS Support - General Troubleshooting**: WPS Staff look forward to assisting you with any issues you may encounter while deploying a VR system. **WPS staff is generally available during normal business hours (8 AM to 4 PM - Denver Time, Monday to Friday)**. 
+
+⚠️ **WPS Support - Content Assistance**: If you are requesting changes to content or device assignment please plan ahead and give 48 - 72 hours for changes to be implemented. New content, or content editing, takes longer and requirements should be discussed with senior support staff. For critical, time sensitive assistance, please call or use the dedicated WhatsApp channel for support.
 <div style="page-break-after: always;"></div>
 
 ## Commonly used supplies
@@ -412,40 +415,37 @@ These VR headsets are connected to power so that they are ready for guest use at
 ### Headset pieces
 
 **KIWI design K4 Head Strap**
-- ```https://a.co/d/3E2sRVO```
+- https://a.co/d/3E2sRVO
 
 **Meta Quest 3 Silicone Facial Interface**
-- ```https://a.co/d/4m69dTP```
+- https://a.co/d/4m69dTP
 
 ### MeLE computer pieces
 
 **MeLE Power Supply Adapter for Mini PC Computer Quieter2/3/4 Series/PCG02 Pro**
-- ```https://a.co/d/eMhO2UT```
+- https://a.co/d/eMhO2UT
 
 ### USB Cable pieces
-
-**Stress relief USB cable - cannot be used for data transfer**
+#### Stress relief USB cable - cannot be used for data transfer
 **2-Pack Right Angle USB2.0 C Adapter，4inch 90 degree USB c Male to Female Extension Cable Flat**
-- ```https://a.co/d/9nLRmeE```
+- https://a.co/d/9nLRmeE
 
 **AOLEBA 10.5 mm Static Climbing Rope**
-- ```https://a.co/d/a9CX6iL```
+- https://a.co/d/a9CX6iL
 
 **Alex Tech Braided Cable Sleeve**
-- ```https://a.co/d/cGpym12```
+- https://a.co/d/cGpym12
 
-**10 foot USB C cable**
-**LDLrui USB C Cable Right Angle[10ft 2Pack]**
-- ```https://a.co/d/9GHdigK```
+**10 foot cable - LDLrui USB C Cable Right Angle[10ft 2Pack]**
+- https://a.co/d/9GHdigK
 
-**16 foot USB C cable**
-**Kuject Link Cable 16FT Compatible for Quest 3S/3**
-- ```https://a.co/d/5sPqHWJ```
+**16 foot cable - Kuject Link Cable 16FT Compatible for Quest 3S/3**
+- https://a.co/d/5sPqHWJ
 
 **3M 06133 Scotch 33+ Super Vinyl Electrical Tape**
-- ```https://a.co/d/dkCVQ4y```
+- https://a.co/d/dkCVQ4y
 
 ### Power Supply
 
 **Kasa Smart Plug Power Strip HS300, Surge Protector with 6 Individually Controlled Smart Outlets**
-- ```https://a.co/d/e61mVj7```
+- https://a.co/d/e61mVj7
