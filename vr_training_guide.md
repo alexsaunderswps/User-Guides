@@ -53,7 +53,7 @@ This guide details the hardware and software associated with the Phoenix Zoo VR 
 <div style="page-break-after: always;"></div>
 
 1. **Quest 3 VR Headsets - cont.**
-   - **USB C port** - On left temple. Allows both data transfer and power supply to headset. ⚠️*This port is a weak point on the headset and can be damaged if impacted or torqued*⚠️
+   - **USB-C port** - On left temple. Allows both data transfer and power supply to headset. ⚠️*This port is a weak point on the headset and can be damaged if impacted or torqued*⚠️
    - **Headset Cameras** - Central camera manages depth perception, side cameras are a combination of color and IR, all for mixed reality experience (passthrough).
    - **Headset Sensors** - Two on lower "cheeks" of headset used for positioning in space (tracking use position), internal sensor between lenses used for detecting user presence (presence sensor).
    - **Double tap on headset case** - If not managed in settings could provide passthrough (ability to see surroundings) when in Quest main menu. Should not impact WildXR viewing or playback.
@@ -70,8 +70,8 @@ This guide details the hardware and software associated with the Phoenix Zoo VR 
    -⚠️*WPS Staff recommend that controllers be stored near headsets in operation, but hidden from public use as they are not needed for the proper functioning of the WildXR experience*⚠️
 <div style="page-break-after: always;"></div>
 
-3. **USB cable & Quest 3 power brick**
-   - All USB cables are USB-C to USB-C cables
+3. **USB-Cable & Quest 3 power brick**
+   - All USB-Cables are USB-C to USB-C cables
    - All cables are reinforced with a static climbing rope and mesh sheath to provide some ruggedness to the cable connection
    - Cables for this deployment are for constant power supply
    - Cables include a short, USB-C male-to-female, stress relief cable that attaches to the Headset and then the longer cable
@@ -85,8 +85,8 @@ This guide details the hardware and software associated with the Phoenix Zoo VR 
 
 5. **Comfort head strap**
    - Aftermarket head strap for Quest 3 headsets
-   - Can be removed, replaced, cage and USB cable must be removed prior to removal
-   - Provides anchor point for USB cable
+   - Can be removed, replaced, cage and USB-Cable must be removed prior to removal
+   - Provides anchor point for USB-Cable
    - Adjustable via dial at back of strap
    - Articulated at temples to allow fitting over some glasses and hairstyles
 
@@ -95,7 +95,7 @@ This guide details the hardware and software associated with the Phoenix Zoo VR 
    - External battery can be added for an additional 1 - 1.5 hours playback
    - In WPS experience, constant power supply has not degraded battery life to a significant degree
    - Controllers take AA batteries, generally only the right controller is needed for troubleshooting issues
-   - Power supply brick (socket to USB C) should be Meta brand or brick capable of supplying **15W** of power or charging may not keep pace with battery drawdown
+   - Power supply brick (socket to USB-C) should be Meta brand or brick capable of supplying **15W** of power or charging may not keep pace with battery drawdown
 
 7. **MeLE microcomputer**
    - Windows 11 OS computer in small form factor
@@ -151,7 +151,7 @@ This guide details the hardware and software associated with the Phoenix Zoo VR 
 12. **WildXR.apk - cont.**
     - Reference the **"Web Portal Guides"** for details on managing **Devices**, **Installations**, and other aspects of the VR experience
     - ⚠️*WPS recommends that, initially, all videos required for an **Installation** be sideloaded (physically installed) onto the device*⚠️
-    - ⚠️*Streaming or downloading video content is highly dependant on internet bandwidth and stability and almost always degrades the user experience*
+    - ⚠️*Streaming or downloading video content is highly dependent on internet bandwidth and stability and almost always degrades the user experience*
     - *The WildXR application is available for free to owners of Meta VR headsets through the Horizon Store or Rift Store*
     - ⚠️*Custom content is not available to the general public through the WildXR application*⚠️
 
@@ -213,10 +213,10 @@ These steps will have been completed by WPS staff on deployment. They are covere
 - WildXR must be tied to a **Device** through the Wildxr.org web portal (see the **"Web Portal Device Management Guide"**) to show custom content
 
 **Video sideloading**
-- Video content can be streamed from the cloud, but is not recommended for public use as quality is highly dependant on internet bandwidth and stability
+- Video content can be streamed from the cloud, but is not recommended for public use as quality is highly dependent on internet bandwidth and stability
 - Video content can be downloaded to **Devices** and can be triggered manually or automatically based on **Installation** settings assigned to the **Device** (see respective **Web Portal Guides** or contact WPS staff for assistance)
-- Video download is dependant on internet bandwidth and stability and can result in artifacts if interrupted
-- Videos can be sideloaded (directly transferred to the **Device**) from a computer via USB C cable and is the preferred method of installing multiple videos.
+- Video download is dependent on internet bandwidth and stability and can result in artifacts if interrupted
+- Videos can be sideloaded (directly transferred to the **Device**) from a computer via USB-C cable and is the preferred method of installing multiple videos.
 - *WPS Staff will generally install the entire WildXR catalogue onto devices as SOP, but this may not include custom content - Contact WPS Staff for clarification of what has been installed if there are concerns*
 <div style="page-break-after: always;"></div>
 
@@ -255,7 +255,7 @@ These VR headsets are connected to power so that they are ready for guest use at
 
 **Headset chimes and shows a "Port Debris Warning":**
 - Using the gaze reticle or hand controllers, select the **"Ok"** button to clear the alert
-- Alert generally appears on power up, wake up, and when USB cable is reconnected
+- Alert generally appears on power up, wake up, and when USB-Cable is reconnected
 - Alert will overlay WildXR and all other user interfaces
 - Caused by a firmware issue of the headset itself and *rarely* relates to actual debris within the USB port
 - Port cleaning, with compressed air, may reduce the frequency of the alert in some cases
@@ -329,13 +329,13 @@ These VR headsets are connected to power so that they are ready for guest use at
 - *You can also reboot the **Device** if needed to check that the autolaunch program is functioning as expected* 
 
 **Headset loses power during day:**
-- Check all USB connection sites as power cable may have become disconnected
+- Check all USB-Connection sites as power cable may have become disconnected
 - Check that power brick is firmly inserted into socket
 - If a smart power strip is being used, ensure that sockets are on and providing power
 - If a smart power strip is being used, ensure that the sockets are not scheduled on/off at certain times of day (via Kasa application)
 - Check main power source if power is lost across multiple devices
-- Continued power issues may indicate a damaged USB cable or damaged USB headset port
-- Replace a USB cable before writing off a headset as damaged
+- Continued power issues may indicate a damaged USB-Cable or damaged USB headset port
+- Replace a USB-Cable before writing off a headset as damaged
 
 **Headset fan is audible or headset face is becoming hot to touch:**
 - ⚠️**If either of these signs are present remove the headset from public use immediately**⚠️
@@ -369,7 +369,7 @@ These VR headsets are connected to power so that they are ready for guest use at
 **Video playback software plays video once but does not loop:**
 - Incorrect playback options set in PotPlayer
 - In PotPlayer window hit F5 (opens settings menu).
-- Navigate to Playback -> Playback Settings -> Select "Repeat Video Playback" and choose "Enable: Repeat playing item" from the drop down menu.
+- Navigate to Playback -> Playback Settings -> Select "Repeat Video Playback" and choose "Enable: Repeat playing item" from the drop-down menu.
 - Click the **"Apply"** button in the bottom right corner to apply the changes
 - Click the **"Play"** button in the bottom left portion of the PotPlayer window (you may need to hover near the bottom of the screen to show the playback controls)
 - If the video does not play and loop, restart PotPlayer
@@ -391,7 +391,7 @@ These VR headsets are connected to power so that they are ready for guest use at
 <div style="page-break-after: always;"></div>
 
 **Kasa smart power strip not responsive in the Kasa application:**
-- Communication between the Kasa smart power strip and the Kasa application is dependant on internet connection
+- Communication between the Kasa smart power strip and the Kasa application is dependent on internet connection
 - Check that an internet connection is available and that the device running the Kasa application is connected to the correct network
 - Kasa smart power strips could be reset by power surges or tampering, check the Kasa application to see if the non-responsive strip is present in the device list
 
@@ -425,9 +425,9 @@ These VR headsets are connected to power so that they are ready for guest use at
 **MeLE Power Supply Adapter for Mini PC Computer Quieter2/3/4 Series/PCG02 Pro**
 - https://a.co/d/eMhO2UT
 
-### USB Cable pieces
-#### Stress relief USB cable - cannot be used for data transfer
-**2-Pack Right Angle USB2.0 C Adapter，4inch 90 degree USB c Male to Female Extension Cable Flat**
+### USB-Cable pieces
+#### Stress relief USB-Cable - cannot be used for data transfer
+**2-Pack Right Angle USB2.0 C Adapter，4inch 90 degree USB-C Male to Female Extension Cable Flat**
 - https://a.co/d/9nLRmeE
 
 **AOLEBA 10.5 mm Static Climbing Rope**
@@ -436,7 +436,7 @@ These VR headsets are connected to power so that they are ready for guest use at
 **Alex Tech Braided Cable Sleeve**
 - https://a.co/d/cGpym12
 
-**10 foot cable - LDLrui USB C Cable Right Angle[10ft 2Pack]**
+**10 foot cable - LDLrui USB-C Cable Right Angle[10ft 2Pack]**
 - https://a.co/d/9GHdigK
 
 **16 foot cable - Kuject Link Cable 16FT Compatible for Quest 3S/3**
